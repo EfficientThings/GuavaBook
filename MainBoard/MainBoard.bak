@@ -94,5 +94,7 @@ S 6200 12050 4500 3400
 U 603A7D35
 F0 "keyboard" 50
 F1 "keyboard.sch" 50
+F2 "USB_D+" B R 10700 12500 50 
+F3 "USB_D-" B R 10700 12700 50 
 $EndSheet
 $EndSCHEMATC

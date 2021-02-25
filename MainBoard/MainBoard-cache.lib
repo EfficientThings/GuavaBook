@@ -1,31 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_Coaxial
-#
-DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
-F0 "J" 10 120 50 H V C CNN
-F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *BNC*
- *SMA*
- *SMB*
- *SMC*
- *Cinch*
-$ENDFPLIST
-DRAW
-A -2 0 71 1636 0 0 1 10 N -70 20 70 0
-A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
-C 0 0 20 0 1 8 N
-P 2 0 1 0 -100 0 -20 0 N
-P 2 0 1 0 0 -100 0 -70 N
-X In 1 -200 0 100 R 50 50 1 1 P
-X Ext 2 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_HDMI_A
 #
 DEF Connector_HDMI_A J 0 20 Y Y 1 F N
@@ -359,6 +334,23 @@ X UCAP 6 -600 200 100 R 50 50 1 1 P
 X VBUS 7 -600 700 100 R 50 50 1 1 I
 X PB0 8 600 1500 100 L 50 50 1 1 B
 X PB1 9 600 1400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
