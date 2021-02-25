@@ -24,4 +24,8 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    1350 2450
 	1    0    0    -1  
 $EndComp
+Text HLabel 750  1950 0    50   BiDi ~ 0
+USB_D+
+Text HLabel 750  2050 0    50   BiDi ~ 0
+USB_D-
 $EndSCHEMATC

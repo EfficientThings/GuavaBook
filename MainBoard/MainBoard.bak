@@ -90,13 +90,9 @@ F 8 "DF40C-100DS-0.4V(51)" H 9300 3750 50  0001 L BNN "MP"
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7900 9550 4500 3400
+S 6200 12050 4500 3400
 U 603A7D35
 F0 "keyboard" 50
 F1 "keyboard.sch" 50
 $EndSheet
-Text HLabel 8950 9550 3    50   BiDi ~ 0
-USB_D+
-Text HLabel 9200 9550 3    50   BiDi ~ 0
-USB_D-
 $EndSCHEMATC
