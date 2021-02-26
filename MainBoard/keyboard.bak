@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:MainBoard-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U?
+L MCU_Microchip_ATmega:ATmega32U4-AU U2
 U 1 1 603A92F2
 P 1350 2450
-F 0 "U?" H 1350 561 50  0000 C CNN
+F 0 "U2" H 1350 561 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 1350 470 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 1350 2450 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 1350 2450 50  0001 C CNN
@@ -30,14 +30,1939 @@ USB_D+
 Text HLabel 750  2050 0    50   BiDi ~ 0
 USB_D-
 $Comp
-L Switch:SW_Push SW?
-U 1 1 603B6632
-P 4600 2550
-F 0 "SW?" H 4600 2835 50  0000 C CNN
-F 1 "SW_Push" H 4600 2744 50  0000 C CNN
-F 2 "" H 4600 2750 50  0001 C CNN
-F 3 "~" H 4600 2750 50  0001 C CNN
-	1    4600 2550
+L Switch:SW_Push SW21
+U 1 1 6042DDFA
+P 6600 2250
+F 0 "SW21" H 6600 2535 50  0000 C CNN
+F 1 "SW_Push" H 6600 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 2450 50  0001 C CNN
+F 3 "~" H 6600 2450 50  0001 C CNN
+	1    6600 2250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 6042DE00
+P 7400 2250
+F 0 "SW31" H 7400 2535 50  0000 C CNN
+F 1 "SW_Push" H 7400 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 2450 50  0001 C CNN
+F 3 "~" H 7400 2450 50  0001 C CNN
+	1    7400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 6042DE06
+P 8250 2250
+F 0 "SW41" H 8250 2535 50  0000 C CNN
+F 1 "SW_Push" H 8250 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 2450 50  0001 C CNN
+F 3 "~" H 8250 2450 50  0001 C CNN
+	1    8250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 6042DE0C
+P 9050 2250
+F 0 "SW51" H 9050 2535 50  0000 C CNN
+F 1 "SW_Push" H 9050 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 2450 50  0001 C CNN
+F 3 "~" H 9050 2450 50  0001 C CNN
+	1    9050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 6042DE12
+P 9850 2250
+F 0 "SW61" H 9850 2535 50  0000 C CNN
+F 1 "SW_Push" H 9850 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 2450 50  0001 C CNN
+F 3 "~" H 9850 2450 50  0001 C CNN
+	1    9850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW71
+U 1 1 6042DE18
+P 10650 2250
+F 0 "SW71" H 10650 2535 50  0000 C CNN
+F 1 "SW_Push" H 10650 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 2450 50  0001 C CNN
+F 3 "~" H 10650 2450 50  0001 C CNN
+	1    10650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW81
+U 1 1 6042DE1E
+P 11500 2250
+F 0 "SW81" H 11500 2535 50  0000 C CNN
+F 1 "SW_Push" H 11500 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 2450 50  0001 C CNN
+F 3 "~" H 11500 2450 50  0001 C CNN
+	1    11500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW91
+U 1 1 6042DE24
+P 12300 2250
+F 0 "SW91" H 12300 2535 50  0000 C CNN
+F 1 "SW_Push" H 12300 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 2450 50  0001 C CNN
+F 3 "~" H 12300 2450 50  0001 C CNN
+	1    12300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6042DE2A
+P 4950 2250
+F 0 "SW1" H 4950 2535 50  0000 C CNN
+F 1 "SW_Push" H 4950 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 2450 50  0001 C CNN
+F 3 "~" H 4950 2450 50  0001 C CNN
+	1    4950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 6042DE30
+P 5750 2250
+F 0 "SW11" H 5750 2535 50  0000 C CNN
+F 1 "SW_Push" H 5750 2444 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 2450 50  0001 C CNN
+F 3 "~" H 5750 2450 50  0001 C CNN
+	1    5750 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 2250 12100 2400
+Wire Wire Line
+	12100 2400 11300 2400
+Wire Wire Line
+	5550 2400 5550 2250
+Wire Wire Line
+	5550 2400 4750 2400
+Wire Wire Line
+	4750 2400 4750 2250
+Connection ~ 5550 2400
+Wire Wire Line
+	6400 2250 6400 2400
+Connection ~ 6400 2400
+Wire Wire Line
+	6400 2400 5550 2400
+Wire Wire Line
+	7200 2250 7200 2400
+Connection ~ 7200 2400
+Wire Wire Line
+	7200 2400 6400 2400
+Wire Wire Line
+	8050 2250 8050 2400
+Connection ~ 8050 2400
+Wire Wire Line
+	8050 2400 7200 2400
+Wire Wire Line
+	8850 2400 8850 2250
+Connection ~ 8850 2400
+Wire Wire Line
+	8850 2400 8050 2400
+Wire Wire Line
+	9650 2400 9650 2250
+Connection ~ 9650 2400
+Wire Wire Line
+	9650 2400 8850 2400
+Wire Wire Line
+	10450 2400 10450 2250
+Connection ~ 10450 2400
+Wire Wire Line
+	10450 2400 9650 2400
+Wire Wire Line
+	11300 2400 11300 2250
+Connection ~ 11300 2400
+Wire Wire Line
+	11300 2400 10450 2400
+Wire Wire Line
+	5150 2250 5150 2900
+Wire Wire Line
+	5950 2250 5950 2900
+Wire Wire Line
+	6800 2250 6800 2900
+Wire Wire Line
+	7600 2250 7600 2900
+Wire Wire Line
+	8450 2250 8450 2900
+Wire Wire Line
+	9250 2250 9250 2900
+Wire Wire Line
+	10050 2250 10050 2900
+Wire Wire Line
+	10850 2250 10850 2900
+Wire Wire Line
+	11700 2250 11700 2900
+Wire Wire Line
+	12500 2250 12500 2900
+$Comp
+L Switch:SW_Push SW22
+U 1 1 60437B6E
+P 6600 2900
+F 0 "SW22" H 6600 3185 50  0000 C CNN
+F 1 "SW_Push" H 6600 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 3100 50  0001 C CNN
+F 3 "~" H 6600 3100 50  0001 C CNN
+	1    6600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 60437B74
+P 7400 2900
+F 0 "SW32" H 7400 3185 50  0000 C CNN
+F 1 "SW_Push" H 7400 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 3100 50  0001 C CNN
+F 3 "~" H 7400 3100 50  0001 C CNN
+	1    7400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 60437B7A
+P 8250 2900
+F 0 "SW42" H 8250 3185 50  0000 C CNN
+F 1 "SW_Push" H 8250 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 3100 50  0001 C CNN
+F 3 "~" H 8250 3100 50  0001 C CNN
+	1    8250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 60437B80
+P 9050 2900
+F 0 "SW52" H 9050 3185 50  0000 C CNN
+F 1 "SW_Push" H 9050 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 3100 50  0001 C CNN
+F 3 "~" H 9050 3100 50  0001 C CNN
+	1    9050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 60437B86
+P 9850 2900
+F 0 "SW62" H 9850 3185 50  0000 C CNN
+F 1 "SW_Push" H 9850 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 3100 50  0001 C CNN
+F 3 "~" H 9850 3100 50  0001 C CNN
+	1    9850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW72
+U 1 1 60437B8C
+P 10650 2900
+F 0 "SW72" H 10650 3185 50  0000 C CNN
+F 1 "SW_Push" H 10650 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 3100 50  0001 C CNN
+F 3 "~" H 10650 3100 50  0001 C CNN
+	1    10650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW82
+U 1 1 60437B92
+P 11500 2900
+F 0 "SW82" H 11500 3185 50  0000 C CNN
+F 1 "SW_Push" H 11500 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 3100 50  0001 C CNN
+F 3 "~" H 11500 3100 50  0001 C CNN
+	1    11500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW92
+U 1 1 60437B98
+P 12300 2900
+F 0 "SW92" H 12300 3185 50  0000 C CNN
+F 1 "SW_Push" H 12300 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 3100 50  0001 C CNN
+F 3 "~" H 12300 3100 50  0001 C CNN
+	1    12300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 60437B9E
+P 4950 2900
+F 0 "SW2" H 4950 3185 50  0000 C CNN
+F 1 "SW_Push" H 4950 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 3100 50  0001 C CNN
+F 3 "~" H 4950 3100 50  0001 C CNN
+	1    4950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 60437BA4
+P 5750 2900
+F 0 "SW12" H 5750 3185 50  0000 C CNN
+F 1 "SW_Push" H 5750 3094 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 3100 50  0001 C CNN
+F 3 "~" H 5750 3100 50  0001 C CNN
+	1    5750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 2900 12100 3050
+Wire Wire Line
+	12100 3050 11300 3050
+Wire Wire Line
+	5550 3050 5550 2900
+Wire Wire Line
+	4750 3050 4750 2900
+Connection ~ 5550 3050
+Wire Wire Line
+	6400 2900 6400 3050
+Connection ~ 6400 3050
+Wire Wire Line
+	6400 3050 5550 3050
+Wire Wire Line
+	7200 2900 7200 3050
+Connection ~ 7200 3050
+Wire Wire Line
+	7200 3050 6400 3050
+Wire Wire Line
+	8050 2900 8050 3050
+Connection ~ 8050 3050
+Wire Wire Line
+	8050 3050 7200 3050
+Wire Wire Line
+	8850 3050 8850 2900
+Connection ~ 8850 3050
+Wire Wire Line
+	8850 3050 8050 3050
+Wire Wire Line
+	9650 3050 9650 2900
+Connection ~ 9650 3050
+Wire Wire Line
+	9650 3050 8850 3050
+Wire Wire Line
+	10450 3050 10450 2900
+Connection ~ 10450 3050
+Wire Wire Line
+	10450 3050 9650 3050
+Wire Wire Line
+	11300 3050 11300 2900
+Connection ~ 11300 3050
+Wire Wire Line
+	11300 3050 10450 3050
+Wire Wire Line
+	5150 2900 5150 3550
+Wire Wire Line
+	5950 2900 5950 3550
+Wire Wire Line
+	6800 2900 6800 3550
+Wire Wire Line
+	7600 2900 7600 3550
+Wire Wire Line
+	8450 2900 8450 3550
+Wire Wire Line
+	9250 2900 9250 3550
+Wire Wire Line
+	10050 2900 10050 3550
+Wire Wire Line
+	10850 2900 10850 3550
+Wire Wire Line
+	11700 2900 11700 3550
+Wire Wire Line
+	12500 2900 12500 3550
+$Comp
+L Switch:SW_Push SW23
+U 1 1 6044643C
+P 6600 3550
+F 0 "SW23" H 6600 3835 50  0000 C CNN
+F 1 "SW_Push" H 6600 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 3750 50  0001 C CNN
+F 3 "~" H 6600 3750 50  0001 C CNN
+	1    6600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 60446442
+P 7400 3550
+F 0 "SW33" H 7400 3835 50  0000 C CNN
+F 1 "SW_Push" H 7400 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 3750 50  0001 C CNN
+F 3 "~" H 7400 3750 50  0001 C CNN
+	1    7400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 60446448
+P 8250 3550
+F 0 "SW43" H 8250 3835 50  0000 C CNN
+F 1 "SW_Push" H 8250 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 3750 50  0001 C CNN
+F 3 "~" H 8250 3750 50  0001 C CNN
+	1    8250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 6044644E
+P 9050 3550
+F 0 "SW53" H 9050 3835 50  0000 C CNN
+F 1 "SW_Push" H 9050 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 3750 50  0001 C CNN
+F 3 "~" H 9050 3750 50  0001 C CNN
+	1    9050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 60446454
+P 9850 3550
+F 0 "SW63" H 9850 3835 50  0000 C CNN
+F 1 "SW_Push" H 9850 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 3750 50  0001 C CNN
+F 3 "~" H 9850 3750 50  0001 C CNN
+	1    9850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW73
+U 1 1 6044645A
+P 10650 3550
+F 0 "SW73" H 10650 3835 50  0000 C CNN
+F 1 "SW_Push" H 10650 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 3750 50  0001 C CNN
+F 3 "~" H 10650 3750 50  0001 C CNN
+	1    10650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW83
+U 1 1 60446460
+P 11500 3550
+F 0 "SW83" H 11500 3835 50  0000 C CNN
+F 1 "SW_Push" H 11500 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 3750 50  0001 C CNN
+F 3 "~" H 11500 3750 50  0001 C CNN
+	1    11500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW93
+U 1 1 60446466
+P 12300 3550
+F 0 "SW93" H 12300 3835 50  0000 C CNN
+F 1 "SW_Push" H 12300 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 3750 50  0001 C CNN
+F 3 "~" H 12300 3750 50  0001 C CNN
+	1    12300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 6044646C
+P 4950 3550
+F 0 "SW3" H 4950 3835 50  0000 C CNN
+F 1 "SW_Push" H 4950 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 3750 50  0001 C CNN
+F 3 "~" H 4950 3750 50  0001 C CNN
+	1    4950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 60446472
+P 5750 3550
+F 0 "SW13" H 5750 3835 50  0000 C CNN
+F 1 "SW_Push" H 5750 3744 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 3750 50  0001 C CNN
+F 3 "~" H 5750 3750 50  0001 C CNN
+	1    5750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 3550 12100 3700
+Wire Wire Line
+	12100 3700 11300 3700
+Wire Wire Line
+	5550 3700 5550 3550
+Wire Wire Line
+	5550 3700 4750 3700
+Wire Wire Line
+	4750 3700 4750 3550
+Connection ~ 5550 3700
+Wire Wire Line
+	6400 3550 6400 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	6400 3700 5550 3700
+Wire Wire Line
+	7200 3550 7200 3700
+Connection ~ 7200 3700
+Wire Wire Line
+	7200 3700 6400 3700
+Wire Wire Line
+	8050 3550 8050 3700
+Connection ~ 8050 3700
+Wire Wire Line
+	8050 3700 7200 3700
+Wire Wire Line
+	8850 3700 8850 3550
+Connection ~ 8850 3700
+Wire Wire Line
+	8850 3700 8050 3700
+Wire Wire Line
+	9650 3700 9650 3550
+Connection ~ 9650 3700
+Wire Wire Line
+	9650 3700 8850 3700
+Wire Wire Line
+	10450 3700 10450 3550
+Connection ~ 10450 3700
+Wire Wire Line
+	10450 3700 9650 3700
+Wire Wire Line
+	11300 3700 11300 3550
+Connection ~ 11300 3700
+Wire Wire Line
+	11300 3700 10450 3700
+Wire Wire Line
+	5150 3550 5150 4200
+Wire Wire Line
+	5950 3550 5950 4200
+Wire Wire Line
+	6800 3550 6800 4200
+Wire Wire Line
+	7600 3550 7600 4200
+Wire Wire Line
+	8450 3550 8450 4200
+Wire Wire Line
+	9250 3550 9250 4200
+Wire Wire Line
+	10050 3550 10050 4200
+Wire Wire Line
+	10850 3550 10850 4200
+Wire Wire Line
+	11700 3550 11700 4200
+Wire Wire Line
+	12500 3550 12500 4200
+$Comp
+L Switch:SW_Push SW24
+U 1 1 6044649D
+P 6600 4200
+F 0 "SW24" H 6600 4485 50  0000 C CNN
+F 1 "SW_Push" H 6600 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 4400 50  0001 C CNN
+F 3 "~" H 6600 4400 50  0001 C CNN
+	1    6600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 604464A3
+P 7400 4200
+F 0 "SW34" H 7400 4485 50  0000 C CNN
+F 1 "SW_Push" H 7400 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 4400 50  0001 C CNN
+F 3 "~" H 7400 4400 50  0001 C CNN
+	1    7400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 604464A9
+P 8250 4200
+F 0 "SW44" H 8250 4485 50  0000 C CNN
+F 1 "SW_Push" H 8250 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 4400 50  0001 C CNN
+F 3 "~" H 8250 4400 50  0001 C CNN
+	1    8250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 604464AF
+P 9050 4200
+F 0 "SW54" H 9050 4485 50  0000 C CNN
+F 1 "SW_Push" H 9050 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 4400 50  0001 C CNN
+F 3 "~" H 9050 4400 50  0001 C CNN
+	1    9050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW64
+U 1 1 604464B5
+P 9850 4200
+F 0 "SW64" H 9850 4485 50  0000 C CNN
+F 1 "SW_Push" H 9850 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 4400 50  0001 C CNN
+F 3 "~" H 9850 4400 50  0001 C CNN
+	1    9850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW74
+U 1 1 604464BB
+P 10650 4200
+F 0 "SW74" H 10650 4485 50  0000 C CNN
+F 1 "SW_Push" H 10650 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 4400 50  0001 C CNN
+F 3 "~" H 10650 4400 50  0001 C CNN
+	1    10650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW84
+U 1 1 604464C1
+P 11500 4200
+F 0 "SW84" H 11500 4485 50  0000 C CNN
+F 1 "SW_Push" H 11500 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 4400 50  0001 C CNN
+F 3 "~" H 11500 4400 50  0001 C CNN
+	1    11500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW94
+U 1 1 604464C7
+P 12300 4200
+F 0 "SW94" H 12300 4485 50  0000 C CNN
+F 1 "SW_Push" H 12300 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 4400 50  0001 C CNN
+F 3 "~" H 12300 4400 50  0001 C CNN
+	1    12300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 604464CD
+P 4950 4200
+F 0 "SW4" H 4950 4485 50  0000 C CNN
+F 1 "SW_Push" H 4950 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 4400 50  0001 C CNN
+F 3 "~" H 4950 4400 50  0001 C CNN
+	1    4950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 604464D3
+P 5750 4200
+F 0 "SW14" H 5750 4485 50  0000 C CNN
+F 1 "SW_Push" H 5750 4394 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 4400 50  0001 C CNN
+F 3 "~" H 5750 4400 50  0001 C CNN
+	1    5750 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 4200 12100 4350
+Wire Wire Line
+	12100 4350 11300 4350
+Wire Wire Line
+	5550 4350 5550 4200
+Wire Wire Line
+	5550 4350 4750 4350
+Wire Wire Line
+	4750 4350 4750 4200
+Connection ~ 5550 4350
+Wire Wire Line
+	6400 4200 6400 4350
+Connection ~ 6400 4350
+Wire Wire Line
+	6400 4350 5550 4350
+Wire Wire Line
+	7200 4200 7200 4350
+Connection ~ 7200 4350
+Wire Wire Line
+	7200 4350 6400 4350
+Wire Wire Line
+	8050 4200 8050 4350
+Connection ~ 8050 4350
+Wire Wire Line
+	8050 4350 7200 4350
+Wire Wire Line
+	8850 4350 8850 4200
+Connection ~ 8850 4350
+Wire Wire Line
+	8850 4350 8050 4350
+Wire Wire Line
+	9650 4350 9650 4200
+Connection ~ 9650 4350
+Wire Wire Line
+	9650 4350 8850 4350
+Wire Wire Line
+	10450 4350 10450 4200
+Connection ~ 10450 4350
+Wire Wire Line
+	10450 4350 9650 4350
+Wire Wire Line
+	11300 4350 11300 4200
+Connection ~ 11300 4350
+Wire Wire Line
+	11300 4350 10450 4350
+Wire Wire Line
+	5150 4200 5150 4850
+Wire Wire Line
+	5950 4200 5950 4850
+Wire Wire Line
+	6800 4200 6800 4850
+Wire Wire Line
+	7600 4200 7600 4850
+Wire Wire Line
+	8450 4200 8450 4850
+Wire Wire Line
+	9250 4200 9250 4850
+Wire Wire Line
+	10050 4200 10050 4850
+Wire Wire Line
+	10850 4200 10850 4850
+Wire Wire Line
+	11700 4200 11700 4850
+Wire Wire Line
+	12500 4200 12500 4850
+$Comp
+L Switch:SW_Push SW25
+U 1 1 60468F22
+P 6600 4850
+F 0 "SW25" H 6600 5135 50  0000 C CNN
+F 1 "SW_Push" H 6600 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 5050 50  0001 C CNN
+F 3 "~" H 6600 5050 50  0001 C CNN
+	1    6600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 60468F28
+P 7400 4850
+F 0 "SW35" H 7400 5135 50  0000 C CNN
+F 1 "SW_Push" H 7400 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 5050 50  0001 C CNN
+F 3 "~" H 7400 5050 50  0001 C CNN
+	1    7400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 60468F2E
+P 8250 4850
+F 0 "SW45" H 8250 5135 50  0000 C CNN
+F 1 "SW_Push" H 8250 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 5050 50  0001 C CNN
+F 3 "~" H 8250 5050 50  0001 C CNN
+	1    8250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 60468F34
+P 9050 4850
+F 0 "SW55" H 9050 5135 50  0000 C CNN
+F 1 "SW_Push" H 9050 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 5050 50  0001 C CNN
+F 3 "~" H 9050 5050 50  0001 C CNN
+	1    9050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW65
+U 1 1 60468F3A
+P 9850 4850
+F 0 "SW65" H 9850 5135 50  0000 C CNN
+F 1 "SW_Push" H 9850 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 5050 50  0001 C CNN
+F 3 "~" H 9850 5050 50  0001 C CNN
+	1    9850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW75
+U 1 1 60468F40
+P 10650 4850
+F 0 "SW75" H 10650 5135 50  0000 C CNN
+F 1 "SW_Push" H 10650 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 5050 50  0001 C CNN
+F 3 "~" H 10650 5050 50  0001 C CNN
+	1    10650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW85
+U 1 1 60468F46
+P 11500 4850
+F 0 "SW85" H 11500 5135 50  0000 C CNN
+F 1 "SW_Push" H 11500 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 5050 50  0001 C CNN
+F 3 "~" H 11500 5050 50  0001 C CNN
+	1    11500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW95
+U 1 1 60468F4C
+P 12300 4850
+F 0 "SW95" H 12300 5135 50  0000 C CNN
+F 1 "SW_Push" H 12300 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 5050 50  0001 C CNN
+F 3 "~" H 12300 5050 50  0001 C CNN
+	1    12300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 60468F52
+P 4950 4850
+F 0 "SW5" H 4950 5135 50  0000 C CNN
+F 1 "SW_Push" H 4950 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 5050 50  0001 C CNN
+F 3 "~" H 4950 5050 50  0001 C CNN
+	1    4950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 60468F58
+P 5750 4850
+F 0 "SW15" H 5750 5135 50  0000 C CNN
+F 1 "SW_Push" H 5750 5044 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 5050 50  0001 C CNN
+F 3 "~" H 5750 5050 50  0001 C CNN
+	1    5750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 4850 12100 5000
+Wire Wire Line
+	12100 5000 11300 5000
+Wire Wire Line
+	5550 5000 5550 4850
+Wire Wire Line
+	5550 5000 4750 5000
+Wire Wire Line
+	4750 5000 4750 4850
+Connection ~ 5550 5000
+Wire Wire Line
+	6400 4850 6400 5000
+Connection ~ 6400 5000
+Wire Wire Line
+	6400 5000 5550 5000
+Wire Wire Line
+	7200 4850 7200 5000
+Connection ~ 7200 5000
+Wire Wire Line
+	7200 5000 6400 5000
+Wire Wire Line
+	8050 4850 8050 5000
+Connection ~ 8050 5000
+Wire Wire Line
+	8050 5000 7200 5000
+Wire Wire Line
+	8850 5000 8850 4850
+Connection ~ 8850 5000
+Wire Wire Line
+	8850 5000 8050 5000
+Wire Wire Line
+	9650 5000 9650 4850
+Connection ~ 9650 5000
+Wire Wire Line
+	9650 5000 8850 5000
+Wire Wire Line
+	10450 5000 10450 4850
+Connection ~ 10450 5000
+Wire Wire Line
+	10450 5000 9650 5000
+Wire Wire Line
+	11300 5000 11300 4850
+Connection ~ 11300 5000
+Wire Wire Line
+	11300 5000 10450 5000
+Wire Wire Line
+	5150 4850 5150 5500
+Wire Wire Line
+	5950 4850 5950 5500
+Wire Wire Line
+	6800 4850 6800 5500
+Wire Wire Line
+	7600 4850 7600 5500
+Wire Wire Line
+	8450 4850 8450 5500
+Wire Wire Line
+	9250 4850 9250 5500
+Wire Wire Line
+	10050 4850 10050 5500
+Wire Wire Line
+	10850 4850 10850 5500
+Wire Wire Line
+	11700 4850 11700 5500
+Wire Wire Line
+	12500 4850 12500 5500
+$Comp
+L Switch:SW_Push SW26
+U 1 1 60468F83
+P 6600 5500
+F 0 "SW26" H 6600 5785 50  0000 C CNN
+F 1 "SW_Push" H 6600 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 5700 50  0001 C CNN
+F 3 "~" H 6600 5700 50  0001 C CNN
+	1    6600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 60468F89
+P 7400 5500
+F 0 "SW36" H 7400 5785 50  0000 C CNN
+F 1 "SW_Push" H 7400 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 5700 50  0001 C CNN
+F 3 "~" H 7400 5700 50  0001 C CNN
+	1    7400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 60468F8F
+P 8250 5500
+F 0 "SW46" H 8250 5785 50  0000 C CNN
+F 1 "SW_Push" H 8250 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 5700 50  0001 C CNN
+F 3 "~" H 8250 5700 50  0001 C CNN
+	1    8250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 60468F95
+P 9050 5500
+F 0 "SW56" H 9050 5785 50  0000 C CNN
+F 1 "SW_Push" H 9050 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 5700 50  0001 C CNN
+F 3 "~" H 9050 5700 50  0001 C CNN
+	1    9050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW66
+U 1 1 60468F9B
+P 9850 5500
+F 0 "SW66" H 9850 5785 50  0000 C CNN
+F 1 "SW_Push" H 9850 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 5700 50  0001 C CNN
+F 3 "~" H 9850 5700 50  0001 C CNN
+	1    9850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW76
+U 1 1 60468FA1
+P 10650 5500
+F 0 "SW76" H 10650 5785 50  0000 C CNN
+F 1 "SW_Push" H 10650 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 5700 50  0001 C CNN
+F 3 "~" H 10650 5700 50  0001 C CNN
+	1    10650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW86
+U 1 1 60468FA7
+P 11500 5500
+F 0 "SW86" H 11500 5785 50  0000 C CNN
+F 1 "SW_Push" H 11500 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 5700 50  0001 C CNN
+F 3 "~" H 11500 5700 50  0001 C CNN
+	1    11500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW96
+U 1 1 60468FAD
+P 12300 5500
+F 0 "SW96" H 12300 5785 50  0000 C CNN
+F 1 "SW_Push" H 12300 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 5700 50  0001 C CNN
+F 3 "~" H 12300 5700 50  0001 C CNN
+	1    12300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 60468FB3
+P 4950 5500
+F 0 "SW6" H 4950 5785 50  0000 C CNN
+F 1 "SW_Push" H 4950 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 5700 50  0001 C CNN
+F 3 "~" H 4950 5700 50  0001 C CNN
+	1    4950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 60468FB9
+P 5750 5500
+F 0 "SW16" H 5750 5785 50  0000 C CNN
+F 1 "SW_Push" H 5750 5694 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 5700 50  0001 C CNN
+F 3 "~" H 5750 5700 50  0001 C CNN
+	1    5750 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 5500 12100 5650
+Wire Wire Line
+	12100 5650 11300 5650
+Wire Wire Line
+	5550 5650 5550 5500
+Wire Wire Line
+	5550 5650 4750 5650
+Wire Wire Line
+	4750 5650 4750 5500
+Connection ~ 5550 5650
+Wire Wire Line
+	6400 5500 6400 5650
+Connection ~ 6400 5650
+Wire Wire Line
+	6400 5650 5550 5650
+Wire Wire Line
+	7200 5500 7200 5650
+Connection ~ 7200 5650
+Wire Wire Line
+	7200 5650 6400 5650
+Wire Wire Line
+	8050 5500 8050 5650
+Connection ~ 8050 5650
+Wire Wire Line
+	8050 5650 7200 5650
+Wire Wire Line
+	8850 5650 8850 5500
+Connection ~ 8850 5650
+Wire Wire Line
+	8850 5650 8050 5650
+Wire Wire Line
+	9650 5650 9650 5500
+Connection ~ 9650 5650
+Wire Wire Line
+	9650 5650 8850 5650
+Wire Wire Line
+	10450 5650 10450 5500
+Connection ~ 10450 5650
+Wire Wire Line
+	10450 5650 9650 5650
+Wire Wire Line
+	11300 5650 11300 5500
+Connection ~ 11300 5650
+Wire Wire Line
+	11300 5650 10450 5650
+Wire Wire Line
+	5150 5500 5150 6150
+Wire Wire Line
+	5950 5500 5950 6150
+Wire Wire Line
+	6800 5500 6800 6150
+Wire Wire Line
+	7600 5500 7600 6150
+Wire Wire Line
+	8450 5500 8450 6150
+Wire Wire Line
+	9250 5500 9250 6150
+Wire Wire Line
+	10050 5500 10050 6150
+Wire Wire Line
+	10850 5500 10850 6150
+Wire Wire Line
+	11700 5500 11700 6150
+Wire Wire Line
+	12500 5500 12500 6150
+$Comp
+L Switch:SW_Push SW27
+U 1 1 60468FE4
+P 6600 6150
+F 0 "SW27" H 6600 6435 50  0000 C CNN
+F 1 "SW_Push" H 6600 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 6350 50  0001 C CNN
+F 3 "~" H 6600 6350 50  0001 C CNN
+	1    6600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 60468FEA
+P 7400 6150
+F 0 "SW37" H 7400 6435 50  0000 C CNN
+F 1 "SW_Push" H 7400 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 6350 50  0001 C CNN
+F 3 "~" H 7400 6350 50  0001 C CNN
+	1    7400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW47
+U 1 1 60468FF0
+P 8250 6150
+F 0 "SW47" H 8250 6435 50  0000 C CNN
+F 1 "SW_Push" H 8250 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 6350 50  0001 C CNN
+F 3 "~" H 8250 6350 50  0001 C CNN
+	1    8250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 60468FF6
+P 9050 6150
+F 0 "SW57" H 9050 6435 50  0000 C CNN
+F 1 "SW_Push" H 9050 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 6350 50  0001 C CNN
+F 3 "~" H 9050 6350 50  0001 C CNN
+	1    9050 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW67
+U 1 1 60468FFC
+P 9850 6150
+F 0 "SW67" H 9850 6435 50  0000 C CNN
+F 1 "SW_Push" H 9850 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 6350 50  0001 C CNN
+F 3 "~" H 9850 6350 50  0001 C CNN
+	1    9850 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW77
+U 1 1 60469002
+P 10650 6150
+F 0 "SW77" H 10650 6435 50  0000 C CNN
+F 1 "SW_Push" H 10650 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 6350 50  0001 C CNN
+F 3 "~" H 10650 6350 50  0001 C CNN
+	1    10650 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW87
+U 1 1 60469008
+P 11500 6150
+F 0 "SW87" H 11500 6435 50  0000 C CNN
+F 1 "SW_Push" H 11500 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 6350 50  0001 C CNN
+F 3 "~" H 11500 6350 50  0001 C CNN
+	1    11500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW97
+U 1 1 6046900E
+P 12300 6150
+F 0 "SW97" H 12300 6435 50  0000 C CNN
+F 1 "SW_Push" H 12300 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 6350 50  0001 C CNN
+F 3 "~" H 12300 6350 50  0001 C CNN
+	1    12300 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 60469014
+P 4950 6150
+F 0 "SW7" H 4950 6435 50  0000 C CNN
+F 1 "SW_Push" H 4950 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 6350 50  0001 C CNN
+F 3 "~" H 4950 6350 50  0001 C CNN
+	1    4950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 6046901A
+P 5750 6150
+F 0 "SW17" H 5750 6435 50  0000 C CNN
+F 1 "SW_Push" H 5750 6344 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 6350 50  0001 C CNN
+F 3 "~" H 5750 6350 50  0001 C CNN
+	1    5750 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 6150 12100 6300
+Wire Wire Line
+	12100 6300 11300 6300
+Wire Wire Line
+	5550 6300 5550 6150
+Wire Wire Line
+	5550 6300 4750 6300
+Wire Wire Line
+	4750 6300 4750 6150
+Connection ~ 5550 6300
+Wire Wire Line
+	6400 6150 6400 6300
+Connection ~ 6400 6300
+Wire Wire Line
+	6400 6300 5550 6300
+Wire Wire Line
+	7200 6150 7200 6300
+Connection ~ 7200 6300
+Wire Wire Line
+	7200 6300 6400 6300
+Wire Wire Line
+	8050 6150 8050 6300
+Connection ~ 8050 6300
+Wire Wire Line
+	8050 6300 7200 6300
+Wire Wire Line
+	8850 6300 8850 6150
+Connection ~ 8850 6300
+Wire Wire Line
+	8850 6300 8050 6300
+Wire Wire Line
+	9650 6300 9650 6150
+Connection ~ 9650 6300
+Wire Wire Line
+	9650 6300 8850 6300
+Wire Wire Line
+	10450 6300 10450 6150
+Connection ~ 10450 6300
+Wire Wire Line
+	10450 6300 9650 6300
+Wire Wire Line
+	11300 6300 11300 6150
+Connection ~ 11300 6300
+Wire Wire Line
+	11300 6300 10450 6300
+Wire Wire Line
+	5150 6150 5150 6800
+Wire Wire Line
+	5950 6150 5950 6800
+Wire Wire Line
+	6800 6150 6800 6800
+Wire Wire Line
+	7600 6150 7600 6800
+Wire Wire Line
+	8450 6150 8450 6800
+Wire Wire Line
+	9250 6150 9250 6800
+Wire Wire Line
+	10050 6150 10050 6800
+Wire Wire Line
+	10850 6150 10850 6800
+Wire Wire Line
+	11700 6150 11700 6800
+Wire Wire Line
+	12500 6150 12500 6800
+$Comp
+L Switch:SW_Push SW28
+U 1 1 60469045
+P 6600 6800
+F 0 "SW28" H 6600 7085 50  0000 C CNN
+F 1 "SW_Push" H 6600 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 7000 50  0001 C CNN
+F 3 "~" H 6600 7000 50  0001 C CNN
+	1    6600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 6046904B
+P 7400 6800
+F 0 "SW38" H 7400 7085 50  0000 C CNN
+F 1 "SW_Push" H 7400 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 7000 50  0001 C CNN
+F 3 "~" H 7400 7000 50  0001 C CNN
+	1    7400 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 60469051
+P 8250 6800
+F 0 "SW48" H 8250 7085 50  0000 C CNN
+F 1 "SW_Push" H 8250 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 7000 50  0001 C CNN
+F 3 "~" H 8250 7000 50  0001 C CNN
+	1    8250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 60469057
+P 9050 6800
+F 0 "SW58" H 9050 7085 50  0000 C CNN
+F 1 "SW_Push" H 9050 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 7000 50  0001 C CNN
+F 3 "~" H 9050 7000 50  0001 C CNN
+	1    9050 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW68
+U 1 1 6046905D
+P 9850 6800
+F 0 "SW68" H 9850 7085 50  0000 C CNN
+F 1 "SW_Push" H 9850 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 7000 50  0001 C CNN
+F 3 "~" H 9850 7000 50  0001 C CNN
+	1    9850 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW78
+U 1 1 60469063
+P 10650 6800
+F 0 "SW78" H 10650 7085 50  0000 C CNN
+F 1 "SW_Push" H 10650 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 7000 50  0001 C CNN
+F 3 "~" H 10650 7000 50  0001 C CNN
+	1    10650 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW88
+U 1 1 60469069
+P 11500 6800
+F 0 "SW88" H 11500 7085 50  0000 C CNN
+F 1 "SW_Push" H 11500 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 7000 50  0001 C CNN
+F 3 "~" H 11500 7000 50  0001 C CNN
+	1    11500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW98
+U 1 1 6046906F
+P 12300 6800
+F 0 "SW98" H 12300 7085 50  0000 C CNN
+F 1 "SW_Push" H 12300 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 7000 50  0001 C CNN
+F 3 "~" H 12300 7000 50  0001 C CNN
+	1    12300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 60469075
+P 4950 6800
+F 0 "SW8" H 4950 7085 50  0000 C CNN
+F 1 "SW_Push" H 4950 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 7000 50  0001 C CNN
+F 3 "~" H 4950 7000 50  0001 C CNN
+	1    4950 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 6046907B
+P 5750 6800
+F 0 "SW18" H 5750 7085 50  0000 C CNN
+F 1 "SW_Push" H 5750 6994 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 7000 50  0001 C CNN
+F 3 "~" H 5750 7000 50  0001 C CNN
+	1    5750 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 6800 12100 6950
+Wire Wire Line
+	12100 6950 11300 6950
+Wire Wire Line
+	5550 6950 5550 6800
+Wire Wire Line
+	5550 6950 4750 6950
+Wire Wire Line
+	4750 6950 4750 6800
+Connection ~ 5550 6950
+Wire Wire Line
+	6400 6800 6400 6950
+Connection ~ 6400 6950
+Wire Wire Line
+	6400 6950 5550 6950
+Wire Wire Line
+	7200 6800 7200 6950
+Connection ~ 7200 6950
+Wire Wire Line
+	7200 6950 6400 6950
+Wire Wire Line
+	8050 6800 8050 6950
+Connection ~ 8050 6950
+Wire Wire Line
+	8050 6950 7200 6950
+Wire Wire Line
+	8850 6950 8850 6800
+Connection ~ 8850 6950
+Wire Wire Line
+	8850 6950 8050 6950
+Wire Wire Line
+	9650 6950 9650 6800
+Connection ~ 9650 6950
+Wire Wire Line
+	9650 6950 8850 6950
+Wire Wire Line
+	10450 6950 10450 6800
+Connection ~ 10450 6950
+Wire Wire Line
+	10450 6950 9650 6950
+Wire Wire Line
+	11300 6950 11300 6800
+Connection ~ 11300 6950
+Wire Wire Line
+	11300 6950 10450 6950
+Wire Wire Line
+	5150 6800 5150 7450
+Wire Wire Line
+	5950 6800 5950 7450
+Wire Wire Line
+	6800 6800 6800 7450
+Wire Wire Line
+	7600 6800 7600 7450
+Wire Wire Line
+	8450 6800 8450 7450
+Wire Wire Line
+	9250 6800 9250 7450
+Wire Wire Line
+	10050 6800 10050 7450
+Wire Wire Line
+	10850 6800 10850 7450
+Wire Wire Line
+	11700 6800 11700 7450
+Wire Wire Line
+	12500 6800 12500 7450
+$Comp
+L Switch:SW_Push SW29
+U 1 1 60484603
+P 6600 7450
+F 0 "SW29" H 6600 7735 50  0000 C CNN
+F 1 "SW_Push" H 6600 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 7650 50  0001 C CNN
+F 3 "~" H 6600 7650 50  0001 C CNN
+	1    6600 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 60484609
+P 7400 7450
+F 0 "SW39" H 7400 7735 50  0000 C CNN
+F 1 "SW_Push" H 7400 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 7650 50  0001 C CNN
+F 3 "~" H 7400 7650 50  0001 C CNN
+	1    7400 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW49
+U 1 1 6048460F
+P 8250 7450
+F 0 "SW49" H 8250 7735 50  0000 C CNN
+F 1 "SW_Push" H 8250 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 7650 50  0001 C CNN
+F 3 "~" H 8250 7650 50  0001 C CNN
+	1    8250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 60484615
+P 9050 7450
+F 0 "SW59" H 9050 7735 50  0000 C CNN
+F 1 "SW_Push" H 9050 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 7650 50  0001 C CNN
+F 3 "~" H 9050 7650 50  0001 C CNN
+	1    9050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW69
+U 1 1 6048461B
+P 9850 7450
+F 0 "SW69" H 9850 7735 50  0000 C CNN
+F 1 "SW_Push" H 9850 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 7650 50  0001 C CNN
+F 3 "~" H 9850 7650 50  0001 C CNN
+	1    9850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW79
+U 1 1 60484621
+P 10650 7450
+F 0 "SW79" H 10650 7735 50  0000 C CNN
+F 1 "SW_Push" H 10650 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 7650 50  0001 C CNN
+F 3 "~" H 10650 7650 50  0001 C CNN
+	1    10650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW89
+U 1 1 60484627
+P 11500 7450
+F 0 "SW89" H 11500 7735 50  0000 C CNN
+F 1 "SW_Push" H 11500 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 7650 50  0001 C CNN
+F 3 "~" H 11500 7650 50  0001 C CNN
+	1    11500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW99
+U 1 1 6048462D
+P 12300 7450
+F 0 "SW99" H 12300 7735 50  0000 C CNN
+F 1 "SW_Push" H 12300 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 7650 50  0001 C CNN
+F 3 "~" H 12300 7650 50  0001 C CNN
+	1    12300 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 60484633
+P 4950 7450
+F 0 "SW9" H 4950 7735 50  0000 C CNN
+F 1 "SW_Push" H 4950 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 7650 50  0001 C CNN
+F 3 "~" H 4950 7650 50  0001 C CNN
+	1    4950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 60484639
+P 5750 7450
+F 0 "SW19" H 5750 7735 50  0000 C CNN
+F 1 "SW_Push" H 5750 7644 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 7650 50  0001 C CNN
+F 3 "~" H 5750 7650 50  0001 C CNN
+	1    5750 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 7450 12100 7600
+Wire Wire Line
+	12100 7600 11300 7600
+Wire Wire Line
+	5550 7600 5550 7450
+Wire Wire Line
+	5550 7600 4750 7600
+Wire Wire Line
+	4750 7600 4750 7450
+Connection ~ 5550 7600
+Wire Wire Line
+	6400 7450 6400 7600
+Connection ~ 6400 7600
+Wire Wire Line
+	6400 7600 5550 7600
+Wire Wire Line
+	7200 7450 7200 7600
+Connection ~ 7200 7600
+Wire Wire Line
+	7200 7600 6400 7600
+Wire Wire Line
+	8050 7450 8050 7600
+Connection ~ 8050 7600
+Wire Wire Line
+	8050 7600 7200 7600
+Wire Wire Line
+	8850 7600 8850 7450
+Connection ~ 8850 7600
+Wire Wire Line
+	8850 7600 8050 7600
+Wire Wire Line
+	9650 7600 9650 7450
+Connection ~ 9650 7600
+Wire Wire Line
+	9650 7600 8850 7600
+Wire Wire Line
+	10450 7600 10450 7450
+Connection ~ 10450 7600
+Wire Wire Line
+	10450 7600 9650 7600
+Wire Wire Line
+	11300 7600 11300 7450
+Connection ~ 11300 7600
+Wire Wire Line
+	11300 7600 10450 7600
+Wire Wire Line
+	5150 7450 5150 8100
+Wire Wire Line
+	5950 7450 5950 8100
+Wire Wire Line
+	6800 7450 6800 8100
+Wire Wire Line
+	7600 7450 7600 8100
+Wire Wire Line
+	8450 7450 8450 8100
+Wire Wire Line
+	9250 7450 9250 8100
+Wire Wire Line
+	10050 7450 10050 8100
+Wire Wire Line
+	10850 7450 10850 8100
+Wire Wire Line
+	11700 7450 11700 8100
+Wire Wire Line
+	12500 7450 12500 8100
+$Comp
+L Switch:SW_Push SW30
+U 1 1 60484664
+P 6600 8100
+F 0 "SW30" H 6600 8385 50  0000 C CNN
+F 1 "SW_Push" H 6600 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 8300 50  0001 C CNN
+F 3 "~" H 6600 8300 50  0001 C CNN
+	1    6600 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 6048466A
+P 7400 8100
+F 0 "SW40" H 7400 8385 50  0000 C CNN
+F 1 "SW_Push" H 7400 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 8300 50  0001 C CNN
+F 3 "~" H 7400 8300 50  0001 C CNN
+	1    7400 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 60484670
+P 8250 8100
+F 0 "SW50" H 8250 8385 50  0000 C CNN
+F 1 "SW_Push" H 8250 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 8300 50  0001 C CNN
+F 3 "~" H 8250 8300 50  0001 C CNN
+	1    8250 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 60484676
+P 9050 8100
+F 0 "SW60" H 9050 8385 50  0000 C CNN
+F 1 "SW_Push" H 9050 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 8300 50  0001 C CNN
+F 3 "~" H 9050 8300 50  0001 C CNN
+	1    9050 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW70
+U 1 1 6048467C
+P 9850 8100
+F 0 "SW70" H 9850 8385 50  0000 C CNN
+F 1 "SW_Push" H 9850 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 8300 50  0001 C CNN
+F 3 "~" H 9850 8300 50  0001 C CNN
+	1    9850 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW80
+U 1 1 60484682
+P 10650 8100
+F 0 "SW80" H 10650 8385 50  0000 C CNN
+F 1 "SW_Push" H 10650 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 8300 50  0001 C CNN
+F 3 "~" H 10650 8300 50  0001 C CNN
+	1    10650 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW90
+U 1 1 60484688
+P 11500 8100
+F 0 "SW90" H 11500 8385 50  0000 C CNN
+F 1 "SW_Push" H 11500 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 8300 50  0001 C CNN
+F 3 "~" H 11500 8300 50  0001 C CNN
+	1    11500 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW100
+U 1 1 6048468E
+P 12300 8100
+F 0 "SW100" H 12300 8385 50  0000 C CNN
+F 1 "SW_Push" H 12300 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 8300 50  0001 C CNN
+F 3 "~" H 12300 8300 50  0001 C CNN
+	1    12300 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 60484694
+P 4950 8100
+F 0 "SW10" H 4950 8385 50  0000 C CNN
+F 1 "SW_Push" H 4950 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 8300 50  0001 C CNN
+F 3 "~" H 4950 8300 50  0001 C CNN
+	1    4950 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 6048469A
+P 5750 8100
+F 0 "SW20" H 5750 8385 50  0000 C CNN
+F 1 "SW_Push" H 5750 8294 50  0000 C CNN
+F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 8300 50  0001 C CNN
+F 3 "~" H 5750 8300 50  0001 C CNN
+	1    5750 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 8100 12100 8250
+Wire Wire Line
+	12100 8250 11300 8250
+Wire Wire Line
+	5550 8250 5550 8100
+Wire Wire Line
+	5550 8250 4750 8250
+Wire Wire Line
+	4750 8250 4750 8100
+Connection ~ 5550 8250
+Wire Wire Line
+	6400 8100 6400 8250
+Connection ~ 6400 8250
+Wire Wire Line
+	6400 8250 5550 8250
+Wire Wire Line
+	7200 8100 7200 8250
+Connection ~ 7200 8250
+Wire Wire Line
+	7200 8250 6400 8250
+Wire Wire Line
+	8050 8100 8050 8250
+Connection ~ 8050 8250
+Wire Wire Line
+	8050 8250 7200 8250
+Wire Wire Line
+	8850 8250 8850 8100
+Connection ~ 8850 8250
+Wire Wire Line
+	8850 8250 8050 8250
+Wire Wire Line
+	9650 8250 9650 8100
+Connection ~ 9650 8250
+Wire Wire Line
+	9650 8250 8850 8250
+Wire Wire Line
+	10450 8250 10450 8100
+Connection ~ 10450 8250
+Wire Wire Line
+	10450 8250 9650 8250
+Wire Wire Line
+	11300 8250 11300 8100
+Connection ~ 11300 8250
+Wire Wire Line
+	11300 8250 10450 8250
+Wire Wire Line
+	1950 2250 3150 2250
+Wire Wire Line
+	3150 2250 3150 1200
+Wire Wire Line
+	1950 2550 3200 2550
+Wire Wire Line
+	3200 2550 3200 1250
+Wire Wire Line
+	1950 1850 3250 1850
+Wire Wire Line
+	3250 1850 3250 1300
+Wire Wire Line
+	1950 2850 3300 2850
+Wire Wire Line
+	3300 2850 3300 1350
+Wire Wire Line
+	1950 3150 3350 3150
+Wire Wire Line
+	3350 3150 3350 1400
+Wire Wire Line
+	1950 1350 3100 1350
+Wire Wire Line
+	3100 1350 3100 1450
+Wire Wire Line
+	1950 1450 3050 1450
+Wire Wire Line
+	3050 1450 3050 1500
+Wire Wire Line
+	1950 1650 3000 1650
+Wire Wire Line
+	3000 1650 3000 1600
+Wire Wire Line
+	1950 2750 3400 2750
+Wire Wire Line
+	3400 2750 3400 1650
+Wire Wire Line
+	5150 1650 5150 2250
+Wire Wire Line
+	3400 1650 5150 1650
+Connection ~ 5150 2250
+Wire Wire Line
+	5950 1600 5950 2250
+Wire Wire Line
+	3000 1600 5950 1600
+Connection ~ 5950 2250
+Wire Wire Line
+	6800 1550 6800 2250
+Wire Wire Line
+	1950 1550 6800 1550
+Connection ~ 6800 2250
+Wire Wire Line
+	7600 1500 7600 2250
+Wire Wire Line
+	3050 1500 7600 1500
+Connection ~ 7600 2250
+Wire Wire Line
+	8450 1450 8450 2250
+Wire Wire Line
+	3100 1450 8450 1450
+Connection ~ 8450 2250
+Wire Wire Line
+	9250 1400 9250 2250
+Wire Wire Line
+	3350 1400 9250 1400
+Connection ~ 9250 2250
+Wire Wire Line
+	10050 1350 10050 2250
+Wire Wire Line
+	3300 1350 10050 1350
+Connection ~ 10050 2250
+Wire Wire Line
+	10850 1300 10850 2250
+Wire Wire Line
+	3250 1300 10850 1300
+Connection ~ 10850 2250
+Wire Wire Line
+	11700 1250 11700 2250
+Wire Wire Line
+	3200 1250 11700 1250
+Connection ~ 11700 2250
+Wire Wire Line
+	12500 1200 12500 2250
+Wire Wire Line
+	3150 1200 12500 1200
+Connection ~ 12500 2250
+Wire Wire Line
+	1950 1950 4350 1950
+Wire Wire Line
+	4350 1950 4350 2400
+Wire Wire Line
+	4350 2400 4750 2400
+Connection ~ 4750 2400
+Wire Wire Line
+	1950 3850 3500 3850
+Wire Wire Line
+	3500 3850 3500 2000
+Wire Wire Line
+	3500 2000 4300 2000
+Wire Wire Line
+	4300 2000 4300 3050
+Wire Wire Line
+	4300 3050 4750 3050
+Connection ~ 4750 3050
+Wire Wire Line
+	4750 3050 5550 3050
+Wire Wire Line
+	1950 3750 3550 3750
+Wire Wire Line
+	3550 3750 3550 2050
+Wire Wire Line
+	3550 2050 4250 2050
+Wire Wire Line
+	4250 2050 4250 3700
+Wire Wire Line
+	4250 3700 4750 3700
+Connection ~ 4750 3700
+Wire Wire Line
+	1950 3650 3600 3650
+Wire Wire Line
+	3600 3650 3600 2100
+Wire Wire Line
+	3600 2100 4200 2100
+Wire Wire Line
+	4200 2100 4200 4350
+Wire Wire Line
+	4200 4350 4750 4350
+Connection ~ 4750 4350
+Wire Wire Line
+	1950 3550 3650 3550
+Wire Wire Line
+	3650 3550 3650 2150
+Wire Wire Line
+	3650 2150 4150 2150
+Wire Wire Line
+	4150 2150 4150 5000
+Wire Wire Line
+	4150 5000 4750 5000
+Connection ~ 4750 5000
+Wire Wire Line
+	1950 3450 3700 3450
+Wire Wire Line
+	3700 3450 3700 2200
+Wire Wire Line
+	3700 2200 4100 2200
+Wire Wire Line
+	4100 2200 4100 5650
+Wire Wire Line
+	4100 5650 4750 5650
+Connection ~ 4750 5650
+Wire Wire Line
+	1950 3350 3750 3350
+Wire Wire Line
+	3750 3350 3750 2250
+Wire Wire Line
+	3750 2250 4050 2250
+Wire Wire Line
+	4050 2250 4050 6300
+Wire Wire Line
+	4050 6300 4750 6300
+Connection ~ 4750 6300
+Wire Wire Line
+	1950 2450 3800 2450
+Wire Wire Line
+	3800 2450 3800 2300
+Wire Wire Line
+	3800 2300 4000 2300
+Wire Wire Line
+	4000 2300 4000 6950
+Wire Wire Line
+	4000 6950 4750 6950
+Connection ~ 4750 6950
+Wire Wire Line
+	1950 2350 3150 2350
+Wire Wire Line
+	3150 2350 3150 2650
+Wire Wire Line
+	3150 2650 3850 2650
+Wire Wire Line
+	3850 2650 3850 2350
+Wire Wire Line
+	3850 2350 3950 2350
+Wire Wire Line
+	3950 2350 3950 7600
+Wire Wire Line
+	3950 7600 4750 7600
+Connection ~ 4750 7600
+Wire Wire Line
+	1950 1050 2900 1050
+Wire Wire Line
+	2900 1050 2900 2700
+Wire Wire Line
+	2900 2700 3900 2700
+Wire Wire Line
+	3900 2700 3900 8250
+Wire Wire Line
+	3900 8250 4750 8250
+Connection ~ 4750 8250
 $EndSCHEMATC
