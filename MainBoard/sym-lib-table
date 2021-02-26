@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name DF40C-100DS-0.4V_51_)(type Legacy)(uri ${KIPRJMOD}/Libs/DF40C-100DS-0.4V_51_.lib)(options "")(descr ""))
+  (lib (name LTC4090EDJCPBF)(type Legacy)(uri ${KIPRJMOD}/Libs/LTC4090EDJCPBF.lib)(options "")(descr ""))
 )
