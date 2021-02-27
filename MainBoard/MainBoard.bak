@@ -20,7 +20,7 @@ U 1 1 6037FB09
 P 20800 1900
 F 0 "J3" H 21230 1946 50  0000 L CNN
 F 1 "HDMI_A" H 21230 1855 50  0000 L CNN
-F 2 "" H 20825 1900 50  0001 C CNN
+F 2 "Connector_HDMI:HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal" H 20825 1900 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 20825 1900 50  0001 C CNN
 	1    20800 1900
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 60382584
 P 20850 9000
 F 0 "J7" H 20957 10267 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 20957 10176 50  0000 C CNN
-F 2 "" H 21000 9000 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 21000 9000 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 21000 9000 50  0001 C CNN
 	1    20850 9000
 	-1   0    0    1   
@@ -819,7 +819,7 @@ U 1 1 603CD806
 P 20800 10850
 F 0 "J4" H 20570 10808 50  0000 R CNN
 F 1 "Barrel_Jack" H 20570 10899 50  0000 R CNN
-F 2 "" H 20850 10810 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 20850 10810 50  0001 C CNN
 F 3 "~" H 20850 10810 50  0001 C CNN
 	1    20800 10850
 	-1   0    0    1   
