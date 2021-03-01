@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:MainBoard-cache
 EELAYER 29 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A2 23386 16535
 encoding utf-8
 Sheet 2 4
 Title ""
@@ -30,1939 +30,1618 @@ USB_D+
 Text HLabel 750  2050 0    50   BiDi ~ 0
 USB_D-
 $Comp
-L Switch:SW_Push SW21
-U 1 1 6042DDFA
-P 6600 2250
-F 0 "SW21" H 6600 2535 50  0000 C CNN
-F 1 "SW_Push" H 6600 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 2450 50  0001 C CNN
-F 3 "~" H 6600 2450 50  0001 C CNN
-	1    6600 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068CCD4
+P 4750 2900
+F 0 "SW?" H 4750 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4750 3094 50  0000 C CNN
+F 2 "" H 4750 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4750 3100 50  0001 C CNN
+	1    4750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW31
-U 1 1 6042DE00
-P 7400 2250
-F 0 "SW31" H 7400 2535 50  0000 C CNN
-F 1 "SW_Push" H 7400 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 2450 50  0001 C CNN
-F 3 "~" H 7400 2450 50  0001 C CNN
-	1    7400 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068D8F6
+P 5850 2900
+F 0 "SW?" H 5850 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5850 3094 50  0000 C CNN
+F 2 "" H 5850 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5850 3100 50  0001 C CNN
+	1    5850 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW41
-U 1 1 6042DE06
-P 8250 2250
-F 0 "SW41" H 8250 2535 50  0000 C CNN
-F 1 "SW_Push" H 8250 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 2450 50  0001 C CNN
-F 3 "~" H 8250 2450 50  0001 C CNN
-	1    8250 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068DDF2
+P 7000 2900
+F 0 "SW?" H 7000 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7000 3094 50  0000 C CNN
+F 2 "" H 7000 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7000 3100 50  0001 C CNN
+	1    7000 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW51
-U 1 1 6042DE0C
-P 9050 2250
-F 0 "SW51" H 9050 2535 50  0000 C CNN
-F 1 "SW_Push" H 9050 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 2450 50  0001 C CNN
-F 3 "~" H 9050 2450 50  0001 C CNN
-	1    9050 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068DDF8
+P 8200 2900
+F 0 "SW?" H 8200 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8200 3094 50  0000 C CNN
+F 2 "" H 8200 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8200 3100 50  0001 C CNN
+	1    8200 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW61
-U 1 1 6042DE12
-P 9850 2250
-F 0 "SW61" H 9850 2535 50  0000 C CNN
-F 1 "SW_Push" H 9850 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 2450 50  0001 C CNN
-F 3 "~" H 9850 2450 50  0001 C CNN
-	1    9850 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068FFCD
+P 9350 2900
+F 0 "SW?" H 9350 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9350 3094 50  0000 C CNN
+F 2 "" H 9350 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9350 3100 50  0001 C CNN
+	1    9350 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW71
-U 1 1 6042DE18
-P 10650 2250
-F 0 "SW71" H 10650 2535 50  0000 C CNN
-F 1 "SW_Push" H 10650 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 2450 50  0001 C CNN
-F 3 "~" H 10650 2450 50  0001 C CNN
-	1    10650 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068FFD3
+P 10450 2900
+F 0 "SW?" H 10450 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10450 3094 50  0000 C CNN
+F 2 "" H 10450 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10450 3100 50  0001 C CNN
+	1    10450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW81
-U 1 1 6042DE1E
-P 11500 2250
-F 0 "SW81" H 11500 2535 50  0000 C CNN
-F 1 "SW_Push" H 11500 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 2450 50  0001 C CNN
-F 3 "~" H 11500 2450 50  0001 C CNN
-	1    11500 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068FFD9
+P 11450 2900
+F 0 "SW?" H 11450 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11450 3094 50  0000 C CNN
+F 2 "" H 11450 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11450 3100 50  0001 C CNN
+	1    11450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW91
-U 1 1 6042DE24
-P 12300 2250
-F 0 "SW91" H 12300 2535 50  0000 C CNN
-F 1 "SW_Push" H 12300 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 2450 50  0001 C CNN
-F 3 "~" H 12300 2450 50  0001 C CNN
-	1    12300 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 6068FFDF
+P 12450 2900
+F 0 "SW?" H 12450 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12450 3094 50  0000 C CNN
+F 2 "" H 12450 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12450 3100 50  0001 C CNN
+	1    12450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW11
-U 1 1 6042DE30
-P 5750 2250
-F 0 "SW11" H 5750 2535 50  0000 C CNN
-F 1 "SW_Push" H 5750 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 2450 50  0001 C CNN
-F 3 "~" H 5750 2450 50  0001 C CNN
-	1    5750 2250
+L Switch:SW_MEC_5G SW?
+U 1 1 60693A77
+P 13650 2900
+F 0 "SW?" H 13650 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13650 3094 50  0000 C CNN
+F 2 "" H 13650 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13650 3100 50  0001 C CNN
+	1    13650 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 2250 12100 2400
-Wire Wire Line
-	12100 2400 11300 2400
-Wire Wire Line
-	5550 2400 5550 2250
-Wire Wire Line
-	5550 2400 4750 2400
-Wire Wire Line
-	4750 2400 4750 2250
-Connection ~ 5550 2400
-Wire Wire Line
-	6400 2250 6400 2400
-Connection ~ 6400 2400
-Wire Wire Line
-	6400 2400 5550 2400
-Wire Wire Line
-	7200 2250 7200 2400
-Connection ~ 7200 2400
-Wire Wire Line
-	7200 2400 6400 2400
-Wire Wire Line
-	8050 2250 8050 2400
-Connection ~ 8050 2400
-Wire Wire Line
-	8050 2400 7200 2400
-Wire Wire Line
-	8850 2400 8850 2250
-Connection ~ 8850 2400
-Wire Wire Line
-	8850 2400 8050 2400
-Wire Wire Line
-	9650 2400 9650 2250
-Connection ~ 9650 2400
-Wire Wire Line
-	9650 2400 8850 2400
-Wire Wire Line
-	10450 2400 10450 2250
-Connection ~ 10450 2400
-Wire Wire Line
-	10450 2400 9650 2400
-Wire Wire Line
-	11300 2400 11300 2250
-Connection ~ 11300 2400
-Wire Wire Line
-	11300 2400 10450 2400
-Wire Wire Line
-	5150 2250 5150 2900
-Wire Wire Line
-	5950 2250 5950 2900
-Wire Wire Line
-	6800 2250 6800 2900
-Wire Wire Line
-	7600 2250 7600 2900
-Wire Wire Line
-	8450 2250 8450 2900
-Wire Wire Line
-	10050 2250 10050 2900
-Wire Wire Line
-	10850 2250 10850 2900
-Wire Wire Line
-	11700 2250 11700 2900
-Wire Wire Line
-	12500 2250 12500 2900
 $Comp
-L Switch:SW_Push SW22
-U 1 1 60437B6E
-P 6600 2900
-F 0 "SW22" H 6600 3185 50  0000 C CNN
-F 1 "SW_Push" H 6600 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 3100 50  0001 C CNN
-F 3 "~" H 6600 3100 50  0001 C CNN
-	1    6600 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 60693A7D
+P 14750 2900
+F 0 "SW?" H 14750 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14750 3094 50  0000 C CNN
+F 2 "" H 14750 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14750 3100 50  0001 C CNN
+	1    14750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW32
-U 1 1 60437B74
-P 7400 2900
-F 0 "SW32" H 7400 3185 50  0000 C CNN
-F 1 "SW_Push" H 7400 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 3100 50  0001 C CNN
-F 3 "~" H 7400 3100 50  0001 C CNN
-	1    7400 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 60693A83
+P 15900 2900
+F 0 "SW?" H 15900 3185 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15900 3094 50  0000 C CNN
+F 2 "" H 15900 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15900 3100 50  0001 C CNN
+	1    15900 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW42
-U 1 1 60437B7A
-P 8250 2900
-F 0 "SW42" H 8250 3185 50  0000 C CNN
-F 1 "SW_Push" H 8250 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 3100 50  0001 C CNN
-F 3 "~" H 8250 3100 50  0001 C CNN
-	1    8250 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 6069B8AA
+P 3850 3500
+F 0 "SW?" H 3850 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 3850 3694 50  0000 C CNN
+F 2 "" H 3850 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3850 3700 50  0001 C CNN
+	1    3850 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW62
-U 1 1 60437B86
-P 9850 2900
-F 0 "SW62" H 9850 3185 50  0000 C CNN
-F 1 "SW_Push" H 9850 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 3100 50  0001 C CNN
-F 3 "~" H 9850 3100 50  0001 C CNN
-	1    9850 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 6069BE60
+P 4650 3500
+F 0 "SW?" H 4650 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4650 3694 50  0000 C CNN
+F 2 "" H 4650 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4650 3700 50  0001 C CNN
+	1    4650 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW72
-U 1 1 60437B8C
-P 10650 2900
-F 0 "SW72" H 10650 3185 50  0000 C CNN
-F 1 "SW_Push" H 10650 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 3100 50  0001 C CNN
-F 3 "~" H 10650 3100 50  0001 C CNN
-	1    10650 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 6069C6FE
+P 5600 3500
+F 0 "SW?" H 5600 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5600 3694 50  0000 C CNN
+F 2 "" H 5600 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5600 3700 50  0001 C CNN
+	1    5600 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW82
-U 1 1 60437B92
-P 11500 2900
-F 0 "SW82" H 11500 3185 50  0000 C CNN
-F 1 "SW_Push" H 11500 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 3100 50  0001 C CNN
-F 3 "~" H 11500 3100 50  0001 C CNN
-	1    11500 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 6069C704
+P 6500 3500
+F 0 "SW?" H 6500 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6500 3694 50  0000 C CNN
+F 2 "" H 6500 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6500 3700 50  0001 C CNN
+	1    6500 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW92
-U 1 1 60437B98
-P 12300 2900
-F 0 "SW92" H 12300 3185 50  0000 C CNN
-F 1 "SW_Push" H 12300 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 3100 50  0001 C CNN
-F 3 "~" H 12300 3100 50  0001 C CNN
-	1    12300 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 6069E228
+P 7400 3500
+F 0 "SW?" H 7400 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7400 3694 50  0000 C CNN
+F 2 "" H 7400 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7400 3700 50  0001 C CNN
+	1    7400 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW12
-U 1 1 60437BA4
-P 5750 2900
-F 0 "SW12" H 5750 3185 50  0000 C CNN
-F 1 "SW_Push" H 5750 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 3100 50  0001 C CNN
-F 3 "~" H 5750 3100 50  0001 C CNN
-	1    5750 2900
+L Switch:SW_MEC_5G SW?
+U 1 1 6069E22E
+P 8300 3500
+F 0 "SW?" H 8300 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8300 3694 50  0000 C CNN
+F 2 "" H 8300 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 3700 50  0001 C CNN
+	1    8300 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 2900 12100 3050
-Wire Wire Line
-	12100 3050 11300 3050
-Wire Wire Line
-	5550 3050 5550 2900
-Wire Wire Line
-	4750 3050 4750 2900
-Connection ~ 5550 3050
-Wire Wire Line
-	6400 2900 6400 3050
-Connection ~ 6400 3050
-Wire Wire Line
-	6400 3050 5550 3050
-Wire Wire Line
-	7200 2900 7200 3050
-Connection ~ 7200 3050
-Wire Wire Line
-	7200 3050 6400 3050
-Wire Wire Line
-	8050 2900 8050 3050
-Connection ~ 8050 3050
-Wire Wire Line
-	8050 3050 7200 3050
-Wire Wire Line
-	9650 3050 9650 2900
-Connection ~ 9650 3050
-Wire Wire Line
-	10450 3050 10450 2900
-Connection ~ 10450 3050
-Wire Wire Line
-	10450 3050 9650 3050
-Wire Wire Line
-	11300 3050 11300 2900
-Connection ~ 11300 3050
-Wire Wire Line
-	11300 3050 10450 3050
-Wire Wire Line
-	5150 2900 5150 3550
-Wire Wire Line
-	5950 2900 5950 3550
-Wire Wire Line
-	6800 2900 6800 3550
-Wire Wire Line
-	7600 2900 7600 3550
-Wire Wire Line
-	8450 2900 8450 3550
-Wire Wire Line
-	10050 2900 10050 3550
-Wire Wire Line
-	10850 2900 10850 3550
-Wire Wire Line
-	11700 2900 11700 3550
-Wire Wire Line
-	12500 2900 12500 3550
 $Comp
-L Switch:SW_Push SW23
-U 1 1 6044643C
-P 6600 3550
-F 0 "SW23" H 6600 3835 50  0000 C CNN
-F 1 "SW_Push" H 6600 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 3750 50  0001 C CNN
-F 3 "~" H 6600 3750 50  0001 C CNN
-	1    6600 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 6069E234
+P 9150 3500
+F 0 "SW?" H 9150 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9150 3694 50  0000 C CNN
+F 2 "" H 9150 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9150 3700 50  0001 C CNN
+	1    9150 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW33
-U 1 1 60446442
-P 7400 3550
-F 0 "SW33" H 7400 3835 50  0000 C CNN
-F 1 "SW_Push" H 7400 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 3750 50  0001 C CNN
-F 3 "~" H 7400 3750 50  0001 C CNN
-	1    7400 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 6069E23A
+P 10000 3500
+F 0 "SW?" H 10000 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10000 3694 50  0000 C CNN
+F 2 "" H 10000 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10000 3700 50  0001 C CNN
+	1    10000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW43
-U 1 1 60446448
-P 8250 3550
-F 0 "SW43" H 8250 3835 50  0000 C CNN
-F 1 "SW_Push" H 8250 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 3750 50  0001 C CNN
-F 3 "~" H 8250 3750 50  0001 C CNN
-	1    8250 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07BC
+P 10900 3500
+F 0 "SW?" H 10900 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10900 3694 50  0000 C CNN
+F 2 "" H 10900 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10900 3700 50  0001 C CNN
+	1    10900 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW53
-U 1 1 6044644E
-P 9050 3550
-F 0 "SW53" H 9050 3835 50  0000 C CNN
-F 1 "SW_Push" H 9050 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 3750 50  0001 C CNN
-F 3 "~" H 9050 3750 50  0001 C CNN
-	1    9050 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07C2
+P 11800 3500
+F 0 "SW?" H 11800 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11800 3694 50  0000 C CNN
+F 2 "" H 11800 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11800 3700 50  0001 C CNN
+	1    11800 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW63
-U 1 1 60446454
-P 9850 3550
-F 0 "SW63" H 9850 3835 50  0000 C CNN
-F 1 "SW_Push" H 9850 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 3750 50  0001 C CNN
-F 3 "~" H 9850 3750 50  0001 C CNN
-	1    9850 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07C8
+P 12650 3500
+F 0 "SW?" H 12650 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12650 3694 50  0000 C CNN
+F 2 "" H 12650 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12650 3700 50  0001 C CNN
+	1    12650 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW73
-U 1 1 6044645A
-P 10650 3550
-F 0 "SW73" H 10650 3835 50  0000 C CNN
-F 1 "SW_Push" H 10650 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 3750 50  0001 C CNN
-F 3 "~" H 10650 3750 50  0001 C CNN
-	1    10650 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07CE
+P 13450 3500
+F 0 "SW?" H 13450 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13450 3694 50  0000 C CNN
+F 2 "" H 13450 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13450 3700 50  0001 C CNN
+	1    13450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW83
-U 1 1 60446460
-P 11500 3550
-F 0 "SW83" H 11500 3835 50  0000 C CNN
-F 1 "SW_Push" H 11500 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 3750 50  0001 C CNN
-F 3 "~" H 11500 3750 50  0001 C CNN
-	1    11500 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07D4
+P 14300 3500
+F 0 "SW?" H 14300 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14300 3694 50  0000 C CNN
+F 2 "" H 14300 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14300 3700 50  0001 C CNN
+	1    14300 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW93
-U 1 1 60446466
-P 12300 3550
-F 0 "SW93" H 12300 3835 50  0000 C CNN
-F 1 "SW_Push" H 12300 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 3750 50  0001 C CNN
-F 3 "~" H 12300 3750 50  0001 C CNN
-	1    12300 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07DA
+P 15150 3500
+F 0 "SW?" H 15150 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15150 3694 50  0000 C CNN
+F 2 "" H 15150 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15150 3700 50  0001 C CNN
+	1    15150 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW13
-U 1 1 60446472
-P 5750 3550
-F 0 "SW13" H 5750 3835 50  0000 C CNN
-F 1 "SW_Push" H 5750 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 3750 50  0001 C CNN
-F 3 "~" H 5750 3750 50  0001 C CNN
-	1    5750 3550
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07E0
+P 16050 3500
+F 0 "SW?" H 16050 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16050 3694 50  0000 C CNN
+F 2 "" H 16050 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16050 3700 50  0001 C CNN
+	1    16050 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 3550 12100 3700
-Wire Wire Line
-	12100 3700 11300 3700
-Wire Wire Line
-	5550 3700 5550 3550
-Wire Wire Line
-	5550 3700 4750 3700
-Wire Wire Line
-	4750 3700 4750 3550
-Connection ~ 5550 3700
-Wire Wire Line
-	6400 3550 6400 3700
-Connection ~ 6400 3700
-Wire Wire Line
-	6400 3700 5550 3700
-Wire Wire Line
-	7200 3550 7200 3700
-Connection ~ 7200 3700
-Wire Wire Line
-	7200 3700 6400 3700
-Wire Wire Line
-	8050 3550 8050 3700
-Connection ~ 8050 3700
-Wire Wire Line
-	8050 3700 7200 3700
-Wire Wire Line
-	8850 3700 8850 3550
-Connection ~ 8850 3700
-Wire Wire Line
-	8850 3700 8050 3700
-Wire Wire Line
-	9650 3700 9650 3550
-Connection ~ 9650 3700
-Wire Wire Line
-	9650 3700 8850 3700
-Wire Wire Line
-	10450 3700 10450 3550
-Connection ~ 10450 3700
-Wire Wire Line
-	10450 3700 9650 3700
-Wire Wire Line
-	11300 3700 11300 3550
-Connection ~ 11300 3700
-Wire Wire Line
-	11300 3700 10450 3700
-Wire Wire Line
-	5150 3550 5150 4200
-Wire Wire Line
-	5950 3550 5950 4200
-Wire Wire Line
-	6800 3550 6800 4200
-Wire Wire Line
-	7600 3550 7600 4200
-Wire Wire Line
-	9250 3550 9250 4200
-Wire Wire Line
-	10050 3550 10050 4200
-Wire Wire Line
-	10850 3550 10850 4200
-Wire Wire Line
-	12500 3550 12500 4200
 $Comp
-L Switch:SW_Push SW24
-U 1 1 6044649D
-P 6600 4200
-F 0 "SW24" H 6600 4485 50  0000 C CNN
-F 1 "SW_Push" H 6600 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 4400 50  0001 C CNN
-F 3 "~" H 6600 4400 50  0001 C CNN
-	1    6600 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606A07E6
+P 16850 3500
+F 0 "SW?" H 16850 3785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16850 3694 50  0000 C CNN
+F 2 "" H 16850 3700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16850 3700 50  0001 C CNN
+	1    16850 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW34
-U 1 1 604464A3
-P 7400 4200
-F 0 "SW34" H 7400 4485 50  0000 C CNN
-F 1 "SW_Push" H 7400 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 4400 50  0001 C CNN
-F 3 "~" H 7400 4400 50  0001 C CNN
-	1    7400 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606A8FB5
+P 3800 4100
+F 0 "SW?" H 3800 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 3800 4294 50  0000 C CNN
+F 2 "" H 3800 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3800 4300 50  0001 C CNN
+	1    3800 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW54
-U 1 1 604464AF
-P 9050 4200
-F 0 "SW54" H 9050 4485 50  0000 C CNN
-F 1 "SW_Push" H 9050 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 4400 50  0001 C CNN
-F 3 "~" H 9050 4400 50  0001 C CNN
-	1    9050 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606A945C
+P 4800 4100
+F 0 "SW?" H 4800 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4800 4294 50  0000 C CNN
+F 2 "" H 4800 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4800 4300 50  0001 C CNN
+	1    4800 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW64
-U 1 1 604464B5
-P 9850 4200
-F 0 "SW64" H 9850 4485 50  0000 C CNN
-F 1 "SW_Push" H 9850 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 4400 50  0001 C CNN
-F 3 "~" H 9850 4400 50  0001 C CNN
-	1    9850 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F1F
+P 5750 4100
+F 0 "SW?" H 5750 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5750 4294 50  0000 C CNN
+F 2 "" H 5750 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5750 4300 50  0001 C CNN
+	1    5750 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW74
-U 1 1 604464BB
-P 10650 4200
-F 0 "SW74" H 10650 4485 50  0000 C CNN
-F 1 "SW_Push" H 10650 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 4400 50  0001 C CNN
-F 3 "~" H 10650 4400 50  0001 C CNN
-	1    10650 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F25
+P 6650 4100
+F 0 "SW?" H 6650 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6650 4294 50  0000 C CNN
+F 2 "" H 6650 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6650 4300 50  0001 C CNN
+	1    6650 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW94
-U 1 1 604464C7
-P 12300 4200
-F 0 "SW94" H 12300 4485 50  0000 C CNN
-F 1 "SW_Push" H 12300 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 4400 50  0001 C CNN
-F 3 "~" H 12300 4400 50  0001 C CNN
-	1    12300 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F2B
+P 7550 4100
+F 0 "SW?" H 7550 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7550 4294 50  0000 C CNN
+F 2 "" H 7550 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7550 4300 50  0001 C CNN
+	1    7550 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW4
-U 1 1 604464CD
-P 4950 4200
-F 0 "SW4" H 4950 4485 50  0000 C CNN
-F 1 "SW_Push" H 4950 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 4400 50  0001 C CNN
-F 3 "~" H 4950 4400 50  0001 C CNN
-	1    4950 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F31
+P 8450 4100
+F 0 "SW?" H 8450 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8450 4294 50  0000 C CNN
+F 2 "" H 8450 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8450 4300 50  0001 C CNN
+	1    8450 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW14
-U 1 1 604464D3
-P 5750 4200
-F 0 "SW14" H 5750 4485 50  0000 C CNN
-F 1 "SW_Push" H 5750 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 4400 50  0001 C CNN
-F 3 "~" H 5750 4400 50  0001 C CNN
-	1    5750 4200
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F37
+P 9300 4100
+F 0 "SW?" H 9300 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9300 4294 50  0000 C CNN
+F 2 "" H 9300 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9300 4300 50  0001 C CNN
+	1    9300 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 4200 12100 4350
-Wire Wire Line
-	5550 4350 5550 4200
-Wire Wire Line
-	5550 4350 4750 4350
-Wire Wire Line
-	4750 4350 4750 4200
-Connection ~ 5550 4350
-Wire Wire Line
-	6400 4200 6400 4350
-Connection ~ 6400 4350
-Wire Wire Line
-	6400 4350 5550 4350
-Wire Wire Line
-	7200 4200 7200 4350
-Connection ~ 7200 4350
-Wire Wire Line
-	7200 4350 6400 4350
-Wire Wire Line
-	8850 4350 8850 4200
-Connection ~ 8850 4350
-Wire Wire Line
-	9650 4350 9650 4200
-Connection ~ 9650 4350
-Wire Wire Line
-	9650 4350 8850 4350
-Wire Wire Line
-	10450 4350 10450 4200
-Connection ~ 10450 4350
-Wire Wire Line
-	10450 4350 9650 4350
-Wire Wire Line
-	5150 4200 5150 4850
-Wire Wire Line
-	5950 4200 5950 4850
-Wire Wire Line
-	6800 4200 6800 4850
-Wire Wire Line
-	7600 4200 7600 4850
-Wire Wire Line
-	9250 4200 9250 4850
-Wire Wire Line
-	10050 4200 10050 4850
-Wire Wire Line
-	10850 4200 10850 4850
-Wire Wire Line
-	12500 4200 12500 4850
 $Comp
-L Switch:SW_Push SW25
-U 1 1 60468F22
-P 6600 4850
-F 0 "SW25" H 6600 5135 50  0000 C CNN
-F 1 "SW_Push" H 6600 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 5050 50  0001 C CNN
-F 3 "~" H 6600 5050 50  0001 C CNN
-	1    6600 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F3D
+P 10150 4100
+F 0 "SW?" H 10150 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10150 4294 50  0000 C CNN
+F 2 "" H 10150 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10150 4300 50  0001 C CNN
+	1    10150 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW35
-U 1 1 60468F28
-P 7400 4850
-F 0 "SW35" H 7400 5135 50  0000 C CNN
-F 1 "SW_Push" H 7400 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 5050 50  0001 C CNN
-F 3 "~" H 7400 5050 50  0001 C CNN
-	1    7400 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F43
+P 11050 4100
+F 0 "SW?" H 11050 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11050 4294 50  0000 C CNN
+F 2 "" H 11050 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11050 4300 50  0001 C CNN
+	1    11050 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW45
-U 1 1 60468F2E
-P 8250 4850
-F 0 "SW45" H 8250 5135 50  0000 C CNN
-F 1 "SW_Push" H 8250 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 5050 50  0001 C CNN
-F 3 "~" H 8250 5050 50  0001 C CNN
-	1    8250 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F49
+P 11950 4100
+F 0 "SW?" H 11950 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11950 4294 50  0000 C CNN
+F 2 "" H 11950 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11950 4300 50  0001 C CNN
+	1    11950 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW55
-U 1 1 60468F34
-P 9050 4850
-F 0 "SW55" H 9050 5135 50  0000 C CNN
-F 1 "SW_Push" H 9050 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 5050 50  0001 C CNN
-F 3 "~" H 9050 5050 50  0001 C CNN
-	1    9050 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F4F
+P 12800 4100
+F 0 "SW?" H 12800 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12800 4294 50  0000 C CNN
+F 2 "" H 12800 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12800 4300 50  0001 C CNN
+	1    12800 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW65
-U 1 1 60468F3A
-P 9850 4850
-F 0 "SW65" H 9850 5135 50  0000 C CNN
-F 1 "SW_Push" H 9850 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 5050 50  0001 C CNN
-F 3 "~" H 9850 5050 50  0001 C CNN
-	1    9850 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F55
+P 13600 4100
+F 0 "SW?" H 13600 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13600 4294 50  0000 C CNN
+F 2 "" H 13600 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13600 4300 50  0001 C CNN
+	1    13600 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW75
-U 1 1 60468F40
-P 10650 4850
-F 0 "SW75" H 10650 5135 50  0000 C CNN
-F 1 "SW_Push" H 10650 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 5050 50  0001 C CNN
-F 3 "~" H 10650 5050 50  0001 C CNN
-	1    10650 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F5B
+P 14450 4100
+F 0 "SW?" H 14450 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14450 4294 50  0000 C CNN
+F 2 "" H 14450 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14450 4300 50  0001 C CNN
+	1    14450 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW85
-U 1 1 60468F46
-P 11500 4850
-F 0 "SW85" H 11500 5135 50  0000 C CNN
-F 1 "SW_Push" H 11500 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 5050 50  0001 C CNN
-F 3 "~" H 11500 5050 50  0001 C CNN
-	1    11500 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F61
+P 15850 4100
+F 0 "SW?" H 15850 4385 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15850 4294 50  0000 C CNN
+F 2 "" H 15850 4300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15850 4300 50  0001 C CNN
+	1    15850 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW95
-U 1 1 60468F4C
-P 12300 4850
-F 0 "SW95" H 12300 5135 50  0000 C CNN
-F 1 "SW_Push" H 12300 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 5050 50  0001 C CNN
-F 3 "~" H 12300 5050 50  0001 C CNN
-	1    12300 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606B0F67
+P 17050 4050
+F 0 "SW?" H 17050 4335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17050 4244 50  0000 C CNN
+F 2 "" H 17050 4250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17050 4250 50  0001 C CNN
+	1    17050 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW5
-U 1 1 60468F52
-P 4950 4850
-F 0 "SW5" H 4950 5135 50  0000 C CNN
-F 1 "SW_Push" H 4950 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 5050 50  0001 C CNN
-F 3 "~" H 4950 5050 50  0001 C CNN
-	1    4950 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE725
+P 5000 4650
+F 0 "SW?" H 5000 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5000 4844 50  0000 C CNN
+F 2 "" H 5000 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5000 4850 50  0001 C CNN
+	1    5000 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW15
-U 1 1 60468F58
-P 5750 4850
-F 0 "SW15" H 5750 5135 50  0000 C CNN
-F 1 "SW_Push" H 5750 5044 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 5050 50  0001 C CNN
-F 3 "~" H 5750 5050 50  0001 C CNN
-	1    5750 4850
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE72B
+P 5900 4650
+F 0 "SW?" H 5900 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5900 4844 50  0000 C CNN
+F 2 "" H 5900 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5900 4850 50  0001 C CNN
+	1    5900 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 4850 12100 5000
-Wire Wire Line
-	12100 5000 11300 5000
-Wire Wire Line
-	5550 5000 5550 4850
-Wire Wire Line
-	5550 5000 4750 5000
-Wire Wire Line
-	4750 5000 4750 4850
-Connection ~ 5550 5000
-Wire Wire Line
-	6400 4850 6400 5000
-Connection ~ 6400 5000
-Wire Wire Line
-	6400 5000 5550 5000
-Wire Wire Line
-	7200 4850 7200 5000
-Connection ~ 7200 5000
-Wire Wire Line
-	7200 5000 6400 5000
-Wire Wire Line
-	8050 4850 8050 5000
-Connection ~ 8050 5000
-Wire Wire Line
-	8050 5000 7200 5000
-Wire Wire Line
-	8850 5000 8850 4850
-Connection ~ 8850 5000
-Wire Wire Line
-	8850 5000 8050 5000
-Wire Wire Line
-	9650 5000 9650 4850
-Connection ~ 9650 5000
-Wire Wire Line
-	9650 5000 8850 5000
-Wire Wire Line
-	10450 5000 10450 4850
-Connection ~ 10450 5000
-Wire Wire Line
-	10450 5000 9650 5000
-Wire Wire Line
-	11300 5000 11300 4850
-Connection ~ 11300 5000
-Wire Wire Line
-	11300 5000 10450 5000
-Wire Wire Line
-	5150 4850 5150 5500
-Wire Wire Line
-	5950 4850 5950 5500
-Wire Wire Line
-	6800 4850 6800 5500
-Wire Wire Line
-	8450 4850 8450 5500
-Wire Wire Line
-	9250 4850 9250 5500
-Wire Wire Line
-	10050 4850 10050 5500
-Wire Wire Line
-	11700 4850 11700 5500
-Wire Wire Line
-	12500 4850 12500 5500
 $Comp
-L Switch:SW_Push SW26
-U 1 1 60468F83
-P 6600 5500
-F 0 "SW26" H 6600 5785 50  0000 C CNN
-F 1 "SW_Push" H 6600 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 5700 50  0001 C CNN
-F 3 "~" H 6600 5700 50  0001 C CNN
-	1    6600 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE731
+P 6800 4650
+F 0 "SW?" H 6800 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6800 4844 50  0000 C CNN
+F 2 "" H 6800 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6800 4850 50  0001 C CNN
+	1    6800 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW46
-U 1 1 60468F8F
-P 8250 5500
-F 0 "SW46" H 8250 5785 50  0000 C CNN
-F 1 "SW_Push" H 8250 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 5700 50  0001 C CNN
-F 3 "~" H 8250 5700 50  0001 C CNN
-	1    8250 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE737
+P 7700 4650
+F 0 "SW?" H 7700 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7700 4844 50  0000 C CNN
+F 2 "" H 7700 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7700 4850 50  0001 C CNN
+	1    7700 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW56
-U 1 1 60468F95
-P 9050 5500
-F 0 "SW56" H 9050 5785 50  0000 C CNN
-F 1 "SW_Push" H 9050 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 5700 50  0001 C CNN
-F 3 "~" H 9050 5700 50  0001 C CNN
-	1    9050 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE73D
+P 8550 4650
+F 0 "SW?" H 8550 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8550 4844 50  0000 C CNN
+F 2 "" H 8550 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8550 4850 50  0001 C CNN
+	1    8550 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW66
-U 1 1 60468F9B
-P 9850 5500
-F 0 "SW66" H 9850 5785 50  0000 C CNN
-F 1 "SW_Push" H 9850 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 5700 50  0001 C CNN
-F 3 "~" H 9850 5700 50  0001 C CNN
-	1    9850 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE743
+P 9400 4650
+F 0 "SW?" H 9400 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9400 4844 50  0000 C CNN
+F 2 "" H 9400 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9400 4850 50  0001 C CNN
+	1    9400 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW86
-U 1 1 60468FA7
-P 11500 5500
-F 0 "SW86" H 11500 5785 50  0000 C CNN
-F 1 "SW_Push" H 11500 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 5700 50  0001 C CNN
-F 3 "~" H 11500 5700 50  0001 C CNN
-	1    11500 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE749
+P 10300 4650
+F 0 "SW?" H 10300 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10300 4844 50  0000 C CNN
+F 2 "" H 10300 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10300 4850 50  0001 C CNN
+	1    10300 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW96
-U 1 1 60468FAD
-P 12300 5500
-F 0 "SW96" H 12300 5785 50  0000 C CNN
-F 1 "SW_Push" H 12300 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 5700 50  0001 C CNN
-F 3 "~" H 12300 5700 50  0001 C CNN
-	1    12300 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE74F
+P 11200 4650
+F 0 "SW?" H 11200 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11200 4844 50  0000 C CNN
+F 2 "" H 11200 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11200 4850 50  0001 C CNN
+	1    11200 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW6
-U 1 1 60468FB3
-P 4950 5500
-F 0 "SW6" H 4950 5785 50  0000 C CNN
-F 1 "SW_Push" H 4950 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 5700 50  0001 C CNN
-F 3 "~" H 4950 5700 50  0001 C CNN
-	1    4950 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE755
+P 12050 4650
+F 0 "SW?" H 12050 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12050 4844 50  0000 C CNN
+F 2 "" H 12050 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12050 4850 50  0001 C CNN
+	1    12050 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW16
-U 1 1 60468FB9
-P 5750 5500
-F 0 "SW16" H 5750 5785 50  0000 C CNN
-F 1 "SW_Push" H 5750 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 5700 50  0001 C CNN
-F 3 "~" H 5750 5700 50  0001 C CNN
-	1    5750 5500
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE75B
+P 12850 4650
+F 0 "SW?" H 12850 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12850 4844 50  0000 C CNN
+F 2 "" H 12850 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12850 4850 50  0001 C CNN
+	1    12850 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 5500 12100 5650
-Wire Wire Line
-	12100 5650 11300 5650
-Wire Wire Line
-	5550 5650 5550 5500
-Wire Wire Line
-	5550 5650 4750 5650
-Wire Wire Line
-	4750 5650 4750 5500
-Connection ~ 5550 5650
-Wire Wire Line
-	6400 5500 6400 5650
-Connection ~ 6400 5650
-Wire Wire Line
-	6400 5650 5550 5650
-Wire Wire Line
-	8050 5500 8050 5650
-Connection ~ 8050 5650
-Wire Wire Line
-	8850 5650 8850 5500
-Connection ~ 8850 5650
-Wire Wire Line
-	8850 5650 8050 5650
-Wire Wire Line
-	9650 5650 9650 5500
-Connection ~ 9650 5650
-Wire Wire Line
-	9650 5650 8850 5650
-Wire Wire Line
-	11300 5650 11300 5500
-Connection ~ 11300 5650
-Wire Wire Line
-	5150 5500 5150 6150
-Wire Wire Line
-	5950 5500 5950 6150
-Wire Wire Line
-	6800 5500 6800 6150
-Wire Wire Line
-	8450 5500 8450 6150
-Wire Wire Line
-	9250 5500 9250 6150
-Wire Wire Line
-	10050 5500 10050 6150
-Wire Wire Line
-	11700 5500 11700 6150
-Wire Wire Line
-	12500 5500 12500 6150
 $Comp
-L Switch:SW_Push SW27
-U 1 1 60468FE4
-P 6600 6150
-F 0 "SW27" H 6600 6435 50  0000 C CNN
-F 1 "SW_Push" H 6600 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 6350 50  0001 C CNN
-F 3 "~" H 6600 6350 50  0001 C CNN
-	1    6600 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606BE761
+P 13700 4650
+F 0 "SW?" H 13700 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13700 4844 50  0000 C CNN
+F 2 "" H 13700 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13700 4850 50  0001 C CNN
+	1    13700 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW37
-U 1 1 60468FEA
-P 7400 6150
-F 0 "SW37" H 7400 6435 50  0000 C CNN
-F 1 "SW_Push" H 7400 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 6350 50  0001 C CNN
-F 3 "~" H 7400 6350 50  0001 C CNN
-	1    7400 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606C053F
+P 14550 4650
+F 0 "SW?" H 14550 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14550 4844 50  0000 C CNN
+F 2 "" H 14550 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14550 4850 50  0001 C CNN
+	1    14550 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW47
-U 1 1 60468FF0
-P 8250 6150
-F 0 "SW47" H 8250 6435 50  0000 C CNN
-F 1 "SW_Push" H 8250 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 6350 50  0001 C CNN
-F 3 "~" H 8250 6350 50  0001 C CNN
-	1    8250 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606C0545
+P 15400 4650
+F 0 "SW?" H 15400 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15400 4844 50  0000 C CNN
+F 2 "" H 15400 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15400 4850 50  0001 C CNN
+	1    15400 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW57
-U 1 1 60468FF6
-P 9050 6150
-F 0 "SW57" H 9050 6435 50  0000 C CNN
-F 1 "SW_Push" H 9050 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 6350 50  0001 C CNN
-F 3 "~" H 9050 6350 50  0001 C CNN
-	1    9050 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606C0D56
+P 17100 4650
+F 0 "SW?" H 17100 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17100 4844 50  0000 C CNN
+F 2 "" H 17100 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 4850 50  0001 C CNN
+	1    17100 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW67
-U 1 1 60468FFC
-P 9850 6150
-F 0 "SW67" H 9850 6435 50  0000 C CNN
-F 1 "SW_Push" H 9850 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 6350 50  0001 C CNN
-F 3 "~" H 9850 6350 50  0001 C CNN
-	1    9850 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606C17E9
+P 3800 4650
+F 0 "SW?" H 3800 4935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 3800 4844 50  0000 C CNN
+F 2 "" H 3800 4850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3800 4850 50  0001 C CNN
+	1    3800 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW77
-U 1 1 60469002
-P 10650 6150
-F 0 "SW77" H 10650 6435 50  0000 C CNN
-F 1 "SW_Push" H 10650 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 6350 50  0001 C CNN
-F 3 "~" H 10650 6350 50  0001 C CNN
-	1    10650 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC530
+P 5150 5150
+F 0 "SW?" H 5150 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5150 5344 50  0000 C CNN
+F 2 "" H 5150 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5150 5350 50  0001 C CNN
+	1    5150 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW87
-U 1 1 60469008
-P 11500 6150
-F 0 "SW87" H 11500 6435 50  0000 C CNN
-F 1 "SW_Push" H 11500 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 6350 50  0001 C CNN
-F 3 "~" H 11500 6350 50  0001 C CNN
-	1    11500 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC536
+P 6050 5150
+F 0 "SW?" H 6050 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6050 5344 50  0000 C CNN
+F 2 "" H 6050 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6050 5350 50  0001 C CNN
+	1    6050 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW97
-U 1 1 6046900E
-P 12300 6150
-F 0 "SW97" H 12300 6435 50  0000 C CNN
-F 1 "SW_Push" H 12300 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 6350 50  0001 C CNN
-F 3 "~" H 12300 6350 50  0001 C CNN
-	1    12300 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC53C
+P 6950 5150
+F 0 "SW?" H 6950 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6950 5344 50  0000 C CNN
+F 2 "" H 6950 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6950 5350 50  0001 C CNN
+	1    6950 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW7
-U 1 1 60469014
-P 4950 6150
-F 0 "SW7" H 4950 6435 50  0000 C CNN
-F 1 "SW_Push" H 4950 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 6350 50  0001 C CNN
-F 3 "~" H 4950 6350 50  0001 C CNN
-	1    4950 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC542
+P 7850 5150
+F 0 "SW?" H 7850 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7850 5344 50  0000 C CNN
+F 2 "" H 7850 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 5350 50  0001 C CNN
+	1    7850 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW17
-U 1 1 6046901A
-P 5750 6150
-F 0 "SW17" H 5750 6435 50  0000 C CNN
-F 1 "SW_Push" H 5750 6344 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 6350 50  0001 C CNN
-F 3 "~" H 5750 6350 50  0001 C CNN
-	1    5750 6150
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC548
+P 8700 5150
+F 0 "SW?" H 8700 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8700 5344 50  0000 C CNN
+F 2 "" H 8700 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8700 5350 50  0001 C CNN
+	1    8700 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 6150 12100 6300
-Wire Wire Line
-	12100 6300 11300 6300
-Wire Wire Line
-	5550 6300 5550 6150
-Wire Wire Line
-	5550 6300 4750 6300
-Wire Wire Line
-	4750 6300 4750 6150
-Connection ~ 5550 6300
-Wire Wire Line
-	6400 6150 6400 6300
-Connection ~ 6400 6300
-Wire Wire Line
-	6400 6300 5550 6300
-Wire Wire Line
-	7200 6150 7200 6300
-Connection ~ 7200 6300
-Wire Wire Line
-	7200 6300 6400 6300
-Wire Wire Line
-	8050 6150 8050 6300
-Connection ~ 8050 6300
-Wire Wire Line
-	8050 6300 7200 6300
-Wire Wire Line
-	8850 6300 8850 6150
-Connection ~ 8850 6300
-Wire Wire Line
-	8850 6300 8050 6300
-Wire Wire Line
-	9650 6300 9650 6150
-Connection ~ 9650 6300
-Wire Wire Line
-	9650 6300 8850 6300
-Wire Wire Line
-	10450 6300 10450 6150
-Connection ~ 10450 6300
-Wire Wire Line
-	10450 6300 9650 6300
-Wire Wire Line
-	11300 6300 11300 6150
-Connection ~ 11300 6300
-Wire Wire Line
-	11300 6300 10450 6300
-Wire Wire Line
-	5150 6150 5150 6800
-Wire Wire Line
-	5950 6150 5950 6800
-Wire Wire Line
-	7600 6150 7600 6800
-Wire Wire Line
-	8450 6150 8450 6800
-Wire Wire Line
-	9250 6150 9250 6800
-Wire Wire Line
-	10050 6150 10050 6800
-Wire Wire Line
-	10850 6150 10850 6800
-Wire Wire Line
-	11700 6150 11700 6800
-Wire Wire Line
-	12500 6150 12500 6800
 $Comp
-L Switch:SW_Push SW38
-U 1 1 6046904B
-P 7400 6800
-F 0 "SW38" H 7400 7085 50  0000 C CNN
-F 1 "SW_Push" H 7400 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 7000 50  0001 C CNN
-F 3 "~" H 7400 7000 50  0001 C CNN
-	1    7400 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC54E
+P 9550 5150
+F 0 "SW?" H 9550 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9550 5344 50  0000 C CNN
+F 2 "" H 9550 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9550 5350 50  0001 C CNN
+	1    9550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW48
-U 1 1 60469051
-P 8250 6800
-F 0 "SW48" H 8250 7085 50  0000 C CNN
-F 1 "SW_Push" H 8250 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 7000 50  0001 C CNN
-F 3 "~" H 8250 7000 50  0001 C CNN
-	1    8250 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC554
+P 10450 5150
+F 0 "SW?" H 10450 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10450 5344 50  0000 C CNN
+F 2 "" H 10450 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10450 5350 50  0001 C CNN
+	1    10450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW58
-U 1 1 60469057
-P 9050 6800
-F 0 "SW58" H 9050 7085 50  0000 C CNN
-F 1 "SW_Push" H 9050 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 7000 50  0001 C CNN
-F 3 "~" H 9050 7000 50  0001 C CNN
-	1    9050 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC55A
+P 11350 5150
+F 0 "SW?" H 11350 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11350 5344 50  0000 C CNN
+F 2 "" H 11350 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11350 5350 50  0001 C CNN
+	1    11350 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW68
-U 1 1 6046905D
-P 9850 6800
-F 0 "SW68" H 9850 7085 50  0000 C CNN
-F 1 "SW_Push" H 9850 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 7000 50  0001 C CNN
-F 3 "~" H 9850 7000 50  0001 C CNN
-	1    9850 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC560
+P 12200 5150
+F 0 "SW?" H 12200 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12200 5344 50  0000 C CNN
+F 2 "" H 12200 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12200 5350 50  0001 C CNN
+	1    12200 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW78
-U 1 1 60469063
-P 10650 6800
-F 0 "SW78" H 10650 7085 50  0000 C CNN
-F 1 "SW_Push" H 10650 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 7000 50  0001 C CNN
-F 3 "~" H 10650 7000 50  0001 C CNN
-	1    10650 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606CC566
+P 13000 5150
+F 0 "SW?" H 13000 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13000 5344 50  0000 C CNN
+F 2 "" H 13000 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13000 5350 50  0001 C CNN
+	1    13000 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW88
-U 1 1 60469069
-P 11500 6800
-F 0 "SW88" H 11500 7085 50  0000 C CNN
-F 1 "SW_Push" H 11500 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 7000 50  0001 C CNN
-F 3 "~" H 11500 7000 50  0001 C CNN
-	1    11500 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606CE7C6
+P 3300 5150
+F 0 "SW?" H 3300 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 3300 5344 50  0000 C CNN
+F 2 "" H 3300 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3300 5350 50  0001 C CNN
+	1    3300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW98
-U 1 1 6046906F
-P 12300 6800
-F 0 "SW98" H 12300 7085 50  0000 C CNN
-F 1 "SW_Push" H 12300 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 7000 50  0001 C CNN
-F 3 "~" H 12300 7000 50  0001 C CNN
-	1    12300 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606CE7CC
+P 4350 5150
+F 0 "SW?" H 4350 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4350 5344 50  0000 C CNN
+F 2 "" H 4350 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4350 5350 50  0001 C CNN
+	1    4350 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW8
-U 1 1 60469075
-P 4950 6800
-F 0 "SW8" H 4950 7085 50  0000 C CNN
-F 1 "SW_Push" H 4950 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 7000 50  0001 C CNN
-F 3 "~" H 4950 7000 50  0001 C CNN
-	1    4950 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606D07DD
+P 14150 5150
+F 0 "SW?" H 14150 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14150 5344 50  0000 C CNN
+F 2 "" H 14150 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14150 5350 50  0001 C CNN
+	1    14150 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW18
-U 1 1 6046907B
-P 5750 6800
-F 0 "SW18" H 5750 7085 50  0000 C CNN
-F 1 "SW_Push" H 5750 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 7000 50  0001 C CNN
-F 3 "~" H 5750 7000 50  0001 C CNN
-	1    5750 6800
+L Switch:SW_MEC_5G SW?
+U 1 1 606D3701
+P 15450 5150
+F 0 "SW?" H 15450 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15450 5344 50  0000 C CNN
+F 2 "" H 15450 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15450 5350 50  0001 C CNN
+	1    15450 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 6800 12100 6950
-Wire Wire Line
-	12100 6950 11300 6950
-Wire Wire Line
-	5550 6950 5550 6800
-Wire Wire Line
-	5550 6950 4750 6950
-Wire Wire Line
-	4750 6950 4750 6800
-Connection ~ 5550 6950
-Wire Wire Line
-	7200 6800 7200 6950
-Connection ~ 7200 6950
-Wire Wire Line
-	8050 6800 8050 6950
-Connection ~ 8050 6950
-Wire Wire Line
-	8050 6950 7200 6950
-Wire Wire Line
-	8850 6950 8850 6800
-Connection ~ 8850 6950
-Wire Wire Line
-	8850 6950 8050 6950
-Wire Wire Line
-	9650 6950 9650 6800
-Connection ~ 9650 6950
-Wire Wire Line
-	9650 6950 8850 6950
-Wire Wire Line
-	10450 6950 10450 6800
-Connection ~ 10450 6950
-Wire Wire Line
-	10450 6950 9650 6950
-Wire Wire Line
-	11300 6950 11300 6800
-Connection ~ 11300 6950
-Wire Wire Line
-	11300 6950 10450 6950
-Wire Wire Line
-	5150 6800 5150 7450
-Wire Wire Line
-	5950 6800 5950 7450
-Wire Wire Line
-	7600 6800 7600 7450
-Wire Wire Line
-	8450 6800 8450 7450
-Wire Wire Line
-	10050 6800 10050 7450
-Wire Wire Line
-	10850 6800 10850 7450
-Wire Wire Line
-	11700 6800 11700 7450
-Wire Wire Line
-	12500 6800 12500 7450
 $Comp
-L Switch:SW_Push SW29
-U 1 1 60484603
-P 6600 7450
-F 0 "SW29" H 6600 7735 50  0000 C CNN
-F 1 "SW_Push" H 6600 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 7650 50  0001 C CNN
-F 3 "~" H 6600 7650 50  0001 C CNN
-	1    6600 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606D3C59
+P 17100 5150
+F 0 "SW?" H 17100 5435 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17100 5344 50  0000 C CNN
+F 2 "" H 17100 5350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 5350 50  0001 C CNN
+	1    17100 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW39
-U 1 1 60484609
-P 7400 7450
-F 0 "SW39" H 7400 7735 50  0000 C CNN
-F 1 "SW_Push" H 7400 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 7650 50  0001 C CNN
-F 3 "~" H 7400 7650 50  0001 C CNN
-	1    7400 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA79C
+P 5300 5750
+F 0 "SW?" H 5300 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5300 5944 50  0000 C CNN
+F 2 "" H 5300 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5300 5950 50  0001 C CNN
+	1    5300 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW49
-U 1 1 6048460F
-P 8250 7450
-F 0 "SW49" H 8250 7735 50  0000 C CNN
-F 1 "SW_Push" H 8250 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 7650 50  0001 C CNN
-F 3 "~" H 8250 7650 50  0001 C CNN
-	1    8250 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7A2
+P 6200 5750
+F 0 "SW?" H 6200 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6200 5944 50  0000 C CNN
+F 2 "" H 6200 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6200 5950 50  0001 C CNN
+	1    6200 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW69
-U 1 1 6048461B
-P 9850 7450
-F 0 "SW69" H 9850 7735 50  0000 C CNN
-F 1 "SW_Push" H 9850 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 7650 50  0001 C CNN
-F 3 "~" H 9850 7650 50  0001 C CNN
-	1    9850 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7A8
+P 7100 5750
+F 0 "SW?" H 7100 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7100 5944 50  0000 C CNN
+F 2 "" H 7100 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7100 5950 50  0001 C CNN
+	1    7100 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW79
-U 1 1 60484621
-P 10650 7450
-F 0 "SW79" H 10650 7735 50  0000 C CNN
-F 1 "SW_Push" H 10650 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 7650 50  0001 C CNN
-F 3 "~" H 10650 7650 50  0001 C CNN
-	1    10650 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7AE
+P 8000 5750
+F 0 "SW?" H 8000 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8000 5944 50  0000 C CNN
+F 2 "" H 8000 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8000 5950 50  0001 C CNN
+	1    8000 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW99
-U 1 1 6048462D
-P 12300 7450
-F 0 "SW99" H 12300 7735 50  0000 C CNN
-F 1 "SW_Push" H 12300 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 7650 50  0001 C CNN
-F 3 "~" H 12300 7650 50  0001 C CNN
-	1    12300 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7B4
+P 8850 5750
+F 0 "SW?" H 8850 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8850 5944 50  0000 C CNN
+F 2 "" H 8850 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8850 5950 50  0001 C CNN
+	1    8850 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW9
-U 1 1 60484633
-P 4950 7450
-F 0 "SW9" H 4950 7735 50  0000 C CNN
-F 1 "SW_Push" H 4950 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 7650 50  0001 C CNN
-F 3 "~" H 4950 7650 50  0001 C CNN
-	1    4950 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7BA
+P 9700 5750
+F 0 "SW?" H 9700 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9700 5944 50  0000 C CNN
+F 2 "" H 9700 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9700 5950 50  0001 C CNN
+	1    9700 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW19
-U 1 1 60484639
-P 5750 7450
-F 0 "SW19" H 5750 7735 50  0000 C CNN
-F 1 "SW_Push" H 5750 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 7650 50  0001 C CNN
-F 3 "~" H 5750 7650 50  0001 C CNN
-	1    5750 7450
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7C0
+P 10600 5750
+F 0 "SW?" H 10600 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10600 5944 50  0000 C CNN
+F 2 "" H 10600 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10600 5950 50  0001 C CNN
+	1    10600 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 7450 12100 7600
-Wire Wire Line
-	12100 7600 11300 7600
-Wire Wire Line
-	5550 7600 5550 7450
-Wire Wire Line
-	5550 7600 4750 7600
-Wire Wire Line
-	4750 7600 4750 7450
-Connection ~ 5550 7600
-Wire Wire Line
-	6400 7450 6400 7600
-Connection ~ 6400 7600
-Wire Wire Line
-	6400 7600 5550 7600
-Wire Wire Line
-	7200 7450 7200 7600
-Connection ~ 7200 7600
-Wire Wire Line
-	7200 7600 6400 7600
-Wire Wire Line
-	8050 7450 8050 7600
-Connection ~ 8050 7600
-Wire Wire Line
-	8050 7600 7200 7600
-Wire Wire Line
-	9650 7600 9650 7450
-Connection ~ 9650 7600
-Wire Wire Line
-	10450 7600 10450 7450
-Connection ~ 10450 7600
-Wire Wire Line
-	10450 7600 9650 7600
-Wire Wire Line
-	11300 7600 11300 7450
-Connection ~ 11300 7600
-Wire Wire Line
-	11300 7600 10450 7600
-Wire Wire Line
-	5150 7450 5150 8100
-Wire Wire Line
-	5950 7450 5950 8100
-Wire Wire Line
-	6800 7450 6800 8100
-Wire Wire Line
-	7600 7450 7600 8100
-Wire Wire Line
-	8450 7450 8450 8100
-Wire Wire Line
-	10050 7450 10050 8100
-Wire Wire Line
-	10850 7450 10850 8100
-Wire Wire Line
-	11700 7450 11700 8100
-Wire Wire Line
-	12500 7450 12500 8100
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7C6
+P 11500 5750
+F 0 "SW?" H 11500 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11500 5944 50  0000 C CNN
+F 2 "" H 11500 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11500 5950 50  0001 C CNN
+	1    11500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7CC
+P 12350 5750
+F 0 "SW?" H 12350 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12350 5944 50  0000 C CNN
+F 2 "" H 12350 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12350 5950 50  0001 C CNN
+	1    12350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7D2
+P 13150 5750
+F 0 "SW?" H 13150 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13150 5944 50  0000 C CNN
+F 2 "" H 13150 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13150 5950 50  0001 C CNN
+	1    13150 5750
+	1    0    0    -1  
+$EndComp
 $Comp
-L Switch:SW_Push SW30
-U 1 1 60484664
-P 6600 8100
-F 0 "SW30" H 6600 8385 50  0000 C CNN
-F 1 "SW_Push" H 6600 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 8300 50  0001 C CNN
-F 3 "~" H 6600 8300 50  0001 C CNN
-	1    6600 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7D8
+P 3300 5750
+F 0 "SW?" H 3300 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 3300 5944 50  0000 C CNN
+F 2 "" H 3300 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3300 5950 50  0001 C CNN
+	1    3300 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW40
-U 1 1 6048466A
-P 7400 8100
-F 0 "SW40" H 7400 8385 50  0000 C CNN
-F 1 "SW_Push" H 7400 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 8300 50  0001 C CNN
-F 3 "~" H 7400 8300 50  0001 C CNN
-	1    7400 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606DA7DE
+P 4350 5750
+F 0 "SW?" H 4350 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4350 5944 50  0000 C CNN
+F 2 "" H 4350 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4350 5950 50  0001 C CNN
+	1    4350 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW50
-U 1 1 60484670
-P 8250 8100
-F 0 "SW50" H 8250 8385 50  0000 C CNN
-F 1 "SW_Push" H 8250 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 8300 50  0001 C CNN
-F 3 "~" H 8250 8300 50  0001 C CNN
-	1    8250 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606DFAAA
+P 14450 5800
+F 0 "SW?" H 14450 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14450 5994 50  0000 C CNN
+F 2 "" H 14450 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14450 6000 50  0001 C CNN
+	1    14450 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW70
-U 1 1 6048467C
-P 9850 8100
-F 0 "SW70" H 9850 8385 50  0000 C CNN
-F 1 "SW_Push" H 9850 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9850 8300 50  0001 C CNN
-F 3 "~" H 9850 8300 50  0001 C CNN
-	1    9850 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606E10C2
+P 16200 5750
+F 0 "SW?" H 16200 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16200 5944 50  0000 C CNN
+F 2 "" H 16200 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16200 5950 50  0001 C CNN
+	1    16200 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW80
-U 1 1 60484682
-P 10650 8100
-F 0 "SW80" H 10650 8385 50  0000 C CNN
-F 1 "SW_Push" H 10650 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 8300 50  0001 C CNN
-F 3 "~" H 10650 8300 50  0001 C CNN
-	1    10650 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606E10C8
+P 17100 5750
+F 0 "SW?" H 17100 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17100 5944 50  0000 C CNN
+F 2 "" H 17100 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 5950 50  0001 C CNN
+	1    17100 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW90
-U 1 1 60484688
-P 11500 8100
-F 0 "SW90" H 11500 8385 50  0000 C CNN
-F 1 "SW_Push" H 11500 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 8300 50  0001 C CNN
-F 3 "~" H 11500 8300 50  0001 C CNN
-	1    11500 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606E21FF
+P 3300 6350
+F 0 "SW?" H 3300 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 3300 6544 50  0000 C CNN
+F 2 "" H 3300 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3300 6550 50  0001 C CNN
+	1    3300 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW100
-U 1 1 6048468E
-P 12300 8100
-F 0 "SW100" H 12300 8385 50  0000 C CNN
-F 1 "SW_Push" H 12300 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 12300 8300 50  0001 C CNN
-F 3 "~" H 12300 8300 50  0001 C CNN
-	1    12300 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606E2205
+P 4450 6350
+F 0 "SW?" H 4450 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4450 6544 50  0000 C CNN
+F 2 "" H 4450 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4450 6550 50  0001 C CNN
+	1    4450 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW10
-U 1 1 60484694
-P 4950 8100
-F 0 "SW10" H 4950 8385 50  0000 C CNN
-F 1 "SW_Push" H 4950 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 8300 50  0001 C CNN
-F 3 "~" H 4950 8300 50  0001 C CNN
-	1    4950 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606E6766
+P 5600 6350
+F 0 "SW?" H 5600 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5600 6544 50  0000 C CNN
+F 2 "" H 5600 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5600 6550 50  0001 C CNN
+	1    5600 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW20
-U 1 1 6048469A
-P 5750 8100
-F 0 "SW20" H 5750 8385 50  0000 C CNN
-F 1 "SW_Push" H 5750 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 5750 8300 50  0001 C CNN
-F 3 "~" H 5750 8300 50  0001 C CNN
-	1    5750 8100
+L Switch:SW_MEC_5G SW?
+U 1 1 606E6EAC
+P 6650 6350
+F 0 "SW?" H 6650 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6650 6544 50  0000 C CNN
+F 2 "" H 6650 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6650 6550 50  0001 C CNN
+	1    6650 6350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606E7A06
+P 7700 6350
+F 0 "SW?" H 7700 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7700 6544 50  0000 C CNN
+F 2 "" H 7700 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7700 6550 50  0001 C CNN
+	1    7700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606E7A0C
+P 9200 6350
+F 0 "SW?" H 9200 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9200 6544 50  0000 C CNN
+F 2 "" H 9200 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9200 6550 50  0001 C CNN
+	1    9200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606E9DB6
+P 10400 6350
+F 0 "SW?" H 10400 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10400 6544 50  0000 C CNN
+F 2 "" H 10400 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10400 6550 50  0001 C CNN
+	1    10400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606EAC76
+P 11600 6300
+F 0 "SW?" H 11600 6585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11600 6494 50  0000 C CNN
+F 2 "" H 11600 6500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11600 6500 50  0001 C CNN
+	1    11600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606EAC7C
+P 12500 6300
+F 0 "SW?" H 12500 6585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12500 6494 50  0000 C CNN
+F 2 "" H 12500 6500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12500 6500 50  0001 C CNN
+	1    12500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606EB50E
+P 14150 6300
+F 0 "SW?" H 14150 6585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14150 6494 50  0000 C CNN
+F 2 "" H 14150 6500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14150 6500 50  0001 C CNN
+	1    14150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606EDD2E
+P 15350 6300
+F 0 "SW?" H 15350 6585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15350 6494 50  0000 C CNN
+F 2 "" H 15350 6500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15350 6500 50  0001 C CNN
+	1    15350 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606EDD34
+P 16200 6300
+F 0 "SW?" H 16200 6585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16200 6494 50  0000 C CNN
+F 2 "" H 16200 6500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16200 6500 50  0001 C CNN
+	1    16200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 606EDD3A
+P 17100 6300
+F 0 "SW?" H 17100 6585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17100 6494 50  0000 C CNN
+F 2 "" H 17100 6500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 6500 50  0001 C CNN
+	1    17100 6300
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	12100 8100 12100 8250
+	3650 3500 3600 3500
 Wire Wire Line
-	12100 8250 11300 8250
+	3600 3500 3600 4100
 Wire Wire Line
-	5550 8250 5550 8100
+	3600 4100 3600 4650
 Wire Wire Line
-	5550 8250 4750 8250
+	3600 4800 3100 4800
 Wire Wire Line
-	4750 8250 4750 8100
-Connection ~ 5550 8250
+	3100 4800 3100 5150
+Connection ~ 3600 4100
+Connection ~ 3600 4650
 Wire Wire Line
-	6400 8100 6400 8250
-Connection ~ 6400 8250
+	3600 4650 3600 4800
+Connection ~ 3100 5150
 Wire Wire Line
-	6400 8250 5550 8250
+	3100 5150 3100 5750
+Connection ~ 3100 5750
 Wire Wire Line
-	7200 8100 7200 8250
-Connection ~ 7200 8250
+	3100 5750 3100 6350
 Wire Wire Line
-	7200 8250 6400 8250
+	4550 2900 4450 2900
 Wire Wire Line
-	8050 8100 8050 8250
-Connection ~ 8050 8250
+	4450 2900 4450 3500
 Wire Wire Line
-	8050 8250 7200 8250
+	4450 3750 4600 3750
 Wire Wire Line
-	9650 8250 9650 8100
-Connection ~ 9650 8250
+	4600 3750 4600 4100
 Wire Wire Line
-	10450 8250 10450 8100
-Connection ~ 10450 8250
+	4600 4400 4150 4400
 Wire Wire Line
-	10450 8250 9650 8250
+	4150 4400 4150 5150
 Wire Wire Line
-	11300 8250 11300 8100
-Connection ~ 11300 8250
+	4150 6100 4250 6100
 Wire Wire Line
-	11300 8250 10450 8250
+	4250 6100 4250 6350
+Connection ~ 4450 3500
 Wire Wire Line
-	1950 2250 3150 2250
+	4450 3500 4450 3750
+Connection ~ 4600 4100
 Wire Wire Line
-	3150 2250 3150 1200
+	4600 4100 4600 4400
+Connection ~ 4150 5150
 Wire Wire Line
-	1950 2550 3200 2550
+	4150 5150 4150 5750
+Connection ~ 4150 5750
 Wire Wire Line
-	3200 2550 3200 1250
+	4150 5750 4150 6100
 Wire Wire Line
-	1950 1850 3250 1850
+	5650 2900 5400 2900
 Wire Wire Line
-	3250 1850 3250 1300
+	5400 2900 5400 3500
 Wire Wire Line
-	1950 2850 3300 2850
+	5400 4250 4800 4250
 Wire Wire Line
-	3300 2850 3300 1350
+	4800 4250 4800 4650
 Wire Wire Line
-	1950 3150 3350 3150
+	4800 5000 4950 5000
 Wire Wire Line
-	3350 3150 3350 1400
+	4950 5000 4950 5150
 Wire Wire Line
-	1950 1350 3100 1350
+	4950 5500 5100 5500
 Wire Wire Line
-	3100 1350 3100 1450
+	5100 5500 5100 5750
 Wire Wire Line
-	1950 1450 3050 1450
+	5100 6100 5400 6100
 Wire Wire Line
-	3050 1450 3050 1500
+	5400 6100 5400 6350
+Connection ~ 5400 3500
 Wire Wire Line
-	1950 1650 3000 1650
+	5400 3500 5400 4250
+Connection ~ 4800 4650
 Wire Wire Line
-	3000 1650 3000 1600
+	4800 4650 4800 5000
+Connection ~ 4950 5150
 Wire Wire Line
-	1950 2750 3400 2750
+	4950 5150 4950 5500
+Connection ~ 5100 5750
 Wire Wire Line
-	3400 2750 3400 1650
+	5100 5750 5100 6100
 Wire Wire Line
-	5150 1650 5150 2250
+	6300 3500 6300 2900
 Wire Wire Line
-	3400 1650 5150 1650
-Connection ~ 5150 2250
+	6300 2900 6800 2900
 Wire Wire Line
-	5950 1600 5950 2250
+	6300 3500 6300 3650
 Wire Wire Line
-	3000 1600 5950 1600
-Connection ~ 5950 2250
+	6300 3650 5550 3650
 Wire Wire Line
-	6800 1550 6800 2250
+	5550 3650 5550 4100
 Wire Wire Line
-	1950 1550 6800 1550
-Connection ~ 6800 2250
+	5550 4550 5700 4550
 Wire Wire Line
-	7600 1500 7600 2250
+	5700 4550 5700 4650
 Wire Wire Line
-	3050 1500 7600 1500
-Connection ~ 7600 2250
+	5700 5000 5850 5000
 Wire Wire Line
-	8450 1450 8450 2250
+	5850 5000 5850 5150
 Wire Wire Line
-	3100 1450 8450 1450
-Connection ~ 8450 2250
+	5850 5550 6000 5550
 Wire Wire Line
-	9250 1400 9250 2250
+	6000 5550 6000 5750
 Wire Wire Line
-	3350 1400 9250 1400
-Connection ~ 9250 2250
+	6000 6050 6450 6050
 Wire Wire Line
-	10050 1350 10050 2250
+	6450 6050 6450 6350
+Connection ~ 6300 3500
+Connection ~ 5550 4100
 Wire Wire Line
-	3300 1350 10050 1350
-Connection ~ 10050 2250
+	5550 4100 5550 4550
+Connection ~ 5700 4650
 Wire Wire Line
-	10850 1300 10850 2250
+	5700 4650 5700 5000
+Connection ~ 5850 5150
 Wire Wire Line
-	3250 1300 10850 1300
-Connection ~ 10850 2250
+	5850 5150 5850 5550
+Connection ~ 6000 5750
 Wire Wire Line
-	11700 1250 11700 2250
+	6000 5750 6000 6050
 Wire Wire Line
-	3200 1250 11700 1250
-Connection ~ 11700 2250
+	8000 2900 7650 2900
 Wire Wire Line
-	12500 1200 12500 2250
+	7650 2900 7650 3150
 Wire Wire Line
-	3150 1200 12500 1200
-Connection ~ 12500 2250
+	7650 3150 7200 3150
 Wire Wire Line
-	1950 1950 4350 1950
+	7200 3150 7200 3500
 Wire Wire Line
-	4350 1950 4350 2400
+	7200 3700 6450 3700
 Wire Wire Line
-	4350 2400 4750 2400
-Connection ~ 4750 2400
+	6450 3700 6450 4100
 Wire Wire Line
-	1950 3850 3500 3850
+	6450 4350 6600 4350
 Wire Wire Line
-	3500 3850 3500 2000
+	6600 4350 6600 4650
 Wire Wire Line
-	3500 2000 4300 2000
+	6600 4950 6750 4950
 Wire Wire Line
-	4300 2000 4300 3050
+	6750 4950 6750 5150
 Wire Wire Line
-	4300 3050 4750 3050
-Connection ~ 4750 3050
+	6750 5550 6900 5550
 Wire Wire Line
-	4750 3050 5550 3050
+	6900 5550 6900 5750
 Wire Wire Line
-	1950 3750 3550 3750
+	6900 5900 7500 5900
 Wire Wire Line
-	3550 3750 3550 2050
+	7500 5900 7500 6350
+Connection ~ 7200 3500
 Wire Wire Line
-	3550 2050 4250 2050
+	7200 3500 7200 3700
+Connection ~ 6450 4100
 Wire Wire Line
-	4250 2050 4250 3700
+	6450 4100 6450 4350
+Connection ~ 6600 4650
 Wire Wire Line
-	4250 3700 4750 3700
-Connection ~ 4750 3700
+	6600 4650 6600 4950
+Connection ~ 6750 5150
 Wire Wire Line
-	1950 3650 3600 3650
+	6750 5150 6750 5550
+Connection ~ 6900 5750
 Wire Wire Line
-	3600 3650 3600 2100
+	6900 5750 6900 5900
 Wire Wire Line
-	3600 2100 4200 2100
+	9150 2900 9150 3150
 Wire Wire Line
-	4200 2100 4200 4350
+	9150 3150 8100 3150
 Wire Wire Line
-	4200 4350 4750 4350
-Connection ~ 4750 4350
+	8100 3150 8100 3500
 Wire Wire Line
-	1950 3550 3650 3550
+	8100 3700 7350 3700
 Wire Wire Line
-	3650 3550 3650 2150
+	7350 3700 7350 4100
 Wire Wire Line
-	3650 2150 4150 2150
+	7350 4450 7500 4450
 Wire Wire Line
-	4150 2150 4150 5000
+	7500 4450 7500 4650
 Wire Wire Line
-	4150 5000 4750 5000
-Connection ~ 4750 5000
+	7500 5000 7650 5000
 Wire Wire Line
-	1950 3450 3700 3450
+	7650 5000 7650 5150
 Wire Wire Line
-	3700 3450 3700 2200
+	7650 5450 7800 5450
 Wire Wire Line
-	3700 2200 4100 2200
+	7800 5450 7800 5750
 Wire Wire Line
-	4100 2200 4100 5650
+	7800 6050 9000 6050
 Wire Wire Line
-	4100 5650 4750 5650
-Connection ~ 4750 5650
+	9000 6050 9000 6350
+Connection ~ 8100 3500
 Wire Wire Line
-	1950 3350 3750 3350
+	8100 3500 8100 3700
+Connection ~ 7350 4100
 Wire Wire Line
-	3750 3350 3750 2250
+	7350 4100 7350 4450
+Connection ~ 7500 4650
 Wire Wire Line
-	3750 2250 4050 2250
+	7500 4650 7500 5000
+Connection ~ 7650 5150
 Wire Wire Line
-	4050 2250 4050 6300
+	7650 5150 7650 5450
+Connection ~ 7800 5750
 Wire Wire Line
-	4050 6300 4750 6300
-Connection ~ 4750 6300
+	7800 5750 7800 6050
 Wire Wire Line
-	1950 2450 3800 2450
+	8950 3500 8950 3750
 Wire Wire Line
-	3800 2450 3800 2300
+	8950 3750 8250 3750
 Wire Wire Line
-	3800 2300 4000 2300
+	8250 3750 8250 4100
 Wire Wire Line
-	4000 2300 4000 6950
+	8350 4650 8350 4100
 Wire Wire Line
-	4000 6950 4750 6950
-Connection ~ 4750 6950
+	8350 4100 8250 4100
+Connection ~ 8250 4100
 Wire Wire Line
-	1950 2350 3150 2350
+	8350 4650 8350 4900
 Wire Wire Line
-	3150 2350 3150 2650
+	8350 4900 8500 4900
 Wire Wire Line
-	3150 2650 3850 2650
+	8500 4900 8500 5150
+Connection ~ 8350 4650
 Wire Wire Line
-	3850 2650 3850 2350
+	8500 5150 8500 5750
 Wire Wire Line
-	3850 2350 3950 2350
+	8500 5750 8650 5750
+Connection ~ 8500 5150
 Wire Wire Line
-	3950 2350 3950 7600
+	10250 2900 9800 2900
 Wire Wire Line
-	3950 7600 4750 7600
-Connection ~ 4750 7600
+	9800 2900 9800 3500
 Wire Wire Line
-	1950 1050 2900 1050
+	9800 3500 9800 3750
 Wire Wire Line
-	2900 1050 2900 2700
+	9800 3750 9100 3750
 Wire Wire Line
-	2900 2700 3900 2700
+	9100 3750 9100 4100
 Wire Wire Line
-	3900 2700 3900 8250
+	9100 4550 9200 4550
 Wire Wire Line
-	3900 8250 4750 8250
-Connection ~ 4750 8250
-$Comp
-L Switch:SW_Push SW3
-U 1 1 6044646C
-P 4950 3550
-F 0 "SW3" H 4950 3835 50  0000 C CNN
-F 1 "SW_Push" H 4950 3744 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 3750 50  0001 C CNN
-F 3 "~" H 4950 3750 50  0001 C CNN
-	1    4950 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 60437B9E
-P 4950 2900
-F 0 "SW2" H 4950 3185 50  0000 C CNN
-F 1 "SW_Push" H 4950 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 3100 50  0001 C CNN
-F 3 "~" H 4950 3100 50  0001 C CNN
-	1    4950 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 6042DE2A
-P 4950 2250
-F 0 "SW1" H 4950 2535 50  0000 C CNN
-F 1 "SW_Push" H 4950 2444 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 4950 2450 50  0001 C CNN
-F 3 "~" H 4950 2450 50  0001 C CNN
-	1    4950 2250
-	1    0    0    -1  
-$EndComp
+	9200 4550 9200 4650
 Wire Wire Line
-	11700 4200 11700 4850
+	9200 5050 9300 5050
 Wire Wire Line
-	11700 3550 11700 4200
+	9300 5050 9300 5150
 Wire Wire Line
-	11300 4350 10450 4350
+	9300 5150 9350 5150
+Connection ~ 9800 3500
+Connection ~ 9100 4100
 Wire Wire Line
-	12100 4350 11300 4350
-Connection ~ 11300 4350
+	9100 4100 9100 4550
+Connection ~ 9200 4650
 Wire Wire Line
-	11300 4350 11300 4200
-$Comp
-L Switch:SW_Push SW84
-U 1 1 604464C1
-P 11500 4200
-F 0 "SW84" H 11500 4485 50  0000 C CNN
-F 1 "SW_Push" H 11500 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 4400 50  0001 C CNN
-F 3 "~" H 11500 4400 50  0001 C CNN
-	1    11500 4200
-	1    0    0    -1  
-$EndComp
+	9200 4650 9200 5050
 Wire Wire Line
-	10850 5500 10850 6150
+	9350 5150 9350 5750
 Wire Wire Line
-	10850 4850 10850 5500
+	9350 5750 9500 5750
+Connection ~ 9350 5150
 Wire Wire Line
-	11300 5650 10450 5650
+	9500 5750 9500 6350
 Wire Wire Line
-	10450 5650 9650 5650
-Connection ~ 10450 5650
+	9500 6350 10200 6350
+Connection ~ 9500 5750
 Wire Wire Line
-	10450 5650 10450 5500
-$Comp
-L Switch:SW_Push SW76
-U 1 1 60468FA1
-P 10650 5500
-F 0 "SW76" H 10650 5785 50  0000 C CNN
-F 1 "SW_Push" H 10650 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 10650 5700 50  0001 C CNN
-F 3 "~" H 10650 5700 50  0001 C CNN
-	1    10650 5500
-	1    0    0    -1  
-$EndComp
+	11250 2900 11100 2900
 Wire Wire Line
-	9250 6800 9250 7450
+	11100 2900 11100 3200
 Wire Wire Line
-	9650 7600 8850 7600
+	11100 3200 10700 3200
 Wire Wire Line
-	8850 7600 8050 7600
-Connection ~ 8850 7600
+	10700 3200 10700 3500
 Wire Wire Line
-	8850 7600 8850 7450
-$Comp
-L Switch:SW_Push SW59
-U 1 1 60484615
-P 9050 7450
-F 0 "SW59" H 9050 7735 50  0000 C CNN
-F 1 "SW_Push" H 9050 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 7650 50  0001 C CNN
-F 3 "~" H 9050 7650 50  0001 C CNN
-	1    9050 7450
-	1    0    0    -1  
-$EndComp
+	10700 3500 10700 3950
 Wire Wire Line
-	9250 7450 9250 8100
+	10700 3950 9950 3950
 Wire Wire Line
-	9650 8250 8850 8250
+	9950 3950 9950 4100
 Wire Wire Line
-	8850 8250 8050 8250
-Connection ~ 8850 8250
+	9950 4650 10100 4650
+Connection ~ 10700 3500
+Connection ~ 9950 4100
 Wire Wire Line
-	8850 8250 8850 8100
-$Comp
-L Switch:SW_Push SW60
-U 1 1 60484676
-P 9050 8100
-F 0 "SW60" H 9050 8385 50  0000 C CNN
-F 1 "SW_Push" H 9050 8294 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 8300 50  0001 C CNN
-F 3 "~" H 9050 8300 50  0001 C CNN
-	1    9050 8100
-	1    0    0    -1  
-$EndComp
+	9950 4100 9950 4650
 Wire Wire Line
-	9250 2900 9250 3550
+	10100 4650 10100 5150
 Wire Wire Line
-	9250 2250 9250 2900
+	10100 5150 10200 5150
+Connection ~ 10100 4650
 Wire Wire Line
-	9650 3050 8850 3050
+	10200 5150 10200 5750
 Wire Wire Line
-	8850 3050 8050 3050
-Connection ~ 8850 3050
+	10200 5750 10400 5750
+Connection ~ 10200 5150
 Wire Wire Line
-	8850 3050 8850 2900
-$Comp
-L Switch:SW_Push SW52
-U 1 1 60437B80
-P 9050 2900
-F 0 "SW52" H 9050 3185 50  0000 C CNN
-F 1 "SW_Push" H 9050 3094 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 9050 3100 50  0001 C CNN
-F 3 "~" H 9050 3100 50  0001 C CNN
-	1    9050 2900
-	1    0    0    -1  
-$EndComp
+	10200 5150 10250 5150
 Wire Wire Line
-	8450 4200 8450 4850
+	10400 5750 10400 6100
 Wire Wire Line
-	8450 3550 8450 4200
+	10400 6100 11400 6100
 Wire Wire Line
-	8850 4350 8050 4350
+	11400 6100 11400 6300
+Connection ~ 10400 5750
 Wire Wire Line
-	8050 4350 7200 4350
-Connection ~ 8050 4350
+	12250 2900 12250 3300
 Wire Wire Line
-	8050 4200 8050 4350
-$Comp
-L Switch:SW_Push SW44
-U 1 1 604464A9
-P 8250 4200
-F 0 "SW44" H 8250 4485 50  0000 C CNN
-F 1 "SW_Push" H 8250 4394 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 8250 4400 50  0001 C CNN
-F 3 "~" H 8250 4400 50  0001 C CNN
-	1    8250 4200
-	1    0    0    -1  
-$EndComp
+	12250 3300 11600 3300
 Wire Wire Line
-	7600 5500 7600 6150
+	11600 3300 11600 3500
 Wire Wire Line
-	7600 4850 7600 5500
+	11600 3950 10850 3950
 Wire Wire Line
-	8050 5650 7200 5650
+	10850 3950 10850 4100
 Wire Wire Line
-	7200 5650 6400 5650
-Connection ~ 7200 5650
+	10850 4650 11000 4650
+Connection ~ 11600 3500
 Wire Wire Line
-	7200 5500 7200 5650
-$Comp
-L Switch:SW_Push SW36
-U 1 1 60468F89
-P 7400 5500
-F 0 "SW36" H 7400 5785 50  0000 C CNN
-F 1 "SW_Push" H 7400 5694 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 7400 5700 50  0001 C CNN
-F 3 "~" H 7400 5700 50  0001 C CNN
-	1    7400 5500
-	1    0    0    -1  
-$EndComp
+	11600 3500 11600 3950
+Connection ~ 10850 4100
 Wire Wire Line
-	6400 6950 5550 6950
+	10850 4100 10850 4650
 Wire Wire Line
-	7200 6950 6400 6950
-Connection ~ 6400 6950
+	11000 4650 11000 5150
 Wire Wire Line
-	6400 6800 6400 6950
+	11000 5150 11150 5150
+Connection ~ 11000 4650
 Wire Wire Line
-	6800 6150 6800 6800
+	11150 5150 11150 5750
 Wire Wire Line
-	6800 6800 6800 7450
-$Comp
-L Switch:SW_Push SW28
-U 1 1 60469045
-P 6600 6800
-F 0 "SW28" H 6600 7085 50  0000 C CNN
-F 1 "SW_Push" H 6600 6994 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 6600 7000 50  0001 C CNN
-F 3 "~" H 6600 7000 50  0001 C CNN
-	1    6600 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW89
-U 1 1 60484627
-P 11500 7450
-F 0 "SW89" H 11500 7735 50  0000 C CNN
-F 1 "SW_Push" H 11500 7644 50  0000 C CNN
-F 2 "Libs:SW_PG1350_reversible_rotatable" H 11500 7650 50  0001 C CNN
-F 3 "~" H 11500 7650 50  0001 C CNN
-	1    11500 7450
-	1    0    0    -1  
-$EndComp
+	11150 5750 11300 5750
+Connection ~ 11150 5150
+Wire Wire Line
+	12450 3500 12450 3950
+Wire Wire Line
+	12450 3950 11750 3950
+Wire Wire Line
+	11750 3950 11750 4100
+Wire Wire Line
+	11750 4650 11850 4650
+Connection ~ 11750 4100
+Wire Wire Line
+	11750 4100 11750 4650
+Wire Wire Line
+	11850 4650 11850 5150
+Wire Wire Line
+	11850 5150 12000 5150
+Connection ~ 11850 4650
+Wire Wire Line
+	12000 5150 12000 5800
+Wire Wire Line
+	12000 5800 12150 5800
+Connection ~ 12000 5150
+Wire Wire Line
+	12150 6300 12300 6300
+Wire Wire Line
+	12150 5750 12150 5800
+Connection ~ 12150 5800
+Wire Wire Line
+	12150 5800 12150 6300
+Wire Wire Line
+	13450 2900 13250 2900
+Wire Wire Line
+	13250 2900 13250 3500
+Wire Wire Line
+	13250 3500 13250 3900
+Wire Wire Line
+	13250 3900 12600 3900
+Wire Wire Line
+	12600 3900 12600 4100
+Connection ~ 13250 3500
+Wire Wire Line
+	12600 4100 12600 4650
+Wire Wire Line
+	12600 4650 12650 4650
+Connection ~ 12600 4100
+Wire Wire Line
+	12650 4650 12650 5150
+Wire Wire Line
+	12650 5150 12800 5150
+Connection ~ 12650 4650
+Wire Wire Line
+	12800 5150 12800 5750
+Wire Wire Line
+	12800 5750 12950 5750
+Connection ~ 12800 5150
+Wire Wire Line
+	12950 5750 12950 6300
+Wire Wire Line
+	12950 6300 13950 6300
+Connection ~ 12950 5750
+Wire Wire Line
+	14550 2900 14100 2900
+Wire Wire Line
+	14100 2900 14100 3500
+Wire Wire Line
+	14100 3500 13900 3500
+Wire Wire Line
+	13900 3500 13900 3900
+Wire Wire Line
+	13900 3900 13400 3900
+Wire Wire Line
+	13400 3900 13400 4100
+Connection ~ 14100 3500
+Wire Wire Line
+	13400 4100 13400 4650
+Wire Wire Line
+	13400 4650 13500 4650
+Connection ~ 13400 4100
+Wire Wire Line
+	13500 4650 13500 5100
+Wire Wire Line
+	13500 5100 13950 5100
+Wire Wire Line
+	13950 5100 13950 5150
+Wire Wire Line
+	13950 5800 14250 5800
+Connection ~ 13500 4650
+Connection ~ 13950 5150
+Wire Wire Line
+	13950 5150 13950 5800
+Wire Wire Line
+	14250 5800 14250 5900
+Wire Wire Line
+	14250 5900 15150 5900
+Wire Wire Line
+	15150 5900 15150 6300
+Connection ~ 14250 5800
+Wire Wire Line
+	14950 3500 14850 3500
+Wire Wire Line
+	14850 3500 14850 3950
+Wire Wire Line
+	14850 3950 14250 3950
+Wire Wire Line
+	14250 3950 14250 4100
+Wire Wire Line
+	14250 4100 14250 4650
+Wire Wire Line
+	14250 4650 14350 4650
+Connection ~ 14250 4100
+Wire Wire Line
+	15700 3500 15850 3500
+Wire Wire Line
+	15700 4100 15650 4100
+Wire Wire Line
+	15700 2900 15700 3500
+Connection ~ 15700 3500
+Wire Wire Line
+	15700 3500 15700 4100
+Wire Wire Line
+	15650 4100 15200 4100
+Wire Wire Line
+	15200 4100 15200 4650
+Connection ~ 15650 4100
+Wire Wire Line
+	15200 4650 15200 5150
+Wire Wire Line
+	15200 5150 15250 5150
+Connection ~ 15200 4650
+Wire Wire Line
+	15200 5150 15200 5750
+Wire Wire Line
+	15200 5750 16000 5750
+Connection ~ 15200 5150
+Wire Wire Line
+	16000 5750 16000 6300
+Connection ~ 16000 5750
+Wire Wire Line
+	16650 3500 16650 4050
+Wire Wire Line
+	16650 4050 16850 4050
+Wire Wire Line
+	16900 4100 16900 4650
+Connection ~ 16900 4650
+Wire Wire Line
+	16900 4650 16900 5150
+Connection ~ 16900 5150
+Wire Wire Line
+	16900 5150 16900 5750
+Connection ~ 16900 5750
+Wire Wire Line
+	16900 5750 16900 6300
+Wire Wire Line
+	3600 3000 4950 3000
+Wire Wire Line
+	4950 3000 4950 2900
+Wire Wire Line
+	4950 3000 6050 3000
+Wire Wire Line
+	6050 3000 6050 2900
+Connection ~ 4950 3000
+Wire Wire Line
+	6050 3000 7200 3000
+Wire Wire Line
+	7200 3000 7200 2900
+Connection ~ 6050 3000
+Wire Wire Line
+	7200 3000 8400 3000
+Wire Wire Line
+	8400 3000 8400 2900
+Connection ~ 7200 3000
+Wire Wire Line
+	8400 3000 9550 3000
+Wire Wire Line
+	9550 3000 9550 2900
+Connection ~ 8400 3000
+Wire Wire Line
+	9550 3000 10650 3000
+Wire Wire Line
+	10650 3000 10650 2900
+Connection ~ 9550 3000
+Wire Wire Line
+	10650 3000 11650 3000
+Wire Wire Line
+	11650 3000 11650 2900
+Connection ~ 10650 3000
 $EndSCHEMATC
