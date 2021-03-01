@@ -723,36 +723,12 @@ F 3 "" H 20500 10950 50  0001 C CNN
 	1    20500 10950
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 15150 10350 3550 3550
-U 603B30DE
-F0 "Power_Delivery" 50
-F1 "Power.sch" 50
-F2 "HV_IN" I R 18700 10850 50 
-F3 "5v_OUT" I R 18700 11000 50 
-F4 "5v_IN" I R 18700 11150 50 
-$EndSheet
 Wire Wire Line
 	20500 10750 19050 10750
 Wire Wire Line
 	19050 10750 19050 10850
 Wire Wire Line
-	19050 10850 18700 10850
-Wire Wire Line
-	18700 11150 20250 11150
-Wire Wire Line
 	20250 11150 20250 10000
-$Comp
-L power:+5V #PWR0101
-U 1 1 603B66DB
-P 18700 11000
-F 0 "#PWR0101" H 18700 10850 50  0001 C CNN
-F 1 "+5V" V 18715 11128 50  0000 L CNN
-F 2 "" H 18700 11000 50  0001 C CNN
-F 3 "" H 18700 11000 50  0001 C CNN
-	1    18700 11000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5350 6050 5800 6050
 Wire Wire Line
@@ -949,7 +925,7 @@ F 3 "" H 12150 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 15950 3000 3650 3400
+S 15500 3250 3650 3400
 U 6042C255
 F0 "USB3" 50
 F1 "USB3.sch" 50
@@ -962,4 +938,60 @@ Text GLabel 20250 8100 0    50   Input ~ 0
 USBCTXN
 Text GLabel 20250 8700 0    50   Input ~ 0
 USBCTXN
+Text GLabel 20250 8300 0    50   Input ~ 0
+USBCRXP
+Text GLabel 20250 8900 0    50   Input ~ 0
+USBCRXP
+Text GLabel 20250 8400 0    50   Input ~ 0
+USBCRXN
+Text GLabel 20250 9000 0    50   Input ~ 0
+USBCRXN
+Text GLabel 20250 9200 0    50   Input ~ 0
+USBCP
+Text GLabel 20250 9300 0    50   Input ~ 0
+USBCP
+Text GLabel 20250 9400 0    50   Input ~ 0
+USBCM
+Text GLabel 20250 9500 0    50   Input ~ 0
+USBCM
+$Comp
+L power:+5V #PWR0101
+U 1 1 603B66DB
+P 18700 11000
+F 0 "#PWR0101" H 18700 10850 50  0001 C CNN
+F 1 "+5V" V 18715 11128 50  0000 L CNN
+F 2 "" H 18700 11000 50  0001 C CNN
+F 3 "" H 18700 11000 50  0001 C CNN
+	1    18700 11000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18700 11150 20250 11150
+Wire Wire Line
+	19050 10850 18700 10850
+$Sheet
+S 15150 10350 3550 3550
+U 603B30DE
+F0 "Power_Delivery" 50
+F1 "Power.sch" 50
+F2 "HV_IN" I R 18700 10850 50 
+F3 "5v_OUT" I R 18700 11000 50 
+F4 "5v_IN" I R 18700 11150 50 
+$EndSheet
+Text GLabel 8950 1350 2    50   Input ~ 0
+PCIe_CLK_nREQ
+Text GLabel 7950 1750 0    50   Input ~ 0
+PCIe_nRST
+Text GLabel 8950 1750 2    50   Input ~ 0
+PCIe_CLK_P
+Text GLabel 8950 1850 2    50   Input ~ 0
+PCIe_CLK_N
+Text GLabel 8950 2050 2    50   Input ~ 0
+PCIe_RX_P
+Text GLabel 8950 2150 2    50   Input ~ 0
+PCIe_RX_N
+Text GLabel 8950 2350 2    50   Input ~ 0
+PCIe_TX_P
+Text GLabel 8950 2450 2    50   Input ~ 0
+PCIe_TX_N
 $EndSCHEMATC

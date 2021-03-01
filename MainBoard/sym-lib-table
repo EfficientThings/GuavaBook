@@ -3,4 +3,6 @@
   (lib (name LTC4090EDJCPBF)(type Legacy)(uri ${KIPRJMOD}/Libs/LTC4090EDJCPBF.lib)(options "")(descr ""))
   (lib (name ATSAM4S4AA-MU)(type Legacy)(uri ${KIPRJMOD}/Libs/ATSAM4S4AA-MU.lib)(options "")(descr ""))
   (lib (name UPD720201K8)(type Legacy)(uri ${KIPRJMOD}/Libs/UPD720201K8.lib)(options "")(descr ""))
+  (lib (name TUSB8020BPHPR)(type Legacy)(uri ${KIPRJMOD}/Libs/TUSB8020BPHPR.lib)(options "")(descr ""))
+  (lib (name PCM2900CDBR)(type Legacy)(uri ${KIPRJMOD}/Libs/PCM2900CDBR.lib)(options "")(descr ""))
 )
