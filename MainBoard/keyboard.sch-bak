@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MainBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -30,10 +29,10 @@ USB_D+
 Text HLabel 1250 2100 0    50   BiDi ~ 0
 USB_D-
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW1
 U 1 1 6068CCD4
 P 6400 4600
-F 0 "SW?" H 6400 4885 50  0000 C CNN
+F 0 "SW1" H 6400 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6400 4794 50  0000 C CNN
 F 2 "" H 6400 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6400 4800 50  0001 C CNN
@@ -41,10 +40,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW2
 U 1 1 6068D8F6
 P 7500 4600
-F 0 "SW?" H 7500 4885 50  0000 C CNN
+F 0 "SW2" H 7500 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 7500 4794 50  0000 C CNN
 F 2 "" H 7500 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7500 4800 50  0001 C CNN
@@ -52,10 +51,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW3
 U 1 1 6068DDF2
 P 8650 4600
-F 0 "SW?" H 8650 4885 50  0000 C CNN
+F 0 "SW3" H 8650 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 8650 4794 50  0000 C CNN
 F 2 "" H 8650 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8650 4800 50  0001 C CNN
@@ -63,10 +62,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW4
 U 1 1 6068DDF8
 P 9850 4600
-F 0 "SW?" H 9850 4885 50  0000 C CNN
+F 0 "SW4" H 9850 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9850 4794 50  0000 C CNN
 F 2 "" H 9850 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9850 4800 50  0001 C CNN
@@ -74,10 +73,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW5
 U 1 1 6068FFCD
 P 11000 4600
-F 0 "SW?" H 11000 4885 50  0000 C CNN
+F 0 "SW5" H 11000 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 11000 4794 50  0000 C CNN
 F 2 "" H 11000 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11000 4800 50  0001 C CNN
@@ -85,10 +84,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW6
 U 1 1 6068FFD3
 P 12100 4600
-F 0 "SW?" H 12100 4885 50  0000 C CNN
+F 0 "SW6" H 12100 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 12100 4794 50  0000 C CNN
 F 2 "" H 12100 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12100 4800 50  0001 C CNN
@@ -96,10 +95,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW7
 U 1 1 6068FFD9
 P 13100 4600
-F 0 "SW?" H 13100 4885 50  0000 C CNN
+F 0 "SW7" H 13100 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13100 4794 50  0000 C CNN
 F 2 "" H 13100 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13100 4800 50  0001 C CNN
@@ -107,10 +106,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW8
 U 1 1 6068FFDF
 P 14100 4600
-F 0 "SW?" H 14100 4885 50  0000 C CNN
+F 0 "SW8" H 14100 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14100 4794 50  0000 C CNN
 F 2 "" H 14100 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14100 4800 50  0001 C CNN
@@ -118,10 +117,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW9
 U 1 1 60693A77
 P 15300 4600
-F 0 "SW?" H 15300 4885 50  0000 C CNN
+F 0 "SW9" H 15300 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 15300 4794 50  0000 C CNN
 F 2 "" H 15300 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15300 4800 50  0001 C CNN
@@ -129,10 +128,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW10
 U 1 1 60693A7D
 P 16400 4600
-F 0 "SW?" H 16400 4885 50  0000 C CNN
+F 0 "SW10" H 16400 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 16400 4794 50  0000 C CNN
 F 2 "" H 16400 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16400 4800 50  0001 C CNN
@@ -140,10 +139,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW11
 U 1 1 60693A83
 P 17550 4600
-F 0 "SW?" H 17550 4885 50  0000 C CNN
+F 0 "SW11" H 17550 4885 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17550 4794 50  0000 C CNN
 F 2 "" H 17550 4800 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17550 4800 50  0001 C CNN
@@ -151,10 +150,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW12
 U 1 1 6069B8AA
 P 5500 5200
-F 0 "SW?" H 5500 5485 50  0000 C CNN
+F 0 "SW12" H 5500 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 5500 5394 50  0000 C CNN
 F 2 "" H 5500 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5500 5400 50  0001 C CNN
@@ -162,10 +161,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW13
 U 1 1 6069BE60
 P 6300 5200
-F 0 "SW?" H 6300 5485 50  0000 C CNN
+F 0 "SW13" H 6300 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6300 5394 50  0000 C CNN
 F 2 "" H 6300 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6300 5400 50  0001 C CNN
@@ -173,10 +172,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW14
 U 1 1 6069C6FE
 P 7250 5200
-F 0 "SW?" H 7250 5485 50  0000 C CNN
+F 0 "SW14" H 7250 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 7250 5394 50  0000 C CNN
 F 2 "" H 7250 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7250 5400 50  0001 C CNN
@@ -184,10 +183,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW15
 U 1 1 6069C704
 P 8150 5200
-F 0 "SW?" H 8150 5485 50  0000 C CNN
+F 0 "SW15" H 8150 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 8150 5394 50  0000 C CNN
 F 2 "" H 8150 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8150 5400 50  0001 C CNN
@@ -195,10 +194,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW16
 U 1 1 6069E228
 P 9050 5200
-F 0 "SW?" H 9050 5485 50  0000 C CNN
+F 0 "SW16" H 9050 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9050 5394 50  0000 C CNN
 F 2 "" H 9050 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9050 5400 50  0001 C CNN
@@ -206,10 +205,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW17
 U 1 1 6069E22E
 P 9950 5200
-F 0 "SW?" H 9950 5485 50  0000 C CNN
+F 0 "SW17" H 9950 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9950 5394 50  0000 C CNN
 F 2 "" H 9950 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9950 5400 50  0001 C CNN
@@ -217,10 +216,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW18
 U 1 1 6069E234
 P 10800 5200
-F 0 "SW?" H 10800 5485 50  0000 C CNN
+F 0 "SW18" H 10800 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 10800 5394 50  0000 C CNN
 F 2 "" H 10800 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10800 5400 50  0001 C CNN
@@ -228,10 +227,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW19
 U 1 1 6069E23A
 P 11650 5200
-F 0 "SW?" H 11650 5485 50  0000 C CNN
+F 0 "SW19" H 11650 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 11650 5394 50  0000 C CNN
 F 2 "" H 11650 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11650 5400 50  0001 C CNN
@@ -239,10 +238,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW20
 U 1 1 606A07BC
 P 12550 5200
-F 0 "SW?" H 12550 5485 50  0000 C CNN
+F 0 "SW20" H 12550 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 12550 5394 50  0000 C CNN
 F 2 "" H 12550 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12550 5400 50  0001 C CNN
@@ -250,10 +249,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW21
 U 1 1 606A07C2
 P 13450 5200
-F 0 "SW?" H 13450 5485 50  0000 C CNN
+F 0 "SW21" H 13450 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13450 5394 50  0000 C CNN
 F 2 "" H 13450 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13450 5400 50  0001 C CNN
@@ -261,10 +260,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW22
 U 1 1 606A07C8
 P 14300 5200
-F 0 "SW?" H 14300 5485 50  0000 C CNN
+F 0 "SW22" H 14300 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14300 5394 50  0000 C CNN
 F 2 "" H 14300 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14300 5400 50  0001 C CNN
@@ -272,10 +271,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW23
 U 1 1 606A07CE
 P 15100 5200
-F 0 "SW?" H 15100 5485 50  0000 C CNN
+F 0 "SW23" H 15100 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 15100 5394 50  0000 C CNN
 F 2 "" H 15100 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15100 5400 50  0001 C CNN
@@ -283,10 +282,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW24
 U 1 1 606A07D4
 P 15950 5200
-F 0 "SW?" H 15950 5485 50  0000 C CNN
+F 0 "SW24" H 15950 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 15950 5394 50  0000 C CNN
 F 2 "" H 15950 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15950 5400 50  0001 C CNN
@@ -294,10 +293,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW25
 U 1 1 606A07DA
 P 16800 5200
-F 0 "SW?" H 16800 5485 50  0000 C CNN
+F 0 "SW25" H 16800 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 16800 5394 50  0000 C CNN
 F 2 "" H 16800 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16800 5400 50  0001 C CNN
@@ -305,10 +304,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW26
 U 1 1 606A07E0
 P 17700 5200
-F 0 "SW?" H 17700 5485 50  0000 C CNN
+F 0 "SW26" H 17700 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17700 5394 50  0000 C CNN
 F 2 "" H 17700 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17700 5400 50  0001 C CNN
@@ -316,10 +315,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW27
 U 1 1 606A07E6
 P 18500 5200
-F 0 "SW?" H 18500 5485 50  0000 C CNN
+F 0 "SW27" H 18500 5485 50  0000 C CNN
 F 1 "SW_MEC_5G" H 18500 5394 50  0000 C CNN
 F 2 "" H 18500 5400 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18500 5400 50  0001 C CNN
@@ -327,10 +326,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW29
 U 1 1 606A8FB5
 P 5450 5800
-F 0 "SW?" H 5450 6085 50  0000 C CNN
+F 0 "SW29" H 5450 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 5450 5994 50  0000 C CNN
 F 2 "" H 5450 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5450 6000 50  0001 C CNN
@@ -338,10 +337,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW30
 U 1 1 606A945C
 P 6450 5800
-F 0 "SW?" H 6450 6085 50  0000 C CNN
+F 0 "SW30" H 6450 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6450 5994 50  0000 C CNN
 F 2 "" H 6450 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6450 6000 50  0001 C CNN
@@ -349,10 +348,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW31
 U 1 1 606B0F1F
 P 7400 5800
-F 0 "SW?" H 7400 6085 50  0000 C CNN
+F 0 "SW31" H 7400 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 7400 5994 50  0000 C CNN
 F 2 "" H 7400 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7400 6000 50  0001 C CNN
@@ -360,10 +359,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW32
 U 1 1 606B0F25
 P 8300 5800
-F 0 "SW?" H 8300 6085 50  0000 C CNN
+F 0 "SW32" H 8300 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 8300 5994 50  0000 C CNN
 F 2 "" H 8300 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 6000 50  0001 C CNN
@@ -371,10 +370,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW33
 U 1 1 606B0F2B
 P 9200 5800
-F 0 "SW?" H 9200 6085 50  0000 C CNN
+F 0 "SW33" H 9200 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9200 5994 50  0000 C CNN
 F 2 "" H 9200 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9200 6000 50  0001 C CNN
@@ -382,10 +381,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW34
 U 1 1 606B0F31
 P 10100 5800
-F 0 "SW?" H 10100 6085 50  0000 C CNN
+F 0 "SW34" H 10100 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 10100 5994 50  0000 C CNN
 F 2 "" H 10100 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10100 6000 50  0001 C CNN
@@ -393,10 +392,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW35
 U 1 1 606B0F37
 P 10950 5800
-F 0 "SW?" H 10950 6085 50  0000 C CNN
+F 0 "SW35" H 10950 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 10950 5994 50  0000 C CNN
 F 2 "" H 10950 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10950 6000 50  0001 C CNN
@@ -404,10 +403,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW36
 U 1 1 606B0F3D
 P 11800 5800
-F 0 "SW?" H 11800 6085 50  0000 C CNN
+F 0 "SW36" H 11800 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 11800 5994 50  0000 C CNN
 F 2 "" H 11800 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11800 6000 50  0001 C CNN
@@ -415,10 +414,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW37
 U 1 1 606B0F43
 P 12700 5800
-F 0 "SW?" H 12700 6085 50  0000 C CNN
+F 0 "SW37" H 12700 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 12700 5994 50  0000 C CNN
 F 2 "" H 12700 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12700 6000 50  0001 C CNN
@@ -426,10 +425,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW38
 U 1 1 606B0F49
 P 13600 5800
-F 0 "SW?" H 13600 6085 50  0000 C CNN
+F 0 "SW38" H 13600 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13600 5994 50  0000 C CNN
 F 2 "" H 13600 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13600 6000 50  0001 C CNN
@@ -437,10 +436,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW39
 U 1 1 606B0F4F
 P 14450 5800
-F 0 "SW?" H 14450 6085 50  0000 C CNN
+F 0 "SW39" H 14450 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14450 5994 50  0000 C CNN
 F 2 "" H 14450 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14450 6000 50  0001 C CNN
@@ -448,10 +447,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW40
 U 1 1 606B0F55
 P 15250 5800
-F 0 "SW?" H 15250 6085 50  0000 C CNN
+F 0 "SW40" H 15250 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 15250 5994 50  0000 C CNN
 F 2 "" H 15250 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15250 6000 50  0001 C CNN
@@ -459,10 +458,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW41
 U 1 1 606B0F5B
 P 16100 5800
-F 0 "SW?" H 16100 6085 50  0000 C CNN
+F 0 "SW41" H 16100 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 16100 5994 50  0000 C CNN
 F 2 "" H 16100 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16100 6000 50  0001 C CNN
@@ -470,10 +469,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW42
 U 1 1 606B0F61
 P 17500 5800
-F 0 "SW?" H 17500 6085 50  0000 C CNN
+F 0 "SW42" H 17500 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17500 5994 50  0000 C CNN
 F 2 "" H 17500 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17500 6000 50  0001 C CNN
@@ -481,10 +480,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW28
 U 1 1 606B0F67
 P 18700 5750
-F 0 "SW?" H 18700 6035 50  0000 C CNN
+F 0 "SW28" H 18700 6035 50  0000 C CNN
 F 1 "SW_MEC_5G" H 18700 5944 50  0000 C CNN
 F 2 "" H 18700 5950 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18700 5950 50  0001 C CNN
@@ -492,10 +491,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW44
 U 1 1 606BE725
 P 6650 6350
-F 0 "SW?" H 6650 6635 50  0000 C CNN
+F 0 "SW44" H 6650 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6650 6544 50  0000 C CNN
 F 2 "" H 6650 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6650 6550 50  0001 C CNN
@@ -503,10 +502,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW45
 U 1 1 606BE72B
 P 7550 6350
-F 0 "SW?" H 7550 6635 50  0000 C CNN
+F 0 "SW45" H 7550 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 7550 6544 50  0000 C CNN
 F 2 "" H 7550 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7550 6550 50  0001 C CNN
@@ -514,10 +513,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW46
 U 1 1 606BE731
 P 8450 6350
-F 0 "SW?" H 8450 6635 50  0000 C CNN
+F 0 "SW46" H 8450 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 8450 6544 50  0000 C CNN
 F 2 "" H 8450 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8450 6550 50  0001 C CNN
@@ -525,10 +524,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW47
 U 1 1 606BE737
 P 9350 6350
-F 0 "SW?" H 9350 6635 50  0000 C CNN
+F 0 "SW47" H 9350 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9350 6544 50  0000 C CNN
 F 2 "" H 9350 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9350 6550 50  0001 C CNN
@@ -536,10 +535,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW48
 U 1 1 606BE73D
 P 10200 6350
-F 0 "SW?" H 10200 6635 50  0000 C CNN
+F 0 "SW48" H 10200 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 10200 6544 50  0000 C CNN
 F 2 "" H 10200 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10200 6550 50  0001 C CNN
@@ -547,10 +546,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW49
 U 1 1 606BE743
 P 11050 6350
-F 0 "SW?" H 11050 6635 50  0000 C CNN
+F 0 "SW49" H 11050 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 11050 6544 50  0000 C CNN
 F 2 "" H 11050 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11050 6550 50  0001 C CNN
@@ -558,10 +557,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW50
 U 1 1 606BE749
 P 11950 6350
-F 0 "SW?" H 11950 6635 50  0000 C CNN
+F 0 "SW50" H 11950 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 11950 6544 50  0000 C CNN
 F 2 "" H 11950 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11950 6550 50  0001 C CNN
@@ -569,10 +568,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW51
 U 1 1 606BE74F
 P 12850 6350
-F 0 "SW?" H 12850 6635 50  0000 C CNN
+F 0 "SW51" H 12850 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 12850 6544 50  0000 C CNN
 F 2 "" H 12850 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12850 6550 50  0001 C CNN
@@ -580,10 +579,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW52
 U 1 1 606BE755
 P 13700 6350
-F 0 "SW?" H 13700 6635 50  0000 C CNN
+F 0 "SW52" H 13700 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13700 6544 50  0000 C CNN
 F 2 "" H 13700 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13700 6550 50  0001 C CNN
@@ -591,10 +590,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW53
 U 1 1 606BE75B
 P 14500 6350
-F 0 "SW?" H 14500 6635 50  0000 C CNN
+F 0 "SW53" H 14500 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14500 6544 50  0000 C CNN
 F 2 "" H 14500 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14500 6550 50  0001 C CNN
@@ -602,10 +601,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW54
 U 1 1 606BE761
 P 15350 6350
-F 0 "SW?" H 15350 6635 50  0000 C CNN
+F 0 "SW54" H 15350 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 15350 6544 50  0000 C CNN
 F 2 "" H 15350 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15350 6550 50  0001 C CNN
@@ -613,10 +612,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW55
 U 1 1 606C053F
 P 16200 6350
-F 0 "SW?" H 16200 6635 50  0000 C CNN
+F 0 "SW55" H 16200 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 16200 6544 50  0000 C CNN
 F 2 "" H 16200 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16200 6550 50  0001 C CNN
@@ -624,10 +623,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW56
 U 1 1 606C0545
 P 17050 6350
-F 0 "SW?" H 17050 6635 50  0000 C CNN
+F 0 "SW56" H 17050 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17050 6544 50  0000 C CNN
 F 2 "" H 17050 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17050 6550 50  0001 C CNN
@@ -635,10 +634,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW57
 U 1 1 606C0D56
 P 18750 6350
-F 0 "SW?" H 18750 6635 50  0000 C CNN
+F 0 "SW57" H 18750 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 18750 6544 50  0000 C CNN
 F 2 "" H 18750 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 6550 50  0001 C CNN
@@ -646,10 +645,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW43
 U 1 1 606C17E9
 P 5450 6350
-F 0 "SW?" H 5450 6635 50  0000 C CNN
+F 0 "SW43" H 5450 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 5450 6544 50  0000 C CNN
 F 2 "" H 5450 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5450 6550 50  0001 C CNN
@@ -657,10 +656,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW60
 U 1 1 606CC530
 P 6800 6850
-F 0 "SW?" H 6800 7135 50  0000 C CNN
+F 0 "SW60" H 6800 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6800 7044 50  0000 C CNN
 F 2 "" H 6800 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6800 7050 50  0001 C CNN
@@ -668,10 +667,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW61
 U 1 1 606CC536
 P 7700 6850
-F 0 "SW?" H 7700 7135 50  0000 C CNN
+F 0 "SW61" H 7700 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 7700 7044 50  0000 C CNN
 F 2 "" H 7700 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7700 7050 50  0001 C CNN
@@ -679,10 +678,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW62
 U 1 1 606CC53C
 P 8600 6850
-F 0 "SW?" H 8600 7135 50  0000 C CNN
+F 0 "SW62" H 8600 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 8600 7044 50  0000 C CNN
 F 2 "" H 8600 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8600 7050 50  0001 C CNN
@@ -690,10 +689,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW63
 U 1 1 606CC542
 P 9500 6850
-F 0 "SW?" H 9500 7135 50  0000 C CNN
+F 0 "SW63" H 9500 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9500 7044 50  0000 C CNN
 F 2 "" H 9500 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9500 7050 50  0001 C CNN
@@ -701,10 +700,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW64
 U 1 1 606CC548
 P 10350 6850
-F 0 "SW?" H 10350 7135 50  0000 C CNN
+F 0 "SW64" H 10350 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 10350 7044 50  0000 C CNN
 F 2 "" H 10350 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 7050 50  0001 C CNN
@@ -712,10 +711,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW65
 U 1 1 606CC54E
 P 11200 6850
-F 0 "SW?" H 11200 7135 50  0000 C CNN
+F 0 "SW65" H 11200 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 11200 7044 50  0000 C CNN
 F 2 "" H 11200 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11200 7050 50  0001 C CNN
@@ -723,10 +722,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW66
 U 1 1 606CC554
 P 12100 6850
-F 0 "SW?" H 12100 7135 50  0000 C CNN
+F 0 "SW66" H 12100 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 12100 7044 50  0000 C CNN
 F 2 "" H 12100 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12100 7050 50  0001 C CNN
@@ -734,10 +733,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW67
 U 1 1 606CC55A
 P 13000 6850
-F 0 "SW?" H 13000 7135 50  0000 C CNN
+F 0 "SW67" H 13000 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13000 7044 50  0000 C CNN
 F 2 "" H 13000 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13000 7050 50  0001 C CNN
@@ -745,10 +744,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW68
 U 1 1 606CC560
 P 13850 6850
-F 0 "SW?" H 13850 7135 50  0000 C CNN
+F 0 "SW68" H 13850 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13850 7044 50  0000 C CNN
 F 2 "" H 13850 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13850 7050 50  0001 C CNN
@@ -756,10 +755,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW69
 U 1 1 606CC566
 P 14650 6850
-F 0 "SW?" H 14650 7135 50  0000 C CNN
+F 0 "SW69" H 14650 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14650 7044 50  0000 C CNN
 F 2 "" H 14650 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14650 7050 50  0001 C CNN
@@ -767,10 +766,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW58
 U 1 1 606CE7C6
 P 4950 6850
-F 0 "SW?" H 4950 7135 50  0000 C CNN
+F 0 "SW58" H 4950 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 4950 7044 50  0000 C CNN
 F 2 "" H 4950 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4950 7050 50  0001 C CNN
@@ -778,10 +777,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW59
 U 1 1 606CE7CC
 P 6000 6850
-F 0 "SW?" H 6000 7135 50  0000 C CNN
+F 0 "SW59" H 6000 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6000 7044 50  0000 C CNN
 F 2 "" H 6000 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6000 7050 50  0001 C CNN
@@ -789,10 +788,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW70
 U 1 1 606D07DD
 P 15800 6850
-F 0 "SW?" H 15800 7135 50  0000 C CNN
+F 0 "SW70" H 15800 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 15800 7044 50  0000 C CNN
 F 2 "" H 15800 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15800 7050 50  0001 C CNN
@@ -800,10 +799,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW71
 U 1 1 606D3701
 P 17100 6850
-F 0 "SW?" H 17100 7135 50  0000 C CNN
+F 0 "SW71" H 17100 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17100 7044 50  0000 C CNN
 F 2 "" H 17100 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 7050 50  0001 C CNN
@@ -811,10 +810,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW72
 U 1 1 606D3C59
 P 18750 6850
-F 0 "SW?" H 18750 7135 50  0000 C CNN
+F 0 "SW72" H 18750 7135 50  0000 C CNN
 F 1 "SW_MEC_5G" H 18750 7044 50  0000 C CNN
 F 2 "" H 18750 7050 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 7050 50  0001 C CNN
@@ -822,10 +821,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW75
 U 1 1 606DA79C
 P 6950 7450
-F 0 "SW?" H 6950 7735 50  0000 C CNN
+F 0 "SW75" H 6950 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6950 7644 50  0000 C CNN
 F 2 "" H 6950 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6950 7650 50  0001 C CNN
@@ -833,10 +832,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW76
 U 1 1 606DA7A2
 P 7850 7450
-F 0 "SW?" H 7850 7735 50  0000 C CNN
+F 0 "SW76" H 7850 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 7850 7644 50  0000 C CNN
 F 2 "" H 7850 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 7650 50  0001 C CNN
@@ -844,10 +843,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW77
 U 1 1 606DA7A8
 P 8750 7450
-F 0 "SW?" H 8750 7735 50  0000 C CNN
+F 0 "SW77" H 8750 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 8750 7644 50  0000 C CNN
 F 2 "" H 8750 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8750 7650 50  0001 C CNN
@@ -855,10 +854,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW78
 U 1 1 606DA7AE
 P 9650 7450
-F 0 "SW?" H 9650 7735 50  0000 C CNN
+F 0 "SW78" H 9650 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9650 7644 50  0000 C CNN
 F 2 "" H 9650 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9650 7650 50  0001 C CNN
@@ -866,10 +865,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW79
 U 1 1 606DA7B4
 P 10500 7450
-F 0 "SW?" H 10500 7735 50  0000 C CNN
+F 0 "SW79" H 10500 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 10500 7644 50  0000 C CNN
 F 2 "" H 10500 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10500 7650 50  0001 C CNN
@@ -877,10 +876,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW80
 U 1 1 606DA7BA
 P 11350 7450
-F 0 "SW?" H 11350 7735 50  0000 C CNN
+F 0 "SW80" H 11350 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 11350 7644 50  0000 C CNN
 F 2 "" H 11350 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11350 7650 50  0001 C CNN
@@ -888,10 +887,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW81
 U 1 1 606DA7C0
 P 12250 7450
-F 0 "SW?" H 12250 7735 50  0000 C CNN
+F 0 "SW81" H 12250 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 12250 7644 50  0000 C CNN
 F 2 "" H 12250 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12250 7650 50  0001 C CNN
@@ -899,10 +898,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW82
 U 1 1 606DA7C6
 P 13150 7450
-F 0 "SW?" H 13150 7735 50  0000 C CNN
+F 0 "SW82" H 13150 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13150 7644 50  0000 C CNN
 F 2 "" H 13150 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13150 7650 50  0001 C CNN
@@ -910,10 +909,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW83
 U 1 1 606DA7CC
 P 14000 7450
-F 0 "SW?" H 14000 7735 50  0000 C CNN
+F 0 "SW83" H 14000 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14000 7644 50  0000 C CNN
 F 2 "" H 14000 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14000 7650 50  0001 C CNN
@@ -921,10 +920,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW84
 U 1 1 606DA7D2
 P 14800 7450
-F 0 "SW?" H 14800 7735 50  0000 C CNN
+F 0 "SW84" H 14800 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14800 7644 50  0000 C CNN
 F 2 "" H 14800 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14800 7650 50  0001 C CNN
@@ -932,10 +931,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW73
 U 1 1 606DA7D8
 P 4950 7450
-F 0 "SW?" H 4950 7735 50  0000 C CNN
+F 0 "SW73" H 4950 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 4950 7644 50  0000 C CNN
 F 2 "" H 4950 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4950 7650 50  0001 C CNN
@@ -943,10 +942,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW74
 U 1 1 606DA7DE
 P 6000 7450
-F 0 "SW?" H 6000 7735 50  0000 C CNN
+F 0 "SW74" H 6000 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6000 7644 50  0000 C CNN
 F 2 "" H 6000 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6000 7650 50  0001 C CNN
@@ -954,10 +953,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW87
 U 1 1 606DFAAA
 P 16100 7500
-F 0 "SW?" H 16100 7785 50  0000 C CNN
+F 0 "SW87" H 16100 7785 50  0000 C CNN
 F 1 "SW_MEC_5G" H 16100 7694 50  0000 C CNN
 F 2 "" H 16100 7700 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16100 7700 50  0001 C CNN
@@ -965,10 +964,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW85
 U 1 1 606E10C2
 P 17850 7450
-F 0 "SW?" H 17850 7735 50  0000 C CNN
+F 0 "SW85" H 17850 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17850 7644 50  0000 C CNN
 F 2 "" H 17850 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17850 7650 50  0001 C CNN
@@ -976,10 +975,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW86
 U 1 1 606E10C8
 P 18750 7450
-F 0 "SW?" H 18750 7735 50  0000 C CNN
+F 0 "SW86" H 18750 7735 50  0000 C CNN
 F 1 "SW_MEC_5G" H 18750 7644 50  0000 C CNN
 F 2 "" H 18750 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 7650 50  0001 C CNN
@@ -987,10 +986,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW94
 U 1 1 606E21FF
 P 4950 8050
-F 0 "SW?" H 4950 8335 50  0000 C CNN
+F 0 "SW94" H 4950 8335 50  0000 C CNN
 F 1 "SW_MEC_5G" H 4950 8244 50  0000 C CNN
 F 2 "" H 4950 8250 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4950 8250 50  0001 C CNN
@@ -998,10 +997,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW95
 U 1 1 606E2205
 P 6100 8050
-F 0 "SW?" H 6100 8335 50  0000 C CNN
+F 0 "SW95" H 6100 8335 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6100 8244 50  0000 C CNN
 F 2 "" H 6100 8250 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6100 8250 50  0001 C CNN
@@ -1009,10 +1008,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW96
 U 1 1 606E6766
 P 7250 8050
-F 0 "SW?" H 7250 8335 50  0000 C CNN
+F 0 "SW96" H 7250 8335 50  0000 C CNN
 F 1 "SW_MEC_5G" H 7250 8244 50  0000 C CNN
 F 2 "" H 7250 8250 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7250 8250 50  0001 C CNN
@@ -1020,10 +1019,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW97
 U 1 1 606E6EAC
 P 8300 8050
-F 0 "SW?" H 8300 8335 50  0000 C CNN
+F 0 "SW97" H 8300 8335 50  0000 C CNN
 F 1 "SW_MEC_5G" H 8300 8244 50  0000 C CNN
 F 2 "" H 8300 8250 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 8250 50  0001 C CNN
@@ -1031,10 +1030,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW98
 U 1 1 606E7A06
 P 9350 8050
-F 0 "SW?" H 9350 8335 50  0000 C CNN
+F 0 "SW98" H 9350 8335 50  0000 C CNN
 F 1 "SW_MEC_5G" H 9350 8244 50  0000 C CNN
 F 2 "" H 9350 8250 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9350 8250 50  0001 C CNN
@@ -1042,10 +1041,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW99
 U 1 1 606E7A0C
 P 10850 8050
-F 0 "SW?" H 10850 8335 50  0000 C CNN
+F 0 "SW99" H 10850 8335 50  0000 C CNN
 F 1 "SW_MEC_5G" H 10850 8244 50  0000 C CNN
 F 2 "" H 10850 8250 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10850 8250 50  0001 C CNN
@@ -1053,10 +1052,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW100
 U 1 1 606E9DB6
 P 12050 8050
-F 0 "SW?" H 12050 8335 50  0000 C CNN
+F 0 "SW100" H 12050 8335 50  0000 C CNN
 F 1 "SW_MEC_5G" H 12050 8244 50  0000 C CNN
 F 2 "" H 12050 8250 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12050 8250 50  0001 C CNN
@@ -1064,10 +1063,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW88
 U 1 1 606EAC76
 P 13250 8000
-F 0 "SW?" H 13250 8285 50  0000 C CNN
+F 0 "SW88" H 13250 8285 50  0000 C CNN
 F 1 "SW_MEC_5G" H 13250 8194 50  0000 C CNN
 F 2 "" H 13250 8200 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13250 8200 50  0001 C CNN
@@ -1075,10 +1074,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW89
 U 1 1 606EAC7C
 P 14150 8000
-F 0 "SW?" H 14150 8285 50  0000 C CNN
+F 0 "SW89" H 14150 8285 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14150 8194 50  0000 C CNN
 F 2 "" H 14150 8200 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14150 8200 50  0001 C CNN
@@ -1086,10 +1085,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW90
 U 1 1 606EB50E
 P 15800 8000
-F 0 "SW?" H 15800 8285 50  0000 C CNN
+F 0 "SW90" H 15800 8285 50  0000 C CNN
 F 1 "SW_MEC_5G" H 15800 8194 50  0000 C CNN
 F 2 "" H 15800 8200 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15800 8200 50  0001 C CNN
@@ -1097,10 +1096,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW91
 U 1 1 606EDD2E
 P 17000 8000
-F 0 "SW?" H 17000 8285 50  0000 C CNN
+F 0 "SW91" H 17000 8285 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17000 8194 50  0000 C CNN
 F 2 "" H 17000 8200 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17000 8200 50  0001 C CNN
@@ -1108,10 +1107,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW92
 U 1 1 606EDD34
 P 17850 8000
-F 0 "SW?" H 17850 8285 50  0000 C CNN
+F 0 "SW92" H 17850 8285 50  0000 C CNN
 F 1 "SW_MEC_5G" H 17850 8194 50  0000 C CNN
 F 2 "" H 17850 8200 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17850 8200 50  0001 C CNN
@@ -1119,10 +1118,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW93
 U 1 1 606EDD3A
 P 18750 8000
-F 0 "SW?" H 18750 8285 50  0000 C CNN
+F 0 "SW93" H 18750 8285 50  0000 C CNN
 F 1 "SW_MEC_5G" H 18750 8194 50  0000 C CNN
 F 2 "" H 18750 8200 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 8200 50  0001 C CNN
@@ -2101,10 +2100,10 @@ Wire Wire Line
 	18950 8150 18950 8000
 Connection ~ 18050 8150
 $Comp
-L 74xx:CD74HC4067M U?
+L 74xx:CD74HC4067M U3
 U 1 1 612258F6
 P 11750 3250
-F 0 "U?" V 11704 4294 50  0000 L CNN
+F 0 "U3" V 11704 4294 50  0000 L CNN
 F 1 "CD74HC4067M" V 11795 4294 50  0000 L CNN
 F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 12650 2250 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 11400 4100 50  0001 C CNN

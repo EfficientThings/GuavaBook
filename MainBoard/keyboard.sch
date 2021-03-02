@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MainBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -17,1631 +16,2304 @@ $EndDescr
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U2
 U 1 1 603A92F2
-P 1350 2450
-F 0 "U2" H 1350 561 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 1350 470 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 1350 2450 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 1350 2450 50  0001 C CNN
-	1    1350 2450
+P 1850 2500
+F 0 "U2" H 1850 611 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 1850 520 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 1850 2500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 1850 2500 50  0001 C CNN
+	1    1850 2500
 	1    0    0    -1  
 $EndComp
-Text HLabel 750  1950 0    50   BiDi ~ 0
+Text HLabel 1250 2000 0    50   BiDi ~ 0
 USB_D+
-Text HLabel 750  2050 0    50   BiDi ~ 0
+Text HLabel 1250 2100 0    50   BiDi ~ 0
 USB_D-
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW1
 U 1 1 6068CCD4
-P 4750 2900
-F 0 "SW?" H 4750 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4750 3094 50  0000 C CNN
-F 2 "" H 4750 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4750 3100 50  0001 C CNN
-	1    4750 2900
+P 6400 4600
+F 0 "SW1" H 6400 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6400 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6400 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6400 4800 50  0001 C CNN
+	1    6400 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW2
 U 1 1 6068D8F6
-P 5850 2900
-F 0 "SW?" H 5850 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5850 3094 50  0000 C CNN
-F 2 "" H 5850 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5850 3100 50  0001 C CNN
-	1    5850 2900
+P 7500 4600
+F 0 "SW2" H 7500 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7500 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 7500 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7500 4800 50  0001 C CNN
+	1    7500 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW3
 U 1 1 6068DDF2
-P 7000 2900
-F 0 "SW?" H 7000 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7000 3094 50  0000 C CNN
-F 2 "" H 7000 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7000 3100 50  0001 C CNN
-	1    7000 2900
+P 8650 4600
+F 0 "SW3" H 8650 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8650 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 8650 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8650 4800 50  0001 C CNN
+	1    8650 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW4
 U 1 1 6068DDF8
-P 8200 2900
-F 0 "SW?" H 8200 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8200 3094 50  0000 C CNN
-F 2 "" H 8200 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8200 3100 50  0001 C CNN
-	1    8200 2900
+P 9850 4600
+F 0 "SW4" H 9850 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9850 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9850 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9850 4800 50  0001 C CNN
+	1    9850 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW5
 U 1 1 6068FFCD
-P 9350 2900
-F 0 "SW?" H 9350 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9350 3094 50  0000 C CNN
-F 2 "" H 9350 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9350 3100 50  0001 C CNN
-	1    9350 2900
+P 11000 4600
+F 0 "SW5" H 11000 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11000 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 11000 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11000 4800 50  0001 C CNN
+	1    11000 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW6
 U 1 1 6068FFD3
-P 10450 2900
-F 0 "SW?" H 10450 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10450 3094 50  0000 C CNN
-F 2 "" H 10450 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10450 3100 50  0001 C CNN
-	1    10450 2900
+P 12100 4600
+F 0 "SW6" H 12100 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12100 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 12100 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12100 4800 50  0001 C CNN
+	1    12100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW7
 U 1 1 6068FFD9
-P 11450 2900
-F 0 "SW?" H 11450 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11450 3094 50  0000 C CNN
-F 2 "" H 11450 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11450 3100 50  0001 C CNN
-	1    11450 2900
+P 13100 4600
+F 0 "SW7" H 13100 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13100 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13100 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13100 4800 50  0001 C CNN
+	1    13100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW8
 U 1 1 6068FFDF
-P 12450 2900
-F 0 "SW?" H 12450 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12450 3094 50  0000 C CNN
-F 2 "" H 12450 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12450 3100 50  0001 C CNN
-	1    12450 2900
+P 14100 4600
+F 0 "SW8" H 14100 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14100 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14100 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14100 4800 50  0001 C CNN
+	1    14100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW9
 U 1 1 60693A77
-P 13650 2900
-F 0 "SW?" H 13650 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 13650 3094 50  0000 C CNN
-F 2 "" H 13650 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13650 3100 50  0001 C CNN
-	1    13650 2900
+P 15300 4600
+F 0 "SW9" H 15300 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15300 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 15300 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15300 4800 50  0001 C CNN
+	1    15300 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW10
 U 1 1 60693A7D
-P 14750 2900
-F 0 "SW?" H 14750 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14750 3094 50  0000 C CNN
-F 2 "" H 14750 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14750 3100 50  0001 C CNN
-	1    14750 2900
+P 16400 4600
+F 0 "SW10" H 16400 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16400 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 16400 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16400 4800 50  0001 C CNN
+	1    16400 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW11
 U 1 1 60693A83
-P 15900 2900
-F 0 "SW?" H 15900 3185 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15900 3094 50  0000 C CNN
-F 2 "" H 15900 3100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15900 3100 50  0001 C CNN
-	1    15900 2900
+P 17550 4600
+F 0 "SW11" H 17550 4885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17550 4794 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17550 4800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17550 4800 50  0001 C CNN
+	1    17550 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW12
 U 1 1 6069B8AA
-P 3850 3500
-F 0 "SW?" H 3850 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3850 3694 50  0000 C CNN
-F 2 "" H 3850 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3850 3700 50  0001 C CNN
-	1    3850 3500
+P 5500 5200
+F 0 "SW12" H 5500 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5500 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 5500 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5500 5400 50  0001 C CNN
+	1    5500 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW13
 U 1 1 6069BE60
-P 4650 3500
-F 0 "SW?" H 4650 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4650 3694 50  0000 C CNN
-F 2 "" H 4650 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4650 3700 50  0001 C CNN
-	1    4650 3500
+P 6300 5200
+F 0 "SW13" H 6300 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6300 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6300 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6300 5400 50  0001 C CNN
+	1    6300 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW14
 U 1 1 6069C6FE
-P 5600 3500
-F 0 "SW?" H 5600 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5600 3694 50  0000 C CNN
-F 2 "" H 5600 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5600 3700 50  0001 C CNN
-	1    5600 3500
+P 7250 5200
+F 0 "SW14" H 7250 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7250 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 7250 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7250 5400 50  0001 C CNN
+	1    7250 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW15
 U 1 1 6069C704
-P 6500 3500
-F 0 "SW?" H 6500 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6500 3694 50  0000 C CNN
-F 2 "" H 6500 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6500 3700 50  0001 C CNN
-	1    6500 3500
+P 8150 5200
+F 0 "SW15" H 8150 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8150 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 8150 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8150 5400 50  0001 C CNN
+	1    8150 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW16
 U 1 1 6069E228
-P 7400 3500
-F 0 "SW?" H 7400 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7400 3694 50  0000 C CNN
-F 2 "" H 7400 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7400 3700 50  0001 C CNN
-	1    7400 3500
+P 9050 5200
+F 0 "SW16" H 9050 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9050 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9050 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9050 5400 50  0001 C CNN
+	1    9050 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW17
 U 1 1 6069E22E
-P 8300 3500
-F 0 "SW?" H 8300 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8300 3694 50  0000 C CNN
-F 2 "" H 8300 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 3700 50  0001 C CNN
-	1    8300 3500
+P 9950 5200
+F 0 "SW17" H 9950 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9950 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9950 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9950 5400 50  0001 C CNN
+	1    9950 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW18
 U 1 1 6069E234
-P 9150 3500
-F 0 "SW?" H 9150 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9150 3694 50  0000 C CNN
-F 2 "" H 9150 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9150 3700 50  0001 C CNN
-	1    9150 3500
+P 10800 5200
+F 0 "SW18" H 10800 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10800 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 10800 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10800 5400 50  0001 C CNN
+	1    10800 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW19
 U 1 1 6069E23A
-P 10000 3500
-F 0 "SW?" H 10000 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10000 3694 50  0000 C CNN
-F 2 "" H 10000 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10000 3700 50  0001 C CNN
-	1    10000 3500
+P 11650 5200
+F 0 "SW19" H 11650 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11650 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 11650 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11650 5400 50  0001 C CNN
+	1    11650 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW20
 U 1 1 606A07BC
-P 10900 3500
-F 0 "SW?" H 10900 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10900 3694 50  0000 C CNN
-F 2 "" H 10900 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10900 3700 50  0001 C CNN
-	1    10900 3500
+P 12550 5200
+F 0 "SW20" H 12550 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12550 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 12550 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12550 5400 50  0001 C CNN
+	1    12550 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW21
 U 1 1 606A07C2
-P 11800 3500
-F 0 "SW?" H 11800 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11800 3694 50  0000 C CNN
-F 2 "" H 11800 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11800 3700 50  0001 C CNN
-	1    11800 3500
+P 13450 5200
+F 0 "SW21" H 13450 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13450 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13450 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13450 5400 50  0001 C CNN
+	1    13450 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW22
 U 1 1 606A07C8
-P 12650 3500
-F 0 "SW?" H 12650 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12650 3694 50  0000 C CNN
-F 2 "" H 12650 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12650 3700 50  0001 C CNN
-	1    12650 3500
+P 14300 5200
+F 0 "SW22" H 14300 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14300 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14300 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14300 5400 50  0001 C CNN
+	1    14300 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW23
 U 1 1 606A07CE
-P 13450 3500
-F 0 "SW?" H 13450 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 13450 3694 50  0000 C CNN
-F 2 "" H 13450 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13450 3700 50  0001 C CNN
-	1    13450 3500
+P 15100 5200
+F 0 "SW23" H 15100 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15100 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 15100 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15100 5400 50  0001 C CNN
+	1    15100 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW24
 U 1 1 606A07D4
-P 14300 3500
-F 0 "SW?" H 14300 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14300 3694 50  0000 C CNN
-F 2 "" H 14300 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14300 3700 50  0001 C CNN
-	1    14300 3500
+P 15950 5200
+F 0 "SW24" H 15950 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15950 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 15950 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15950 5400 50  0001 C CNN
+	1    15950 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW25
 U 1 1 606A07DA
-P 15150 3500
-F 0 "SW?" H 15150 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15150 3694 50  0000 C CNN
-F 2 "" H 15150 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15150 3700 50  0001 C CNN
-	1    15150 3500
+P 16800 5200
+F 0 "SW25" H 16800 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16800 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 16800 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16800 5400 50  0001 C CNN
+	1    16800 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW26
 U 1 1 606A07E0
-P 16050 3500
-F 0 "SW?" H 16050 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 16050 3694 50  0000 C CNN
-F 2 "" H 16050 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16050 3700 50  0001 C CNN
-	1    16050 3500
+P 17700 5200
+F 0 "SW26" H 17700 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17700 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17700 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17700 5400 50  0001 C CNN
+	1    17700 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW27
 U 1 1 606A07E6
-P 16850 3500
-F 0 "SW?" H 16850 3785 50  0000 C CNN
-F 1 "SW_MEC_5G" H 16850 3694 50  0000 C CNN
-F 2 "" H 16850 3700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16850 3700 50  0001 C CNN
-	1    16850 3500
+P 18500 5200
+F 0 "SW27" H 18500 5485 50  0000 C CNN
+F 1 "SW_MEC_5G" H 18500 5394 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 18500 5400 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18500 5400 50  0001 C CNN
+	1    18500 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW29
 U 1 1 606A8FB5
-P 3800 4100
-F 0 "SW?" H 3800 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3800 4294 50  0000 C CNN
-F 2 "" H 3800 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3800 4300 50  0001 C CNN
-	1    3800 4100
+P 5450 5800
+F 0 "SW29" H 5450 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5450 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 5450 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5450 6000 50  0001 C CNN
+	1    5450 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW30
 U 1 1 606A945C
-P 4800 4100
-F 0 "SW?" H 4800 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4800 4294 50  0000 C CNN
-F 2 "" H 4800 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4800 4300 50  0001 C CNN
-	1    4800 4100
+P 6450 5800
+F 0 "SW30" H 6450 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6450 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6450 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6450 6000 50  0001 C CNN
+	1    6450 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW31
 U 1 1 606B0F1F
-P 5750 4100
-F 0 "SW?" H 5750 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5750 4294 50  0000 C CNN
-F 2 "" H 5750 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5750 4300 50  0001 C CNN
-	1    5750 4100
+P 7400 5800
+F 0 "SW31" H 7400 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7400 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 7400 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7400 6000 50  0001 C CNN
+	1    7400 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW32
 U 1 1 606B0F25
-P 6650 4100
-F 0 "SW?" H 6650 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6650 4294 50  0000 C CNN
-F 2 "" H 6650 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6650 4300 50  0001 C CNN
-	1    6650 4100
+P 8300 5800
+F 0 "SW32" H 8300 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8300 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 8300 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 6000 50  0001 C CNN
+	1    8300 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW33
 U 1 1 606B0F2B
-P 7550 4100
-F 0 "SW?" H 7550 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7550 4294 50  0000 C CNN
-F 2 "" H 7550 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7550 4300 50  0001 C CNN
-	1    7550 4100
+P 9200 5800
+F 0 "SW33" H 9200 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9200 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9200 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9200 6000 50  0001 C CNN
+	1    9200 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW34
 U 1 1 606B0F31
-P 8450 4100
-F 0 "SW?" H 8450 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8450 4294 50  0000 C CNN
-F 2 "" H 8450 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8450 4300 50  0001 C CNN
-	1    8450 4100
+P 10100 5800
+F 0 "SW34" H 10100 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10100 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 10100 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10100 6000 50  0001 C CNN
+	1    10100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW35
 U 1 1 606B0F37
-P 9300 4100
-F 0 "SW?" H 9300 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9300 4294 50  0000 C CNN
-F 2 "" H 9300 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9300 4300 50  0001 C CNN
-	1    9300 4100
+P 10950 5800
+F 0 "SW35" H 10950 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10950 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 10950 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10950 6000 50  0001 C CNN
+	1    10950 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW36
 U 1 1 606B0F3D
-P 10150 4100
-F 0 "SW?" H 10150 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10150 4294 50  0000 C CNN
-F 2 "" H 10150 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10150 4300 50  0001 C CNN
-	1    10150 4100
+P 11800 5800
+F 0 "SW36" H 11800 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11800 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 11800 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11800 6000 50  0001 C CNN
+	1    11800 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW37
 U 1 1 606B0F43
-P 11050 4100
-F 0 "SW?" H 11050 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11050 4294 50  0000 C CNN
-F 2 "" H 11050 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11050 4300 50  0001 C CNN
-	1    11050 4100
+P 12700 5800
+F 0 "SW37" H 12700 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12700 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 12700 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12700 6000 50  0001 C CNN
+	1    12700 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW38
 U 1 1 606B0F49
-P 11950 4100
-F 0 "SW?" H 11950 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11950 4294 50  0000 C CNN
-F 2 "" H 11950 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11950 4300 50  0001 C CNN
-	1    11950 4100
+P 13600 5800
+F 0 "SW38" H 13600 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13600 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13600 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13600 6000 50  0001 C CNN
+	1    13600 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW39
 U 1 1 606B0F4F
-P 12800 4100
-F 0 "SW?" H 12800 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12800 4294 50  0000 C CNN
-F 2 "" H 12800 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12800 4300 50  0001 C CNN
-	1    12800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606B0F55
-P 13600 4100
-F 0 "SW?" H 13600 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 13600 4294 50  0000 C CNN
-F 2 "" H 13600 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13600 4300 50  0001 C CNN
-	1    13600 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606B0F5B
-P 14450 4100
-F 0 "SW?" H 14450 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14450 4294 50  0000 C CNN
-F 2 "" H 14450 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14450 4300 50  0001 C CNN
-	1    14450 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606B0F61
-P 15850 4100
-F 0 "SW?" H 15850 4385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15850 4294 50  0000 C CNN
-F 2 "" H 15850 4300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15850 4300 50  0001 C CNN
-	1    15850 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606B0F67
-P 17050 4050
-F 0 "SW?" H 17050 4335 50  0000 C CNN
-F 1 "SW_MEC_5G" H 17050 4244 50  0000 C CNN
-F 2 "" H 17050 4250 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17050 4250 50  0001 C CNN
-	1    17050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE725
-P 5000 4650
-F 0 "SW?" H 5000 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5000 4844 50  0000 C CNN
-F 2 "" H 5000 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5000 4850 50  0001 C CNN
-	1    5000 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE72B
-P 5900 4650
-F 0 "SW?" H 5900 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5900 4844 50  0000 C CNN
-F 2 "" H 5900 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5900 4850 50  0001 C CNN
-	1    5900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE731
-P 6800 4650
-F 0 "SW?" H 6800 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6800 4844 50  0000 C CNN
-F 2 "" H 6800 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6800 4850 50  0001 C CNN
-	1    6800 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE737
-P 7700 4650
-F 0 "SW?" H 7700 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7700 4844 50  0000 C CNN
-F 2 "" H 7700 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7700 4850 50  0001 C CNN
-	1    7700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE73D
-P 8550 4650
-F 0 "SW?" H 8550 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8550 4844 50  0000 C CNN
-F 2 "" H 8550 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8550 4850 50  0001 C CNN
-	1    8550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE743
-P 9400 4650
-F 0 "SW?" H 9400 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9400 4844 50  0000 C CNN
-F 2 "" H 9400 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9400 4850 50  0001 C CNN
-	1    9400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE749
-P 10300 4650
-F 0 "SW?" H 10300 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10300 4844 50  0000 C CNN
-F 2 "" H 10300 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10300 4850 50  0001 C CNN
-	1    10300 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE74F
-P 11200 4650
-F 0 "SW?" H 11200 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11200 4844 50  0000 C CNN
-F 2 "" H 11200 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11200 4850 50  0001 C CNN
-	1    11200 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE755
-P 12050 4650
-F 0 "SW?" H 12050 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12050 4844 50  0000 C CNN
-F 2 "" H 12050 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12050 4850 50  0001 C CNN
-	1    12050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE75B
-P 12850 4650
-F 0 "SW?" H 12850 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12850 4844 50  0000 C CNN
-F 2 "" H 12850 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12850 4850 50  0001 C CNN
-	1    12850 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606BE761
-P 13700 4650
-F 0 "SW?" H 13700 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 13700 4844 50  0000 C CNN
-F 2 "" H 13700 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13700 4850 50  0001 C CNN
-	1    13700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606C053F
-P 14550 4650
-F 0 "SW?" H 14550 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14550 4844 50  0000 C CNN
-F 2 "" H 14550 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14550 4850 50  0001 C CNN
-	1    14550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606C0545
-P 15400 4650
-F 0 "SW?" H 15400 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15400 4844 50  0000 C CNN
-F 2 "" H 15400 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15400 4850 50  0001 C CNN
-	1    15400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606C0D56
-P 17100 4650
-F 0 "SW?" H 17100 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 17100 4844 50  0000 C CNN
-F 2 "" H 17100 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 4850 50  0001 C CNN
-	1    17100 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606C17E9
-P 3800 4650
-F 0 "SW?" H 3800 4935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3800 4844 50  0000 C CNN
-F 2 "" H 3800 4850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3800 4850 50  0001 C CNN
-	1    3800 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC530
-P 5150 5150
-F 0 "SW?" H 5150 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5150 5344 50  0000 C CNN
-F 2 "" H 5150 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5150 5350 50  0001 C CNN
-	1    5150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC536
-P 6050 5150
-F 0 "SW?" H 6050 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6050 5344 50  0000 C CNN
-F 2 "" H 6050 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6050 5350 50  0001 C CNN
-	1    6050 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC53C
-P 6950 5150
-F 0 "SW?" H 6950 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6950 5344 50  0000 C CNN
-F 2 "" H 6950 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6950 5350 50  0001 C CNN
-	1    6950 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC542
-P 7850 5150
-F 0 "SW?" H 7850 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7850 5344 50  0000 C CNN
-F 2 "" H 7850 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 5350 50  0001 C CNN
-	1    7850 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC548
-P 8700 5150
-F 0 "SW?" H 8700 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8700 5344 50  0000 C CNN
-F 2 "" H 8700 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8700 5350 50  0001 C CNN
-	1    8700 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC54E
-P 9550 5150
-F 0 "SW?" H 9550 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9550 5344 50  0000 C CNN
-F 2 "" H 9550 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9550 5350 50  0001 C CNN
-	1    9550 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC554
-P 10450 5150
-F 0 "SW?" H 10450 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10450 5344 50  0000 C CNN
-F 2 "" H 10450 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10450 5350 50  0001 C CNN
-	1    10450 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC55A
-P 11350 5150
-F 0 "SW?" H 11350 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11350 5344 50  0000 C CNN
-F 2 "" H 11350 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11350 5350 50  0001 C CNN
-	1    11350 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC560
-P 12200 5150
-F 0 "SW?" H 12200 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12200 5344 50  0000 C CNN
-F 2 "" H 12200 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12200 5350 50  0001 C CNN
-	1    12200 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CC566
-P 13000 5150
-F 0 "SW?" H 13000 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 13000 5344 50  0000 C CNN
-F 2 "" H 13000 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13000 5350 50  0001 C CNN
-	1    13000 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CE7C6
-P 3300 5150
-F 0 "SW?" H 3300 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3300 5344 50  0000 C CNN
-F 2 "" H 3300 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3300 5350 50  0001 C CNN
-	1    3300 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606CE7CC
-P 4350 5150
-F 0 "SW?" H 4350 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4350 5344 50  0000 C CNN
-F 2 "" H 4350 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4350 5350 50  0001 C CNN
-	1    4350 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606D07DD
-P 14150 5150
-F 0 "SW?" H 14150 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14150 5344 50  0000 C CNN
-F 2 "" H 14150 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14150 5350 50  0001 C CNN
-	1    14150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606D3701
-P 15450 5150
-F 0 "SW?" H 15450 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15450 5344 50  0000 C CNN
-F 2 "" H 15450 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15450 5350 50  0001 C CNN
-	1    15450 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606D3C59
-P 17100 5150
-F 0 "SW?" H 17100 5435 50  0000 C CNN
-F 1 "SW_MEC_5G" H 17100 5344 50  0000 C CNN
-F 2 "" H 17100 5350 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 5350 50  0001 C CNN
-	1    17100 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA79C
-P 5300 5750
-F 0 "SW?" H 5300 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5300 5944 50  0000 C CNN
-F 2 "" H 5300 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5300 5950 50  0001 C CNN
-	1    5300 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7A2
-P 6200 5750
-F 0 "SW?" H 6200 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6200 5944 50  0000 C CNN
-F 2 "" H 6200 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6200 5950 50  0001 C CNN
-	1    6200 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7A8
-P 7100 5750
-F 0 "SW?" H 7100 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7100 5944 50  0000 C CNN
-F 2 "" H 7100 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7100 5950 50  0001 C CNN
-	1    7100 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7AE
-P 8000 5750
-F 0 "SW?" H 8000 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8000 5944 50  0000 C CNN
-F 2 "" H 8000 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8000 5950 50  0001 C CNN
-	1    8000 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7B4
-P 8850 5750
-F 0 "SW?" H 8850 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8850 5944 50  0000 C CNN
-F 2 "" H 8850 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8850 5950 50  0001 C CNN
-	1    8850 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7BA
-P 9700 5750
-F 0 "SW?" H 9700 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9700 5944 50  0000 C CNN
-F 2 "" H 9700 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9700 5950 50  0001 C CNN
-	1    9700 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7C0
-P 10600 5750
-F 0 "SW?" H 10600 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10600 5944 50  0000 C CNN
-F 2 "" H 10600 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10600 5950 50  0001 C CNN
-	1    10600 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7C6
-P 11500 5750
-F 0 "SW?" H 11500 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11500 5944 50  0000 C CNN
-F 2 "" H 11500 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11500 5950 50  0001 C CNN
-	1    11500 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7CC
-P 12350 5750
-F 0 "SW?" H 12350 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12350 5944 50  0000 C CNN
-F 2 "" H 12350 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12350 5950 50  0001 C CNN
-	1    12350 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7D2
-P 13150 5750
-F 0 "SW?" H 13150 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 13150 5944 50  0000 C CNN
-F 2 "" H 13150 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13150 5950 50  0001 C CNN
-	1    13150 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7D8
-P 3300 5750
-F 0 "SW?" H 3300 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3300 5944 50  0000 C CNN
-F 2 "" H 3300 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3300 5950 50  0001 C CNN
-	1    3300 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DA7DE
-P 4350 5750
-F 0 "SW?" H 4350 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4350 5944 50  0000 C CNN
-F 2 "" H 4350 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4350 5950 50  0001 C CNN
-	1    4350 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606DFAAA
 P 14450 5800
-F 0 "SW?" H 14450 6085 50  0000 C CNN
+F 0 "SW39" H 14450 6085 50  0000 C CNN
 F 1 "SW_MEC_5G" H 14450 5994 50  0000 C CNN
-F 2 "" H 14450 6000 50  0001 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14450 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14450 6000 50  0001 C CNN
 	1    14450 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606E10C2
-P 16200 5750
-F 0 "SW?" H 16200 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 16200 5944 50  0000 C CNN
-F 2 "" H 16200 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16200 5950 50  0001 C CNN
-	1    16200 5750
+L Switch:SW_MEC_5G SW40
+U 1 1 606B0F55
+P 15250 5800
+F 0 "SW40" H 15250 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15250 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 15250 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15250 6000 50  0001 C CNN
+	1    15250 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606E10C8
-P 17100 5750
-F 0 "SW?" H 17100 6035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 17100 5944 50  0000 C CNN
-F 2 "" H 17100 5950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 5950 50  0001 C CNN
-	1    17100 5750
+L Switch:SW_MEC_5G SW41
+U 1 1 606B0F5B
+P 16100 5800
+F 0 "SW41" H 16100 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16100 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 16100 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16100 6000 50  0001 C CNN
+	1    16100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606E21FF
-P 3300 6350
-F 0 "SW?" H 3300 6635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3300 6544 50  0000 C CNN
-F 2 "" H 3300 6550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3300 6550 50  0001 C CNN
-	1    3300 6350
+L Switch:SW_MEC_5G SW42
+U 1 1 606B0F61
+P 17500 5800
+F 0 "SW42" H 17500 6085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17500 5994 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17500 6000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17500 6000 50  0001 C CNN
+	1    17500 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606E2205
-P 4450 6350
-F 0 "SW?" H 4450 6635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4450 6544 50  0000 C CNN
-F 2 "" H 4450 6550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4450 6550 50  0001 C CNN
-	1    4450 6350
+L Switch:SW_MEC_5G SW28
+U 1 1 606B0F67
+P 18700 5750
+F 0 "SW28" H 18700 6035 50  0000 C CNN
+F 1 "SW_MEC_5G" H 18700 5944 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 18700 5950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18700 5950 50  0001 C CNN
+	1    18700 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606E6766
-P 5600 6350
-F 0 "SW?" H 5600 6635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5600 6544 50  0000 C CNN
-F 2 "" H 5600 6550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5600 6550 50  0001 C CNN
-	1    5600 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 606E6EAC
+L Switch:SW_MEC_5G SW44
+U 1 1 606BE725
 P 6650 6350
-F 0 "SW?" H 6650 6635 50  0000 C CNN
+F 0 "SW44" H 6650 6635 50  0000 C CNN
 F 1 "SW_MEC_5G" H 6650 6544 50  0000 C CNN
-F 2 "" H 6650 6550 50  0001 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6650 6550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6650 6550 50  0001 C CNN
 	1    6650 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW45
+U 1 1 606BE72B
+P 7550 6350
+F 0 "SW45" H 7550 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7550 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 7550 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7550 6550 50  0001 C CNN
+	1    7550 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW46
+U 1 1 606BE731
+P 8450 6350
+F 0 "SW46" H 8450 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8450 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 8450 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8450 6550 50  0001 C CNN
+	1    8450 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW47
+U 1 1 606BE737
+P 9350 6350
+F 0 "SW47" H 9350 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9350 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9350 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9350 6550 50  0001 C CNN
+	1    9350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW48
+U 1 1 606BE73D
+P 10200 6350
+F 0 "SW48" H 10200 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10200 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 10200 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10200 6550 50  0001 C CNN
+	1    10200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW49
+U 1 1 606BE743
+P 11050 6350
+F 0 "SW49" H 11050 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11050 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 11050 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11050 6550 50  0001 C CNN
+	1    11050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW50
+U 1 1 606BE749
+P 11950 6350
+F 0 "SW50" H 11950 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11950 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 11950 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11950 6550 50  0001 C CNN
+	1    11950 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW51
+U 1 1 606BE74F
+P 12850 6350
+F 0 "SW51" H 12850 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12850 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 12850 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12850 6550 50  0001 C CNN
+	1    12850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW52
+U 1 1 606BE755
+P 13700 6350
+F 0 "SW52" H 13700 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13700 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13700 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13700 6550 50  0001 C CNN
+	1    13700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW53
+U 1 1 606BE75B
+P 14500 6350
+F 0 "SW53" H 14500 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14500 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14500 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14500 6550 50  0001 C CNN
+	1    14500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW54
+U 1 1 606BE761
+P 15350 6350
+F 0 "SW54" H 15350 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15350 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 15350 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15350 6550 50  0001 C CNN
+	1    15350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW55
+U 1 1 606C053F
+P 16200 6350
+F 0 "SW55" H 16200 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16200 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 16200 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16200 6550 50  0001 C CNN
+	1    16200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW56
+U 1 1 606C0545
+P 17050 6350
+F 0 "SW56" H 17050 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17050 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17050 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17050 6550 50  0001 C CNN
+	1    17050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW57
+U 1 1 606C0D56
+P 18750 6350
+F 0 "SW57" H 18750 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 18750 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 18750 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 6550 50  0001 C CNN
+	1    18750 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW43
+U 1 1 606C17E9
+P 5450 6350
+F 0 "SW43" H 5450 6635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 5450 6544 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 5450 6550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5450 6550 50  0001 C CNN
+	1    5450 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW60
+U 1 1 606CC530
+P 6800 6850
+F 0 "SW60" H 6800 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6800 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6800 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6800 7050 50  0001 C CNN
+	1    6800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW61
+U 1 1 606CC536
+P 7700 6850
+F 0 "SW61" H 7700 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7700 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 7700 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7700 7050 50  0001 C CNN
+	1    7700 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW62
+U 1 1 606CC53C
+P 8600 6850
+F 0 "SW62" H 8600 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8600 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 8600 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8600 7050 50  0001 C CNN
+	1    8600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW63
+U 1 1 606CC542
+P 9500 6850
+F 0 "SW63" H 9500 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9500 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9500 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9500 7050 50  0001 C CNN
+	1    9500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW64
+U 1 1 606CC548
+P 10350 6850
+F 0 "SW64" H 10350 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10350 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 10350 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 7050 50  0001 C CNN
+	1    10350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW65
+U 1 1 606CC54E
+P 11200 6850
+F 0 "SW65" H 11200 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11200 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 11200 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11200 7050 50  0001 C CNN
+	1    11200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW66
+U 1 1 606CC554
+P 12100 6850
+F 0 "SW66" H 12100 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12100 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 12100 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12100 7050 50  0001 C CNN
+	1    12100 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW67
+U 1 1 606CC55A
+P 13000 6850
+F 0 "SW67" H 13000 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13000 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13000 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13000 7050 50  0001 C CNN
+	1    13000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW68
+U 1 1 606CC560
+P 13850 6850
+F 0 "SW68" H 13850 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13850 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13850 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13850 7050 50  0001 C CNN
+	1    13850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW69
+U 1 1 606CC566
+P 14650 6850
+F 0 "SW69" H 14650 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14650 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14650 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14650 7050 50  0001 C CNN
+	1    14650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW58
+U 1 1 606CE7C6
+P 4950 6850
+F 0 "SW58" H 4950 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4950 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 4950 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4950 7050 50  0001 C CNN
+	1    4950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW59
+U 1 1 606CE7CC
+P 6000 6850
+F 0 "SW59" H 6000 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6000 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6000 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6000 7050 50  0001 C CNN
+	1    6000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW70
+U 1 1 606D07DD
+P 15800 6850
+F 0 "SW70" H 15800 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15800 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 15800 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15800 7050 50  0001 C CNN
+	1    15800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW71
+U 1 1 606D3701
+P 17100 6850
+F 0 "SW71" H 17100 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17100 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17100 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 7050 50  0001 C CNN
+	1    17100 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW72
+U 1 1 606D3C59
+P 18750 6850
+F 0 "SW72" H 18750 7135 50  0000 C CNN
+F 1 "SW_MEC_5G" H 18750 7044 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 18750 7050 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 7050 50  0001 C CNN
+	1    18750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW75
+U 1 1 606DA79C
+P 6950 7450
+F 0 "SW75" H 6950 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6950 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6950 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6950 7650 50  0001 C CNN
+	1    6950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW76
+U 1 1 606DA7A2
+P 7850 7450
+F 0 "SW76" H 7850 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7850 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 7850 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 7650 50  0001 C CNN
+	1    7850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW77
+U 1 1 606DA7A8
+P 8750 7450
+F 0 "SW77" H 8750 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8750 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 8750 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8750 7650 50  0001 C CNN
+	1    8750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW78
+U 1 1 606DA7AE
+P 9650 7450
+F 0 "SW78" H 9650 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9650 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9650 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9650 7650 50  0001 C CNN
+	1    9650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW79
+U 1 1 606DA7B4
+P 10500 7450
+F 0 "SW79" H 10500 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10500 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 10500 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10500 7650 50  0001 C CNN
+	1    10500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW80
+U 1 1 606DA7BA
+P 11350 7450
+F 0 "SW80" H 11350 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 11350 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 11350 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11350 7650 50  0001 C CNN
+	1    11350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW81
+U 1 1 606DA7C0
+P 12250 7450
+F 0 "SW81" H 12250 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12250 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 12250 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12250 7650 50  0001 C CNN
+	1    12250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW82
+U 1 1 606DA7C6
+P 13150 7450
+F 0 "SW82" H 13150 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13150 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13150 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13150 7650 50  0001 C CNN
+	1    13150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW83
+U 1 1 606DA7CC
+P 14000 7450
+F 0 "SW83" H 14000 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14000 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14000 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14000 7650 50  0001 C CNN
+	1    14000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW84
+U 1 1 606DA7D2
+P 14800 7450
+F 0 "SW84" H 14800 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14800 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14800 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14800 7650 50  0001 C CNN
+	1    14800 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW73
+U 1 1 606DA7D8
+P 4950 7450
+F 0 "SW73" H 4950 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4950 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 4950 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4950 7650 50  0001 C CNN
+	1    4950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW74
+U 1 1 606DA7DE
+P 6000 7450
+F 0 "SW74" H 6000 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6000 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6000 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6000 7650 50  0001 C CNN
+	1    6000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW87
+U 1 1 606DFAAA
+P 16100 7500
+F 0 "SW87" H 16100 7785 50  0000 C CNN
+F 1 "SW_MEC_5G" H 16100 7694 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 16100 7700 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16100 7700 50  0001 C CNN
+	1    16100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW85
+U 1 1 606E10C2
+P 17850 7450
+F 0 "SW85" H 17850 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17850 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17850 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17850 7650 50  0001 C CNN
+	1    17850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW86
+U 1 1 606E10C8
+P 18750 7450
+F 0 "SW86" H 18750 7735 50  0000 C CNN
+F 1 "SW_MEC_5G" H 18750 7644 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 18750 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 7650 50  0001 C CNN
+	1    18750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW94
+U 1 1 606E21FF
+P 4950 8050
+F 0 "SW94" H 4950 8335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 4950 8244 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 4950 8250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4950 8250 50  0001 C CNN
+	1    4950 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW95
+U 1 1 606E2205
+P 6100 8050
+F 0 "SW95" H 6100 8335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6100 8244 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 6100 8250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6100 8250 50  0001 C CNN
+	1    6100 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW96
+U 1 1 606E6766
+P 7250 8050
+F 0 "SW96" H 7250 8335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7250 8244 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 7250 8250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7250 8250 50  0001 C CNN
+	1    7250 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW97
+U 1 1 606E6EAC
+P 8300 8050
+F 0 "SW97" H 8300 8335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 8300 8244 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 8300 8250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 8250 50  0001 C CNN
+	1    8300 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW98
 U 1 1 606E7A06
-P 7700 6350
-F 0 "SW?" H 7700 6635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7700 6544 50  0000 C CNN
-F 2 "" H 7700 6550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7700 6550 50  0001 C CNN
-	1    7700 6350
+P 9350 8050
+F 0 "SW98" H 9350 8335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 9350 8244 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 9350 8250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9350 8250 50  0001 C CNN
+	1    9350 8050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW99
 U 1 1 606E7A0C
-P 9200 6350
-F 0 "SW?" H 9200 6635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9200 6544 50  0000 C CNN
-F 2 "" H 9200 6550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9200 6550 50  0001 C CNN
-	1    9200 6350
+P 10850 8050
+F 0 "SW99" H 10850 8335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 10850 8244 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 10850 8250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10850 8250 50  0001 C CNN
+	1    10850 8050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW100
 U 1 1 606E9DB6
-P 10400 6350
-F 0 "SW?" H 10400 6635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10400 6544 50  0000 C CNN
-F 2 "" H 10400 6550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10400 6550 50  0001 C CNN
-	1    10400 6350
+P 12050 8050
+F 0 "SW100" H 12050 8335 50  0000 C CNN
+F 1 "SW_MEC_5G" H 12050 8244 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 12050 8250 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12050 8250 50  0001 C CNN
+	1    12050 8050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW88
 U 1 1 606EAC76
-P 11600 6300
-F 0 "SW?" H 11600 6585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11600 6494 50  0000 C CNN
-F 2 "" H 11600 6500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11600 6500 50  0001 C CNN
-	1    11600 6300
+P 13250 8000
+F 0 "SW88" H 13250 8285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 13250 8194 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 13250 8200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13250 8200 50  0001 C CNN
+	1    13250 8000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW89
 U 1 1 606EAC7C
-P 12500 6300
-F 0 "SW?" H 12500 6585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12500 6494 50  0000 C CNN
-F 2 "" H 12500 6500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12500 6500 50  0001 C CNN
-	1    12500 6300
+P 14150 8000
+F 0 "SW89" H 14150 8285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 14150 8194 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 14150 8200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14150 8200 50  0001 C CNN
+	1    14150 8000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW90
 U 1 1 606EB50E
-P 14150 6300
-F 0 "SW?" H 14150 6585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14150 6494 50  0000 C CNN
-F 2 "" H 14150 6500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14150 6500 50  0001 C CNN
-	1    14150 6300
+P 15800 8000
+F 0 "SW90" H 15800 8285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 15800 8194 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 15800 8200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15800 8200 50  0001 C CNN
+	1    15800 8000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW91
 U 1 1 606EDD2E
-P 15350 6300
-F 0 "SW?" H 15350 6585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15350 6494 50  0000 C CNN
-F 2 "" H 15350 6500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15350 6500 50  0001 C CNN
-	1    15350 6300
+P 17000 8000
+F 0 "SW91" H 17000 8285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17000 8194 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17000 8200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17000 8200 50  0001 C CNN
+	1    17000 8000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW92
 U 1 1 606EDD34
-P 16200 6300
-F 0 "SW?" H 16200 6585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 16200 6494 50  0000 C CNN
-F 2 "" H 16200 6500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16200 6500 50  0001 C CNN
-	1    16200 6300
+P 17850 8000
+F 0 "SW92" H 17850 8285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 17850 8194 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 17850 8200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17850 8200 50  0001 C CNN
+	1    17850 8000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
+L Switch:SW_MEC_5G SW93
 U 1 1 606EDD3A
-P 17100 6300
-F 0 "SW?" H 17100 6585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 17100 6494 50  0000 C CNN
-F 2 "" H 17100 6500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17100 6500 50  0001 C CNN
-	1    17100 6300
+P 18750 8000
+F 0 "SW93" H 18750 8285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 18750 8194 50  0000 C CNN
+F 2 "Libs:Kailh_socket_PG1350" H 18750 8200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 18750 8200 50  0001 C CNN
+	1    18750 8000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 3500 3600 3500
+	5300 5200 5250 5200
 Wire Wire Line
-	3600 3500 3600 4100
+	5250 5200 5250 5800
 Wire Wire Line
-	3600 4100 3600 4650
+	5250 5800 5250 6350
 Wire Wire Line
-	3600 4800 3100 4800
+	5250 6500 4750 6500
 Wire Wire Line
-	3100 4800 3100 5150
-Connection ~ 3600 4100
-Connection ~ 3600 4650
+	4750 6500 4750 6850
+Connection ~ 5250 5800
+Connection ~ 5250 6350
 Wire Wire Line
-	3600 4650 3600 4800
-Connection ~ 3100 5150
+	5250 6350 5250 6500
+Connection ~ 4750 6850
 Wire Wire Line
-	3100 5150 3100 5750
-Connection ~ 3100 5750
+	4750 6850 4750 7450
+Connection ~ 4750 7450
 Wire Wire Line
-	3100 5750 3100 6350
+	4750 7450 4750 8050
 Wire Wire Line
-	4550 2900 4450 2900
+	6200 4600 6100 4600
 Wire Wire Line
-	4450 2900 4450 3500
+	6100 4600 6100 5200
 Wire Wire Line
-	4450 3750 4600 3750
+	6100 5450 6250 5450
 Wire Wire Line
-	4600 3750 4600 4100
+	6250 5450 6250 5800
 Wire Wire Line
-	4600 4400 4150 4400
+	6250 6100 5800 6100
 Wire Wire Line
-	4150 4400 4150 5150
+	5800 6100 5800 6850
 Wire Wire Line
-	4150 6100 4250 6100
+	5800 7800 5900 7800
 Wire Wire Line
-	4250 6100 4250 6350
-Connection ~ 4450 3500
+	5900 7800 5900 8050
+Connection ~ 6100 5200
 Wire Wire Line
-	4450 3500 4450 3750
-Connection ~ 4600 4100
+	6100 5200 6100 5450
+Connection ~ 6250 5800
 Wire Wire Line
-	4600 4100 4600 4400
-Connection ~ 4150 5150
+	6250 5800 6250 6100
+Connection ~ 5800 6850
 Wire Wire Line
-	4150 5150 4150 5750
-Connection ~ 4150 5750
+	5800 6850 5800 7450
+Connection ~ 5800 7450
 Wire Wire Line
-	4150 5750 4150 6100
+	5800 7450 5800 7800
 Wire Wire Line
-	5650 2900 5400 2900
+	7300 4600 7050 4600
 Wire Wire Line
-	5400 2900 5400 3500
+	7050 4600 7050 5200
 Wire Wire Line
-	5400 4250 4800 4250
+	7050 5950 6450 5950
 Wire Wire Line
-	4800 4250 4800 4650
+	6450 5950 6450 6350
 Wire Wire Line
-	4800 5000 4950 5000
+	6450 6700 6600 6700
 Wire Wire Line
-	4950 5000 4950 5150
+	6600 6700 6600 6850
 Wire Wire Line
-	4950 5500 5100 5500
+	6600 7200 6750 7200
 Wire Wire Line
-	5100 5500 5100 5750
+	6750 7200 6750 7450
 Wire Wire Line
-	5100 6100 5400 6100
+	6750 7800 7050 7800
 Wire Wire Line
-	5400 6100 5400 6350
-Connection ~ 5400 3500
+	7050 7800 7050 8050
+Connection ~ 7050 5200
 Wire Wire Line
-	5400 3500 5400 4250
-Connection ~ 4800 4650
+	7050 5200 7050 5950
+Connection ~ 6450 6350
 Wire Wire Line
-	4800 4650 4800 5000
-Connection ~ 4950 5150
+	6450 6350 6450 6700
+Connection ~ 6600 6850
 Wire Wire Line
-	4950 5150 4950 5500
-Connection ~ 5100 5750
+	6600 6850 6600 7200
+Connection ~ 6750 7450
 Wire Wire Line
-	5100 5750 5100 6100
+	6750 7450 6750 7800
 Wire Wire Line
-	6300 3500 6300 2900
+	7950 5200 7950 4600
 Wire Wire Line
-	6300 2900 6800 2900
+	7950 4600 8350 4600
 Wire Wire Line
-	6300 3500 6300 3650
+	7950 5200 7950 5350
 Wire Wire Line
-	6300 3650 5550 3650
+	7950 5350 7200 5350
 Wire Wire Line
-	5550 3650 5550 4100
+	7200 5350 7200 5800
 Wire Wire Line
-	5550 4550 5700 4550
+	7200 6250 7350 6250
 Wire Wire Line
-	5700 4550 5700 4650
+	7350 6250 7350 6350
 Wire Wire Line
-	5700 5000 5850 5000
+	7350 6700 7500 6700
 Wire Wire Line
-	5850 5000 5850 5150
+	7500 6700 7500 6850
 Wire Wire Line
-	5850 5550 6000 5550
+	7500 7250 7650 7250
 Wire Wire Line
-	6000 5550 6000 5750
+	7650 7250 7650 7450
 Wire Wire Line
-	6000 6050 6450 6050
+	7650 7750 8100 7750
 Wire Wire Line
-	6450 6050 6450 6350
-Connection ~ 6300 3500
-Connection ~ 5550 4100
+	8100 7750 8100 8050
+Connection ~ 7950 5200
+Connection ~ 7200 5800
 Wire Wire Line
-	5550 4100 5550 4550
-Connection ~ 5700 4650
+	7200 5800 7200 6250
+Connection ~ 7350 6350
 Wire Wire Line
-	5700 4650 5700 5000
-Connection ~ 5850 5150
+	7350 6350 7350 6700
+Connection ~ 7500 6850
 Wire Wire Line
-	5850 5150 5850 5550
-Connection ~ 6000 5750
+	7500 6850 7500 7250
+Connection ~ 7650 7450
 Wire Wire Line
-	6000 5750 6000 6050
+	7650 7450 7650 7750
 Wire Wire Line
-	8000 2900 7650 2900
+	9650 4600 9300 4600
 Wire Wire Line
-	7650 2900 7650 3150
+	9300 4600 9300 4850
 Wire Wire Line
-	7650 3150 7200 3150
+	9300 4850 8850 4850
 Wire Wire Line
-	7200 3150 7200 3500
+	8850 4850 8850 5200
 Wire Wire Line
-	7200 3700 6450 3700
+	8850 5400 8100 5400
 Wire Wire Line
-	6450 3700 6450 4100
+	8100 5400 8100 5800
 Wire Wire Line
-	6450 4350 6600 4350
+	8100 6050 8250 6050
 Wire Wire Line
-	6600 4350 6600 4650
+	8250 6050 8250 6350
 Wire Wire Line
-	6600 4950 6750 4950
+	8250 6650 8400 6650
 Wire Wire Line
-	6750 4950 6750 5150
+	8400 6650 8400 6850
 Wire Wire Line
-	6750 5550 6900 5550
+	8400 7250 8550 7250
 Wire Wire Line
-	6900 5550 6900 5750
+	8550 7250 8550 7450
 Wire Wire Line
-	6900 5900 7500 5900
+	8550 7600 9150 7600
 Wire Wire Line
-	7500 5900 7500 6350
-Connection ~ 7200 3500
+	9150 7600 9150 8050
+Connection ~ 8850 5200
 Wire Wire Line
-	7200 3500 7200 3700
-Connection ~ 6450 4100
+	8850 5200 8850 5400
+Connection ~ 8100 5800
 Wire Wire Line
-	6450 4100 6450 4350
-Connection ~ 6600 4650
+	8100 5800 8100 6050
+Connection ~ 8250 6350
 Wire Wire Line
-	6600 4650 6600 4950
-Connection ~ 6750 5150
+	8250 6350 8250 6650
+Connection ~ 8400 6850
 Wire Wire Line
-	6750 5150 6750 5550
-Connection ~ 6900 5750
+	8400 6850 8400 7250
+Connection ~ 8550 7450
 Wire Wire Line
-	6900 5750 6900 5900
+	8550 7450 8550 7600
 Wire Wire Line
-	9150 2900 9150 3150
+	10800 4600 10800 4850
 Wire Wire Line
-	9150 3150 8100 3150
+	10800 4850 9750 4850
 Wire Wire Line
-	8100 3150 8100 3500
+	9750 4850 9750 5200
 Wire Wire Line
-	8100 3700 7350 3700
+	9750 5400 9000 5400
 Wire Wire Line
-	7350 3700 7350 4100
+	9000 5400 9000 5800
 Wire Wire Line
-	7350 4450 7500 4450
+	9000 6150 9150 6150
 Wire Wire Line
-	7500 4450 7500 4650
+	9150 6150 9150 6350
 Wire Wire Line
-	7500 5000 7650 5000
+	9150 6700 9300 6700
 Wire Wire Line
-	7650 5000 7650 5150
+	9300 6700 9300 6850
 Wire Wire Line
-	7650 5450 7800 5450
+	9300 7150 9450 7150
 Wire Wire Line
-	7800 5450 7800 5750
+	9450 7150 9450 7450
 Wire Wire Line
-	7800 6050 9000 6050
+	9450 7750 10650 7750
 Wire Wire Line
-	9000 6050 9000 6350
-Connection ~ 8100 3500
+	10650 7750 10650 8050
+Connection ~ 9750 5200
 Wire Wire Line
-	8100 3500 8100 3700
-Connection ~ 7350 4100
+	9750 5200 9750 5400
+Connection ~ 9000 5800
 Wire Wire Line
-	7350 4100 7350 4450
-Connection ~ 7500 4650
+	9000 5800 9000 6150
+Connection ~ 9150 6350
 Wire Wire Line
-	7500 4650 7500 5000
-Connection ~ 7650 5150
+	9150 6350 9150 6700
+Connection ~ 9300 6850
 Wire Wire Line
-	7650 5150 7650 5450
-Connection ~ 7800 5750
+	9300 6850 9300 7150
+Connection ~ 9450 7450
 Wire Wire Line
-	7800 5750 7800 6050
+	9450 7450 9450 7750
 Wire Wire Line
-	8950 3500 8950 3750
+	10600 5200 10600 5450
 Wire Wire Line
-	8950 3750 8250 3750
+	10600 5450 9900 5450
 Wire Wire Line
-	8250 3750 8250 4100
+	9900 5450 9900 5800
 Wire Wire Line
-	8350 4650 8350 4100
+	10000 6350 10000 5800
 Wire Wire Line
-	8350 4100 8250 4100
-Connection ~ 8250 4100
+	10000 5800 9900 5800
+Connection ~ 9900 5800
 Wire Wire Line
-	8350 4650 8350 4900
+	10000 6350 10000 6600
 Wire Wire Line
-	8350 4900 8500 4900
+	10000 6600 10150 6600
 Wire Wire Line
-	8500 4900 8500 5150
-Connection ~ 8350 4650
+	10150 6600 10150 6850
+Connection ~ 10000 6350
 Wire Wire Line
-	8500 5150 8500 5750
+	10150 6850 10150 7450
 Wire Wire Line
-	8500 5750 8650 5750
-Connection ~ 8500 5150
+	10150 7450 10300 7450
+Connection ~ 10150 6850
 Wire Wire Line
-	10250 2900 9800 2900
+	11900 4600 11650 4600
 Wire Wire Line
-	9800 2900 9800 3500
+	11450 4600 11450 5200
 Wire Wire Line
-	9800 3500 9800 3750
+	11450 5200 11450 5450
 Wire Wire Line
-	9800 3750 9100 3750
+	11450 5450 10750 5450
 Wire Wire Line
-	9100 3750 9100 4100
+	10750 5450 10750 5800
 Wire Wire Line
-	9100 4550 9200 4550
+	10750 6250 10850 6250
 Wire Wire Line
-	9200 4550 9200 4650
+	10850 6250 10850 6350
 Wire Wire Line
-	9200 5050 9300 5050
+	10850 6750 10950 6750
 Wire Wire Line
-	9300 5050 9300 5150
+	10950 6750 10950 6850
 Wire Wire Line
-	9300 5150 9350 5150
-Connection ~ 9800 3500
-Connection ~ 9100 4100
+	10950 6850 11000 6850
+Connection ~ 11450 5200
+Connection ~ 10750 5800
 Wire Wire Line
-	9100 4100 9100 4550
-Connection ~ 9200 4650
+	10750 5800 10750 6250
+Connection ~ 10850 6350
 Wire Wire Line
-	9200 4650 9200 5050
+	10850 6350 10850 6750
 Wire Wire Line
-	9350 5150 9350 5750
+	11000 6850 11000 7450
 Wire Wire Line
-	9350 5750 9500 5750
-Connection ~ 9350 5150
+	11000 7450 11150 7450
+Connection ~ 11000 6850
 Wire Wire Line
-	9500 5750 9500 6350
+	11150 7450 11150 8050
 Wire Wire Line
-	9500 6350 10200 6350
-Connection ~ 9500 5750
+	11150 8050 11850 8050
+Connection ~ 11150 7450
 Wire Wire Line
-	11250 2900 11100 2900
+	12900 4600 12750 4600
 Wire Wire Line
-	11100 2900 11100 3200
+	12750 4600 12750 4900
 Wire Wire Line
-	11100 3200 10700 3200
+	12750 4900 12350 4900
 Wire Wire Line
-	10700 3200 10700 3500
+	12350 4900 12350 5200
 Wire Wire Line
-	10700 3500 10700 3950
+	12350 5200 12350 5650
 Wire Wire Line
-	10700 3950 9950 3950
+	12350 5650 11600 5650
 Wire Wire Line
-	9950 3950 9950 4100
+	11600 5650 11600 5800
 Wire Wire Line
-	9950 4650 10100 4650
-Connection ~ 10700 3500
-Connection ~ 9950 4100
+	11600 6350 11750 6350
+Connection ~ 12350 5200
+Connection ~ 11600 5800
 Wire Wire Line
-	9950 4100 9950 4650
+	11600 5800 11600 6350
 Wire Wire Line
-	10100 4650 10100 5150
+	11750 6350 11750 6850
 Wire Wire Line
-	10100 5150 10200 5150
-Connection ~ 10100 4650
+	11750 6850 11850 6850
+Connection ~ 11750 6350
 Wire Wire Line
-	10200 5150 10200 5750
+	11850 6850 11850 7450
 Wire Wire Line
-	10200 5750 10400 5750
-Connection ~ 10200 5150
+	11850 7450 12050 7450
+Connection ~ 11850 6850
 Wire Wire Line
-	10200 5150 10250 5150
+	11850 6850 11900 6850
 Wire Wire Line
-	10400 5750 10400 6100
+	12050 7450 12050 7800
 Wire Wire Line
-	10400 6100 11400 6100
+	12050 7800 13050 7800
 Wire Wire Line
-	11400 6100 11400 6300
-Connection ~ 10400 5750
+	13050 7800 13050 8000
+Connection ~ 12050 7450
 Wire Wire Line
-	12250 2900 12250 3300
+	13900 4600 13900 5000
 Wire Wire Line
-	12250 3300 11600 3300
+	13900 5000 13250 5000
 Wire Wire Line
-	11600 3300 11600 3500
+	13250 5000 13250 5200
 Wire Wire Line
-	11600 3950 10850 3950
+	13250 5650 12500 5650
 Wire Wire Line
-	10850 3950 10850 4100
+	12500 5650 12500 5800
 Wire Wire Line
-	10850 4650 11000 4650
-Connection ~ 11600 3500
+	12500 6350 12650 6350
+Connection ~ 13250 5200
 Wire Wire Line
-	11600 3500 11600 3950
-Connection ~ 10850 4100
+	13250 5200 13250 5650
+Connection ~ 12500 5800
 Wire Wire Line
-	10850 4100 10850 4650
+	12500 5800 12500 6350
 Wire Wire Line
-	11000 4650 11000 5150
+	12650 6350 12650 6850
 Wire Wire Line
-	11000 5150 11150 5150
-Connection ~ 11000 4650
+	12650 6850 12800 6850
+Connection ~ 12650 6350
 Wire Wire Line
-	11150 5150 11150 5750
+	12800 6850 12800 7450
 Wire Wire Line
-	11150 5750 11300 5750
-Connection ~ 11150 5150
+	12800 7450 12950 7450
+Connection ~ 12800 6850
 Wire Wire Line
-	12450 3500 12450 3950
+	14100 5200 14100 5650
 Wire Wire Line
-	12450 3950 11750 3950
+	14100 5650 13400 5650
 Wire Wire Line
-	11750 3950 11750 4100
+	13400 5650 13400 5800
 Wire Wire Line
-	11750 4650 11850 4650
-Connection ~ 11750 4100
+	13400 6350 13500 6350
+Connection ~ 13400 5800
 Wire Wire Line
-	11750 4100 11750 4650
+	13400 5800 13400 6350
 Wire Wire Line
-	11850 4650 11850 5150
+	13500 6350 13500 6850
 Wire Wire Line
-	11850 5150 12000 5150
-Connection ~ 11850 4650
+	13500 6850 13650 6850
+Connection ~ 13500 6350
 Wire Wire Line
-	12000 5150 12000 5800
+	13650 6850 13650 7500
 Wire Wire Line
-	12000 5800 12150 5800
-Connection ~ 12000 5150
+	13650 7500 13800 7500
+Connection ~ 13650 6850
 Wire Wire Line
-	12150 6300 12300 6300
+	13800 8000 13950 8000
 Wire Wire Line
-	12150 5750 12150 5800
-Connection ~ 12150 5800
+	13800 7450 13800 7500
+Connection ~ 13800 7500
 Wire Wire Line
-	12150 5800 12150 6300
+	13800 7500 13800 8000
 Wire Wire Line
-	13450 2900 13250 2900
+	15100 4600 14900 4600
 Wire Wire Line
-	13250 2900 13250 3500
+	14900 4600 14900 5200
 Wire Wire Line
-	13250 3500 13250 3900
+	14900 5200 14900 5600
 Wire Wire Line
-	13250 3900 12600 3900
+	14900 5600 14250 5600
 Wire Wire Line
-	12600 3900 12600 4100
-Connection ~ 13250 3500
+	14250 5600 14250 5800
+Connection ~ 14900 5200
 Wire Wire Line
-	12600 4100 12600 4650
+	14250 5800 14250 6350
 Wire Wire Line
-	12600 4650 12650 4650
-Connection ~ 12600 4100
-Wire Wire Line
-	12650 4650 12650 5150
-Wire Wire Line
-	12650 5150 12800 5150
-Connection ~ 12650 4650
-Wire Wire Line
-	12800 5150 12800 5750
-Wire Wire Line
-	12800 5750 12950 5750
-Connection ~ 12800 5150
-Wire Wire Line
-	12950 5750 12950 6300
-Wire Wire Line
-	12950 6300 13950 6300
-Connection ~ 12950 5750
-Wire Wire Line
-	14550 2900 14100 2900
-Wire Wire Line
-	14100 2900 14100 3500
-Wire Wire Line
-	14100 3500 13900 3500
-Wire Wire Line
-	13900 3500 13900 3900
-Wire Wire Line
-	13900 3900 13400 3900
-Wire Wire Line
-	13400 3900 13400 4100
-Connection ~ 14100 3500
-Wire Wire Line
-	13400 4100 13400 4650
-Wire Wire Line
-	13400 4650 13500 4650
-Connection ~ 13400 4100
-Wire Wire Line
-	13500 4650 13500 5100
-Wire Wire Line
-	13500 5100 13950 5100
-Wire Wire Line
-	13950 5100 13950 5150
-Wire Wire Line
-	13950 5800 14250 5800
-Connection ~ 13500 4650
-Connection ~ 13950 5150
-Wire Wire Line
-	13950 5150 13950 5800
-Wire Wire Line
-	14250 5800 14250 5900
-Wire Wire Line
-	14250 5900 15150 5900
-Wire Wire Line
-	15150 5900 15150 6300
+	14250 6350 14300 6350
 Connection ~ 14250 5800
 Wire Wire Line
-	14950 3500 14850 3500
+	14300 6350 14300 6850
 Wire Wire Line
-	14850 3500 14850 3950
+	14300 6850 14450 6850
+Connection ~ 14300 6350
 Wire Wire Line
-	14850 3950 14250 3950
+	14450 6850 14450 7450
 Wire Wire Line
-	14250 3950 14250 4100
+	14450 7450 14600 7450
+Connection ~ 14450 6850
 Wire Wire Line
-	14250 4100 14250 4650
+	14600 7450 14600 8000
 Wire Wire Line
-	14250 4650 14350 4650
-Connection ~ 14250 4100
+	14600 8000 15600 8000
+Connection ~ 14600 7450
 Wire Wire Line
-	15700 3500 15850 3500
+	16200 4600 15900 4600
 Wire Wire Line
-	15700 4100 15650 4100
+	15750 4600 15750 5200
 Wire Wire Line
-	15700 2900 15700 3500
-Connection ~ 15700 3500
+	15750 5200 15550 5200
 Wire Wire Line
-	15700 3500 15700 4100
+	15550 5200 15550 5600
 Wire Wire Line
-	15650 4100 15200 4100
+	15550 5600 15050 5600
 Wire Wire Line
-	15200 4100 15200 4650
-Connection ~ 15650 4100
+	15050 5600 15050 5800
+Connection ~ 15750 5200
 Wire Wire Line
-	15200 4650 15200 5150
+	15050 5800 15050 6350
 Wire Wire Line
-	15200 5150 15250 5150
-Connection ~ 15200 4650
+	15050 6350 15150 6350
+Connection ~ 15050 5800
 Wire Wire Line
-	15200 5150 15200 5750
+	15150 6350 15150 6800
 Wire Wire Line
-	15200 5750 16000 5750
-Connection ~ 15200 5150
+	15150 6800 15600 6800
 Wire Wire Line
-	16000 5750 16000 6300
-Connection ~ 16000 5750
+	15600 6800 15600 6850
 Wire Wire Line
-	16650 3500 16650 4050
+	15600 7500 15900 7500
+Connection ~ 15150 6350
+Connection ~ 15600 6850
 Wire Wire Line
-	16650 4050 16850 4050
+	15600 6850 15600 7500
 Wire Wire Line
-	16900 4100 16900 4650
-Connection ~ 16900 4650
+	15900 7500 15900 7600
 Wire Wire Line
-	16900 4650 16900 5150
-Connection ~ 16900 5150
+	15900 7600 16800 7600
 Wire Wire Line
-	16900 5150 16900 5750
-Connection ~ 16900 5750
+	16800 7600 16800 8000
+Connection ~ 15900 7500
 Wire Wire Line
-	16900 5750 16900 6300
+	16600 5200 16500 5200
 Wire Wire Line
-	3600 3000 4950 3000
+	16500 5200 16500 5650
 Wire Wire Line
-	4950 3000 4950 2900
+	16500 5650 15900 5650
 Wire Wire Line
-	4950 3000 6050 3000
+	15900 5650 15900 5800
 Wire Wire Line
-	6050 3000 6050 2900
-Connection ~ 4950 3000
+	15900 5800 15900 6350
 Wire Wire Line
-	6050 3000 7200 3000
+	15900 6350 16000 6350
+Connection ~ 15900 5800
 Wire Wire Line
-	7200 3000 7200 2900
-Connection ~ 6050 3000
+	17350 5200 17500 5200
 Wire Wire Line
-	7200 3000 8400 3000
+	17350 5800 17300 5800
 Wire Wire Line
-	8400 3000 8400 2900
-Connection ~ 7200 3000
+	17350 4600 17350 5200
+Connection ~ 17350 5200
 Wire Wire Line
-	8400 3000 9550 3000
+	17350 5200 17350 5800
 Wire Wire Line
-	9550 3000 9550 2900
-Connection ~ 8400 3000
+	17300 5800 16850 5800
 Wire Wire Line
-	9550 3000 10650 3000
+	16850 5800 16850 6350
+Connection ~ 17300 5800
 Wire Wire Line
-	10650 3000 10650 2900
-Connection ~ 9550 3000
+	16850 6350 16850 6850
 Wire Wire Line
-	10650 3000 11650 3000
+	16850 6850 16900 6850
+Connection ~ 16850 6350
 Wire Wire Line
-	11650 3000 11650 2900
-Connection ~ 10650 3000
+	16850 6850 16850 7450
+Wire Wire Line
+	16850 7450 17650 7450
+Connection ~ 16850 6850
+Wire Wire Line
+	17650 7450 17650 8000
+Connection ~ 17650 7450
+Wire Wire Line
+	18300 5200 18300 5750
+Wire Wire Line
+	18300 5750 18500 5750
+Wire Wire Line
+	18550 5800 18550 6350
+Connection ~ 18550 6350
+Wire Wire Line
+	18550 6350 18550 6850
+Connection ~ 18550 6850
+Wire Wire Line
+	18550 6850 18550 7450
+Connection ~ 18550 7450
+Wire Wire Line
+	18550 7450 18550 8000
+Wire Wire Line
+	6600 4700 6600 4600
+Wire Wire Line
+	6600 4700 7700 4700
+Wire Wire Line
+	7700 4700 7700 4600
+Connection ~ 6600 4700
+Wire Wire Line
+	7700 4700 8850 4700
+Wire Wire Line
+	8850 4700 8850 4600
+Connection ~ 7700 4700
+Wire Wire Line
+	8850 4700 10050 4700
+Wire Wire Line
+	10050 4700 10050 4600
+Connection ~ 8850 4700
+Wire Wire Line
+	10050 4700 11200 4700
+Wire Wire Line
+	11200 4700 11200 4600
+Connection ~ 10050 4700
+Wire Wire Line
+	11200 4700 12300 4700
+Wire Wire Line
+	12300 4700 12300 4600
+Connection ~ 11200 4700
+Wire Wire Line
+	12300 4700 13300 4700
+Wire Wire Line
+	13300 4700 13300 4600
+Connection ~ 12300 4700
+Wire Wire Line
+	13300 4700 14300 4700
+Wire Wire Line
+	14300 4700 14300 4600
+Connection ~ 13300 4700
+Wire Wire Line
+	14300 4700 15500 4700
+Wire Wire Line
+	15500 4700 15500 4600
+Connection ~ 14300 4700
+Wire Wire Line
+	15500 4700 16650 4700
+Wire Wire Line
+	16650 4700 16650 4600
+Wire Wire Line
+	16650 4600 16600 4600
+Connection ~ 15500 4700
+Wire Wire Line
+	16650 4700 17750 4700
+Wire Wire Line
+	17750 4700 17750 4600
+Connection ~ 16650 4700
+Wire Wire Line
+	5700 5350 5700 5200
+Wire Wire Line
+	5700 5350 6500 5350
+Wire Wire Line
+	6500 5350 6500 5200
+Connection ~ 5700 5350
+Wire Wire Line
+	6500 5350 7150 5350
+Wire Wire Line
+	7150 5350 7150 5300
+Wire Wire Line
+	7150 5300 7450 5300
+Wire Wire Line
+	7450 5300 7450 5200
+Connection ~ 6500 5350
+Wire Wire Line
+	7450 5300 8350 5300
+Wire Wire Line
+	8350 5300 8350 5200
+Connection ~ 7450 5300
+Wire Wire Line
+	8350 5300 9250 5300
+Wire Wire Line
+	9250 5300 9250 5200
+Connection ~ 8350 5300
+Wire Wire Line
+	9250 5300 10150 5300
+Wire Wire Line
+	10150 5300 10150 5200
+Connection ~ 9250 5300
+Wire Wire Line
+	10150 5300 11000 5300
+Wire Wire Line
+	11000 5300 11000 5200
+Connection ~ 10150 5300
+Wire Wire Line
+	11000 5300 11850 5300
+Wire Wire Line
+	11850 5300 11850 5200
+Connection ~ 11000 5300
+Wire Wire Line
+	11850 5300 12750 5300
+Wire Wire Line
+	12750 5300 12750 5200
+Connection ~ 11850 5300
+Wire Wire Line
+	12750 5300 13650 5300
+Wire Wire Line
+	13650 5300 13650 5200
+Connection ~ 12750 5300
+Wire Wire Line
+	13650 5300 14500 5300
+Wire Wire Line
+	14500 5300 14500 5200
+Connection ~ 13650 5300
+Wire Wire Line
+	14500 5300 15300 5300
+Wire Wire Line
+	15300 5300 15300 5200
+Connection ~ 14500 5300
+Wire Wire Line
+	15300 5300 16150 5300
+Wire Wire Line
+	16150 5300 16150 5200
+Connection ~ 15300 5300
+Wire Wire Line
+	16150 5300 17000 5300
+Wire Wire Line
+	17000 5300 17000 5200
+Connection ~ 16150 5300
+Wire Wire Line
+	17000 5300 17900 5300
+Wire Wire Line
+	17900 5300 17900 5200
+Connection ~ 17000 5300
+Wire Wire Line
+	17900 5300 18700 5300
+Wire Wire Line
+	18700 5300 18700 5200
+Connection ~ 17900 5300
+Wire Wire Line
+	5650 5900 5650 5800
+Wire Wire Line
+	5650 5900 6650 5900
+Wire Wire Line
+	6650 5900 6650 5800
+Connection ~ 5650 5900
+Wire Wire Line
+	6650 5900 7600 5900
+Wire Wire Line
+	7600 5900 7600 5800
+Connection ~ 6650 5900
+Wire Wire Line
+	7600 5900 8500 5900
+Wire Wire Line
+	8500 5900 8500 5800
+Connection ~ 7600 5900
+Wire Wire Line
+	8500 5900 9400 5900
+Wire Wire Line
+	9400 5900 9400 5800
+Connection ~ 8500 5900
+Wire Wire Line
+	9400 5900 10300 5900
+Wire Wire Line
+	10300 5900 10300 5800
+Connection ~ 9400 5900
+Wire Wire Line
+	10300 5900 11150 5900
+Wire Wire Line
+	11150 5900 11150 5800
+Connection ~ 10300 5900
+Wire Wire Line
+	11150 5900 12000 5900
+Wire Wire Line
+	12000 5900 12000 5800
+Connection ~ 11150 5900
+Wire Wire Line
+	12000 5900 12900 5900
+Wire Wire Line
+	12900 5900 12900 5800
+Connection ~ 12000 5900
+Wire Wire Line
+	12900 5900 13800 5900
+Wire Wire Line
+	13800 5900 13800 5800
+Connection ~ 12900 5900
+Wire Wire Line
+	13800 5900 14650 5900
+Wire Wire Line
+	14650 5900 14650 5800
+Connection ~ 13800 5900
+Wire Wire Line
+	14650 5900 15450 5900
+Wire Wire Line
+	15450 5900 15450 5800
+Connection ~ 14650 5900
+Wire Wire Line
+	15450 5900 16300 5900
+Wire Wire Line
+	16300 5900 16300 5800
+Connection ~ 15450 5900
+Wire Wire Line
+	16300 5900 17700 5900
+Wire Wire Line
+	17700 5900 17700 5800
+Connection ~ 16300 5900
+Wire Wire Line
+	17700 5900 18900 5900
+Wire Wire Line
+	18900 5900 18900 5750
+Connection ~ 17700 5900
+Wire Wire Line
+	18500 5750 18500 5800
+Wire Wire Line
+	18500 5800 18550 5800
+Connection ~ 18500 5750
+Wire Wire Line
+	5650 6450 5650 6350
+Wire Wire Line
+	5650 6450 6850 6450
+Wire Wire Line
+	6850 6450 6850 6350
+Connection ~ 5650 6450
+Wire Wire Line
+	6850 6450 7750 6450
+Wire Wire Line
+	7750 6450 7750 6350
+Connection ~ 6850 6450
+Wire Wire Line
+	7750 6450 8650 6450
+Wire Wire Line
+	8650 6450 8650 6350
+Connection ~ 7750 6450
+Wire Wire Line
+	8650 6450 9550 6450
+Wire Wire Line
+	9550 6450 9550 6350
+Connection ~ 8650 6450
+Wire Wire Line
+	9550 6450 10400 6450
+Wire Wire Line
+	10400 6450 10400 6350
+Connection ~ 9550 6450
+Wire Wire Line
+	10400 6450 11250 6450
+Wire Wire Line
+	11250 6450 11250 6350
+Connection ~ 10400 6450
+Wire Wire Line
+	11250 6450 12150 6450
+Wire Wire Line
+	12150 6450 12150 6350
+Connection ~ 11250 6450
+Wire Wire Line
+	12150 6450 13050 6450
+Wire Wire Line
+	13050 6450 13050 6350
+Connection ~ 12150 6450
+Wire Wire Line
+	13050 6450 13900 6450
+Wire Wire Line
+	13900 6450 13900 6350
+Connection ~ 13050 6450
+Wire Wire Line
+	13900 6450 14700 6450
+Wire Wire Line
+	14700 6450 14700 6350
+Connection ~ 13900 6450
+Wire Wire Line
+	14700 6450 15550 6450
+Wire Wire Line
+	15550 6450 15550 6350
+Connection ~ 14700 6450
+Wire Wire Line
+	15550 6450 16400 6450
+Wire Wire Line
+	16400 6450 16400 6350
+Connection ~ 15550 6450
+Wire Wire Line
+	16400 6450 17250 6450
+Wire Wire Line
+	17250 6450 17250 6350
+Connection ~ 16400 6450
+Wire Wire Line
+	17250 6450 18950 6450
+Wire Wire Line
+	18950 6450 18950 6350
+Connection ~ 17250 6450
+Wire Wire Line
+	5150 6950 5150 6850
+Wire Wire Line
+	5150 6950 6200 6950
+Wire Wire Line
+	6200 6950 6200 6850
+Connection ~ 5150 6950
+Wire Wire Line
+	6200 6950 7000 6950
+Wire Wire Line
+	7000 6950 7000 6850
+Connection ~ 6200 6950
+Wire Wire Line
+	7000 6950 7900 6950
+Wire Wire Line
+	7900 6950 7900 6850
+Connection ~ 7000 6950
+Wire Wire Line
+	8800 6950 8800 6850
+Connection ~ 7900 6950
+Wire Wire Line
+	9700 6950 9700 6850
+Wire Wire Line
+	7900 6950 8800 6950
+Connection ~ 8800 6950
+Wire Wire Line
+	8800 6950 9700 6950
+Wire Wire Line
+	9700 6950 10550 6950
+Wire Wire Line
+	10550 6950 10550 6850
+Connection ~ 9700 6950
+Wire Wire Line
+	10550 6950 11400 6950
+Wire Wire Line
+	11400 6950 11400 6850
+Connection ~ 10550 6950
+Wire Wire Line
+	11400 6950 12300 6950
+Wire Wire Line
+	12300 6950 12300 6850
+Connection ~ 11400 6950
+Wire Wire Line
+	12300 6950 13200 6950
+Wire Wire Line
+	13200 6950 13200 6850
+Connection ~ 12300 6950
+Wire Wire Line
+	13200 6950 14050 6950
+Wire Wire Line
+	14050 6950 14050 6850
+Connection ~ 13200 6950
+Wire Wire Line
+	14050 6950 14850 6950
+Wire Wire Line
+	14850 6950 14850 6850
+Connection ~ 14050 6950
+Wire Wire Line
+	14850 6950 16000 6950
+Wire Wire Line
+	16000 6950 16000 6850
+Connection ~ 14850 6950
+Wire Wire Line
+	16000 6950 17300 6950
+Wire Wire Line
+	17300 6950 17300 6850
+Connection ~ 16000 6950
+Wire Wire Line
+	17300 6950 18950 6950
+Wire Wire Line
+	18950 6950 18950 6850
+Connection ~ 17300 6950
+Wire Wire Line
+	5150 7550 5150 7450
+Wire Wire Line
+	5150 7550 6200 7550
+Wire Wire Line
+	6200 7550 6200 7450
+Connection ~ 5150 7550
+Wire Wire Line
+	6200 7550 7150 7550
+Wire Wire Line
+	7150 7550 7150 7450
+Connection ~ 6200 7550
+Wire Wire Line
+	7150 7550 8050 7550
+Wire Wire Line
+	8050 7550 8050 7450
+Connection ~ 7150 7550
+Wire Wire Line
+	8050 7550 8950 7550
+Wire Wire Line
+	8950 7550 8950 7450
+Connection ~ 8050 7550
+Wire Wire Line
+	8950 7550 9850 7550
+Wire Wire Line
+	9850 7550 9850 7450
+Connection ~ 8950 7550
+Wire Wire Line
+	9850 7550 10700 7550
+Wire Wire Line
+	10700 7550 10700 7450
+Connection ~ 9850 7550
+Wire Wire Line
+	10700 7550 11550 7550
+Wire Wire Line
+	11550 7550 11550 7450
+Connection ~ 10700 7550
+Wire Wire Line
+	11550 7550 12450 7550
+Wire Wire Line
+	12450 7550 12450 7450
+Connection ~ 11550 7550
+Wire Wire Line
+	12450 7550 13350 7550
+Wire Wire Line
+	13350 7550 13350 7450
+Connection ~ 12450 7550
+Wire Wire Line
+	13350 7550 14200 7550
+Wire Wire Line
+	14200 7550 14200 7450
+Connection ~ 13350 7550
+Wire Wire Line
+	14200 7550 15000 7550
+Wire Wire Line
+	15000 7550 15000 7450
+Connection ~ 14200 7550
+Wire Wire Line
+	15000 7550 16300 7550
+Wire Wire Line
+	16300 7550 16300 7500
+Connection ~ 15000 7550
+Wire Wire Line
+	16300 7550 18050 7550
+Wire Wire Line
+	18050 7550 18050 7450
+Connection ~ 16300 7550
+Wire Wire Line
+	18050 7550 18950 7550
+Wire Wire Line
+	18950 7550 18950 7450
+Connection ~ 18050 7550
+Wire Wire Line
+	5150 8150 5150 8050
+Wire Wire Line
+	5150 8150 6300 8150
+Wire Wire Line
+	6300 8150 6300 8050
+Connection ~ 5150 8150
+Wire Wire Line
+	6300 8150 7450 8150
+Wire Wire Line
+	7450 8150 7450 8050
+Connection ~ 6300 8150
+Wire Wire Line
+	7450 8150 8500 8150
+Wire Wire Line
+	8500 8150 8500 8050
+Connection ~ 7450 8150
+Wire Wire Line
+	8500 8150 9550 8150
+Wire Wire Line
+	9550 8150 9550 8050
+Connection ~ 8500 8150
+Wire Wire Line
+	9550 8150 11050 8150
+Wire Wire Line
+	11050 8150 11050 8050
+Connection ~ 9550 8150
+Wire Wire Line
+	11050 8150 12250 8150
+Wire Wire Line
+	12250 8150 12250 8050
+Connection ~ 11050 8150
+Wire Wire Line
+	12250 8150 13450 8150
+Wire Wire Line
+	13450 8150 13450 8000
+Connection ~ 12250 8150
+Wire Wire Line
+	13450 8150 14350 8150
+Wire Wire Line
+	14350 8150 14350 8000
+Connection ~ 13450 8150
+Wire Wire Line
+	14350 8150 16000 8150
+Wire Wire Line
+	16000 8150 16000 8000
+Connection ~ 14350 8150
+Wire Wire Line
+	16000 8150 17200 8150
+Wire Wire Line
+	17200 8150 17200 8000
+Connection ~ 16000 8150
+Wire Wire Line
+	17200 8150 18050 8150
+Wire Wire Line
+	18050 8150 18050 8000
+Connection ~ 17200 8150
+Wire Wire Line
+	18050 8150 18950 8150
+Wire Wire Line
+	18950 8150 18950 8000
+Connection ~ 18050 8150
+$Comp
+L 74xx:CD74HC4067M U3
+U 1 1 612258F6
+P 11750 3250
+F 0 "U3" V 11704 4294 50  0000 L CNN
+F 1 "CD74HC4067M" V 11795 4294 50  0000 L CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 12650 2250 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 11400 4100 50  0001 C CNN
+	1    11750 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10950 3750 5250 3750
+Wire Wire Line
+	5250 3750 5250 5200
+Connection ~ 5250 5200
+Wire Wire Line
+	11050 3750 11050 3800
+Wire Wire Line
+	11050 3800 6100 3800
+Wire Wire Line
+	6100 3800 6100 4600
+Connection ~ 6100 4600
+Wire Wire Line
+	11150 3750 11150 3850
+Wire Wire Line
+	11150 3850 7050 3850
+Wire Wire Line
+	7050 3850 7050 4600
+Connection ~ 7050 4600
+Wire Wire Line
+	11250 3750 11250 3900
+Wire Wire Line
+	11250 3900 8350 3900
+Wire Wire Line
+	8350 3900 8350 4600
+Connection ~ 8350 4600
+Wire Wire Line
+	8350 4600 8450 4600
+Wire Wire Line
+	11350 3750 11350 3950
+Wire Wire Line
+	11350 3950 9300 3950
+Wire Wire Line
+	9300 3950 9300 4600
+Connection ~ 9300 4600
+Wire Wire Line
+	11450 3750 11450 4000
+Wire Wire Line
+	11450 4000 10800 4000
+Wire Wire Line
+	10800 4000 10800 4600
+Connection ~ 10800 4600
+Wire Wire Line
+	11550 3750 11550 4050
+Wire Wire Line
+	11550 4050 10600 4050
+Wire Wire Line
+	10600 4050 10600 5200
+Connection ~ 10600 5200
+Wire Wire Line
+	11650 3750 11650 4600
+Connection ~ 11650 4600
+Wire Wire Line
+	11650 4600 11450 4600
+Wire Wire Line
+	11750 3750 11750 4150
+Wire Wire Line
+	11750 4150 12750 4150
+Wire Wire Line
+	12750 4150 12750 4600
+Connection ~ 12750 4600
+Wire Wire Line
+	11850 3750 11850 4100
+Wire Wire Line
+	11850 4100 13900 4100
+Wire Wire Line
+	13900 4100 13900 4600
+Connection ~ 13900 4600
+Wire Wire Line
+	11950 3750 11950 4050
+Wire Wire Line
+	11950 4050 14600 4050
+Wire Wire Line
+	14600 4050 14600 4900
+Wire Wire Line
+	14600 4900 14100 4900
+Wire Wire Line
+	14100 4900 14100 5200
+Connection ~ 14100 5200
+Wire Wire Line
+	12050 3750 12050 4000
+Wire Wire Line
+	12050 4000 14900 4000
+Wire Wire Line
+	14900 4000 14900 4600
+Connection ~ 14900 4600
+Wire Wire Line
+	12150 3750 12150 3950
+Wire Wire Line
+	12150 3950 15900 3950
+Wire Wire Line
+	15900 3950 15900 4600
+Connection ~ 15900 4600
+Wire Wire Line
+	15900 4600 15750 4600
+Wire Wire Line
+	12250 3750 12250 3900
+Wire Wire Line
+	12250 3900 16850 3900
+Wire Wire Line
+	16850 3900 16850 4950
+Wire Wire Line
+	16850 4950 16500 4950
+Wire Wire Line
+	16500 4950 16500 5200
+Connection ~ 16500 5200
+Wire Wire Line
+	12350 3750 12350 3850
+Wire Wire Line
+	12350 3850 17350 3850
+Wire Wire Line
+	17350 3850 17350 4600
+Connection ~ 17350 4600
+Wire Wire Line
+	12450 3750 12450 3800
+Wire Wire Line
+	12450 3800 18300 3800
+Wire Wire Line
+	18300 3800 18300 5200
+Connection ~ 18300 5200
+Wire Wire Line
+	2450 2300 12250 2300
+Wire Wire Line
+	12250 2300 12250 2750
+Wire Wire Line
+	4250 2600 4250 2350
+Wire Wire Line
+	4250 2350 11850 2350
+Wire Wire Line
+	11850 2350 11850 2750
+Wire Wire Line
+	2450 2600 4250 2600
+Wire Wire Line
+	2450 1900 4300 1900
+Wire Wire Line
+	4300 1900 4300 2400
+Wire Wire Line
+	4300 2400 11750 2400
+Wire Wire Line
+	11750 2400 11750 2750
+Wire Wire Line
+	2450 2900 4350 2900
+Wire Wire Line
+	4350 2900 4350 2450
+Wire Wire Line
+	4350 2450 11650 2450
+Wire Wire Line
+	11650 2450 11650 2750
+Wire Wire Line
+	2450 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 2500
+Wire Wire Line
+	4400 2500 11550 2500
+Wire Wire Line
+	11550 2500 11550 2750
+Wire Wire Line
+	2450 1400 4350 1400
+Wire Wire Line
+	4350 1400 4350 2250
+Wire Wire Line
+	4350 2250 11150 2250
+Wire Wire Line
+	11150 2250 11150 2750
+Wire Wire Line
+	2450 1500 3050 1500
+Wire Wire Line
+	3050 1500 3050 4700
+Wire Wire Line
+	3050 4700 6600 4700
+Wire Wire Line
+	2450 1600 3100 1600
+Wire Wire Line
+	3100 1600 3100 5350
+Wire Wire Line
+	3100 5350 5700 5350
+Wire Wire Line
+	2450 1700 3150 1700
+Wire Wire Line
+	3150 1700 3150 5900
+Wire Wire Line
+	3150 5900 5650 5900
+Wire Wire Line
+	2450 2800 3200 2800
+Wire Wire Line
+	3200 2800 3200 6450
+Wire Wire Line
+	3200 6450 5650 6450
+Wire Wire Line
+	2450 2000 3250 2000
+Wire Wire Line
+	3250 2000 3250 6950
+Wire Wire Line
+	3250 6950 5150 6950
+Wire Wire Line
+	2450 3900 3300 3900
+Wire Wire Line
+	3300 3900 3300 7550
+Wire Wire Line
+	3300 7550 5150 7550
+Wire Wire Line
+	2450 3800 3350 3800
+Wire Wire Line
+	3350 3800 3350 8150
+Wire Wire Line
+	3350 8150 5150 8150
 $EndSCHEMATC
