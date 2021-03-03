@@ -372,4 +372,103 @@ F 3 "" H 4450 3750 50  0001 C CNN
 	1    4450 3750
 	0    1    1    0   
 $EndComp
+$Comp
+L Regulator_Linear:LT1086-3.3 U?
+U 1 1 605E5FA9
+P 5550 5700
+F 0 "U?" H 5550 5942 50  0000 C CNN
+F 1 "LT1086-3.3" H 5550 5851 50  0000 C CNN
+F 2 "" H 5550 5950 50  0001 C CIN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1086ffs.pdf" H 5550 5700 50  0001 C CNN
+	1    5550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 605ECB24
+P 5850 5700
+F 0 "#PWR?" H 5850 5550 50  0001 C CNN
+F 1 "+3.3V" V 5865 5828 50  0000 L CNN
+F 2 "" H 5850 5700 50  0001 C CNN
+F 3 "" H 5850 5700 50  0001 C CNN
+	1    5850 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 605ED6C6
+P 5250 5700
+F 0 "#PWR?" H 5250 5550 50  0001 C CNN
+F 1 "+5V" V 5265 5828 50  0000 L CNN
+F 2 "" H 5250 5700 50  0001 C CNN
+F 3 "" H 5250 5700 50  0001 C CNN
+	1    5250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:TLV71211_SOT23-5 U?
+U 1 1 605EF8F9
+P 5550 6650
+F 0 "U?" H 5550 6992 50  0000 C CNN
+F 1 "TLV71211_SOT23-5" H 5550 6901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5550 6975 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv712.pdf" H 5550 6700 50  0001 C CNN
+	1    5550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 605F18D4
+P 5250 6550
+F 0 "#PWR?" H 5250 6400 50  0001 C CNN
+F 1 "+5V" V 5265 6678 50  0000 L CNN
+F 2 "" H 5250 6550 50  0001 C CNN
+F 3 "" H 5250 6550 50  0001 C CNN
+	1    5250 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605F2905
+P 5550 6000
+F 0 "#PWR?" H 5550 5750 50  0001 C CNN
+F 1 "GND" H 5555 5827 50  0000 C CNN
+F 2 "" H 5550 6000 50  0001 C CNN
+F 3 "" H 5550 6000 50  0001 C CNN
+	1    5550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605F3451
+P 5550 6950
+F 0 "#PWR?" H 5550 6700 50  0001 C CNN
+F 1 "GND" H 5555 6777 50  0000 C CNN
+F 2 "" H 5550 6950 50  0001 C CNN
+F 3 "" H 5550 6950 50  0001 C CNN
+	1    5550 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 605F4122
+P 5250 6650
+F 0 "#PWR?" H 5250 6500 50  0001 C CNN
+F 1 "+5V" V 5265 6778 50  0000 L CNN
+F 2 "" H 5250 6650 50  0001 C CNN
+F 3 "" H 5250 6650 50  0001 C CNN
+	1    5250 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+1V0 #PWR?
+U 1 1 605F51F9
+P 5850 6550
+F 0 "#PWR?" H 5850 6400 50  0001 C CNN
+F 1 "+1V0" V 5865 6678 50  0000 L CNN
+F 2 "" H 5850 6550 50  0001 C CNN
+F 3 "" H 5850 6550 50  0001 C CNN
+	1    5850 6550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
