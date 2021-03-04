@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name DF40C-100DS-0.4V_51_)(type Legacy)(uri ${KIPRJMOD}/Libs/DF40C-100DS-0.4V_51_.lib)(options "")(descr ""))
+  (lib (name LTC4090EDJCPBF)(type Legacy)(uri ${KIPRJMOD}/Libs/LTC4090EDJCPBF.lib)(options "")(descr ""))
+  (lib (name ATSAM4S4AA-MU)(type Legacy)(uri ${KIPRJMOD}/Libs/ATSAM4S4AA-MU.lib)(options "")(descr ""))
+  (lib (name UPD720201K8)(type Legacy)(uri ${KIPRJMOD}/Libs/UPD720201K8.lib)(options "")(descr ""))
+  (lib (name TUSB8020BPHPR)(type Legacy)(uri ${KIPRJMOD}/Libs/TUSB8020BPHPR.lib)(options "")(descr ""))
+  (lib (name PCM2900CDBR)(type Legacy)(uri ${KIPRJMOD}/Libs/PCM2900CDBR.lib)(options "")(descr ""))
+  (lib (name MX25L5121EMC)(type Legacy)(uri ${KIPRJMOD}/Libs/MX25L5121EMC.lib)(options "")(descr ""))
+  (lib (name TUSB9261IPVP)(type Legacy)(uri ${KIPRJMOD}/Libs/TUSB9261IPVP.lib)(options "")(descr ""))
+)
